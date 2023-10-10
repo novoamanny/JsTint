@@ -43,7 +43,6 @@
             <div class="top">
                 <div class="container flex">
                     <div class="navwrap">
-                        <!--DESKTOP MENU-->
                         <?php 
                             $uri = $_SERVER['REQUEST_URI'];
                             $path = parse_url($uri, PHP_URL_PATH); // gives "/pwsdedtech"
@@ -51,20 +50,11 @@
                             // echo $pathWithoutSlash;
                             // if(!$pathWithoutSlash) :
                         ?>
-                        <nav class="desktopmenu">
-                            <div class="left">
-                                <?php wp_nav_menu(array('theme_location' => 'top', 'menu_class' => 'navigation')); ?>
-                            </div>
-                        
-                            <?php if (!$pathWithoutSlash) : ?>
+                        <!--DESKTOP MENU-->
+                        <nav id="desktopmenu" class="desktopmenu">
                             <div class="brand">
-                                <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo the_field('nav_logo', 'option'); ?>" class="logo" alt="Madisonville Christmas logo" /></a>
-                                <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo the_field('nav_logo2', 'option'); ?>" class="logo mobile" alt="Madisonville Christmas logo" /></a>
-                            <?php else : ?>
-                            <div class="brand brand-alt">
-                                <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo the_field('nav_logo2', 'option'); ?>" class="logo" alt="Madisonville Christmas logo" /></a>
-                            <?php endif; ?>
-                        </div>
+                                <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="Madisonville Christmas logo" /></a>
+                            </div>
                             <div class="right">
                                 <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
                             </div>
@@ -82,3 +72,15 @@
                 </div>
             </div>
         </header>
+
+<script>
+    const nav = document.getElementById('desktopmenu');
+    window.onscroll = function () { 
+        if (document.body.scrollTop >= 20 || document.documentElement.scrollTop >= 20 ) {
+        nav.classList.add("nav-colored");
+    } 
+    else {
+        nav.classList.remove("nav-colored");
+    }
+};
+</script>

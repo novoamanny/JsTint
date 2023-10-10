@@ -140,6 +140,7 @@ $arch_carousel = array();
 
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri();?>/assets/js/owl.carousel.min.js"></script>
+
 <?php if ( is_page_template( 'about.php' ) ) : ?>
 <script>
 $(document).ready(function() {

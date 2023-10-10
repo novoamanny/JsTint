@@ -2,6 +2,10 @@
 BASE STYLES
 ========================*/
 $cherry: #B62025;
+$gun: #12262f;
+$GunOpacityBG: rgba(18, 38, 47, 1);
+$dark: rgb(26, 26, 26);
+$DarkOpacity: rgba(26, 26, 26, 0.7);
 $maroon: #710F11;
 $blue: #033E4C;
 $blueDark: #2c2c2c;
@@ -47,15 +51,52 @@ $black: #000;
   src: url('../../dist/webfonts/great_studio_-_bigoladisplay-regular-webfont.woff2') format('woff2');
   font-display: swap;
 }
+
+.gradient-animation-home {
+  background: linear-gradient(270deg, $cherry, $DarkOpacity, $cherry);
+  background-size: 300% 200%;
+  width: 150px;
+  height: 7px;
+  border-radius: 25px;
+  // margin: 20px 5px;
+  // margin-bottom: 45px;
+  -webkit-animation: gradientAnimation 4s ease infinite;
+  -moz-animation: gradientAnimation 4s ease infinite;
+  animation: gradientAnimation 4s ease infinite;
+}
+.gradient-animation-red {
+  background: linear-gradient(270deg, $cherry, $cherry, $DarkOpacity, $cherry, $cherry);
+  background-size: 300% 200%;
+  -webkit-animation: gradientAnimation 4s ease infinite;
+  -moz-animation: gradientAnimation 4s ease infinite;
+  animation: gradientAnimation 4s ease infinite;
+}
+@-webkit-keyframes gradientAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes gradientAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
 body {
   margin: auto;
   font-size: 18px;
-  color: $white;
+  color: $dark;
   font-family: 'Neulis Alt', sans-serif;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never;
+  background-color: #FFFFFA;
 }
 
 img {
@@ -176,7 +217,7 @@ p{
   }
 }
 h1, h2{
-  font-family: 'Bigola Display';
+  // font-family: 'Bigola Display';
   font-weight: 300;
 }
 h3{
@@ -232,6 +273,13 @@ hr {
 .flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+.align-items{
+  align-items: center;
+}
+.text-align{
+  text-align: center;
 }
 
 .tiny {
@@ -431,15 +479,16 @@ HEADER STYLES
 }
 
 .top {
-  background: $white;
+  // background: $white;
   color: #fff;
   top: 10px;
   transition: 0.2s all ease;
 
   width: 100%;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   z-index: 9999;
 
   .brand img {
@@ -489,7 +538,7 @@ HEADER STYLES
 }
 
 header {
-  background-color: #fff;
+  background-color: none;
 }
 
 header {
@@ -502,8 +551,8 @@ header .brand {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: absolute;
-  top: 5%;
+  // position: absolute;
+  // top: 5%;
 }
 header .brand-alt{
   position: unset;
@@ -520,31 +569,34 @@ NAVIGATION STYLES
   position: relative;
   top: 5%;
   z-index: 999;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
   width: 100%;
 
   .desktopmenu{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    padding: 18px 0;
-    background-color: $cherry;
+    justify-content: space-between;
+    // width: 100%;
+    padding: 50px 85px;
+    transition: .3s all ease;
+  }
+  .nav-colored{
+    background: $DarkOpacity;
   }
   .left{
     margin-right: 90px;
   }
   .right{
-    margin-left: 90px;
+    // margin-left: 90px;
   }
   .white-bar{
     width: 100%;
     // margin-top: 10px;
     padding: 3px 0;
     background: transparent;
-    border-bottom: 3px solid $cherry;
+    border-bottom: 3px solid rgba(18, 38, 47, 0);
     position: absolute;
     bottom: -11px;
     z-index: -1;
@@ -802,16 +854,26 @@ CONTENT STYLES
 .headline{
   position: relative;
   .headline-section{
-    padding: 100px 0 60px 0;
-   @media screen and (max-width: 1000px) {
-    padding: 60px 0 30px 0;
-   }
+    padding: 120px 150px 120px 150px;
+  //  @media screen and (max-width: 1000px) {
+  //   padding: 60px 0 30px 0;
+  //  }
+    p{
+      font-size: 2rem;
+    }
     h2{
-      font-size: 60px;
-      margin-bottom: 0;
+      font-size: 5rem;
+      margin-bottom: 20px;
       @media screen and (max-width: 1000px) {
         font-size: 50px;
        }
+    }
+    h3{
+      font-size: 3rem;
+      margin: 0 40px;
+    }
+    .margin{
+      margin-bottom: 40px;
     }
     .contact-space{
       margin-bottom: 100px;
@@ -1172,12 +1234,66 @@ HOME STYLES
 a{
   text-decoration: none;
 }
+.third{
+  width: 30%;
+}
+.half{
+  width: 40%;
+}
+.gradient-bar{
+  
+  height: 5px;
+  
+}
+.cta{
+  width: 100%;
+  margin-top: 50px;
+  a{
+    background-color: $cherry;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 30px;
+    width: 30%;
+    font-size: 2rem;
+  }
+}
 .home{
   .snowflake-container{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    .video-box{
+      background-color: $DarkOpacity;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      padding: 20px 0;
+      transition: all ease 1s;
+      color: #fff;
+      p{
+        padding-bottom: 0;
+      }
+      a{
+        color: #fff;
+      }
+      a:hover{
+        color: $cherry;
+      }
+      .brand{
+        margin: 0 50px;
+      }
+      .left{
+        text-align: left;
+      }
+      .right{
+        text-align: right;
+      }
+      .phone{
+        color: $cherry;
+        opacity: 0.8;
+      }
+    }
   }
   .hero-copy{
     color: #B62025;
@@ -1234,25 +1350,63 @@ a{
 }
 
 // SECTION 1
-.who-we-are{
+.sectionOne{
   position: relative;
- background-color: $olive;
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- padding-top: 250px;
- padding-bottom: 150px;
- @media screen and (max-width: 1500px) {
-  padding-top: 200px;
-  padding-bottom: 100px;
- }
- @media screen and (max-width: 900px) {
-  padding-top: 200px;
-  padding-bottom: 70px;
- }
- @media screen and (max-width: 500px) {
-  padding-top: 155px;
-  padding-bottom: 55px;
+  padding: 50px 0;
+  transition: all ease 1s;
+ .box{
+  width: 40%;
+  border: 7px $dark solid;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  margin: 50px 30px;
+  background-color: #f4f6f8;
+  color: $dark;
+  position: relative;
+  .slide{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    padding-top: 70px;
+    border-radius: unset;
+    overflow-y: hidden;
+    transition: all ease 1s;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: .8;
+  }
+  .expand{
+    height: unset;
+    padding: 20px 0;
+    background: $DarkOpacity;
+    transition: all ease 1s;
+    opacity: 1;
+  }
+  h2{
+    // font-family: 'Bigola Display';
+    background-color: $cherry;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0px;
+    // padding-left: 50px;
+    // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+    @media screen and (max-width: 1100px){
+      text-align: center;
+    }
+   }
+  .body{
+    padding: 100px 100px;
+    padding-bottom: 50px;
+    p{
+      font-size: 2rem;
+    }
+    li{
+      font-size: 1.6rem;
+      margin: 20px 0;
+    }
+    }
  }
  .left, .right{
   // margin: 50px 0;
@@ -1279,24 +1433,6 @@ a{
     @media screen and (max-width: 500px){
       margin: 0;
     }
-   h2{
-    font-family: 'Bigola Display';
-    @media screen and (max-width: 1100px){
-      text-align: center;
-    }
-   }
-   p{
-   
-    margin-right: 50px;
-    width: 70%;
-    @media screen and (max-width: 1700px) {
-      width: 80%;
-    }
-    @media screen and (max-width: 1100px) {
-      width: 100%;
-      margin: 0;
-    }
-   }
   }
   .dashes{
     .vertical{
@@ -1345,11 +1481,101 @@ a{
   }
 }
 }
+.contact-section{
+  padding: 150px 0;
+  p{
+    font-size: 1.5rem;
+  }
+  .form{
+    justify-content: right;
+  }
+  .list-section{
+    margin-top: 100px;
+    .list-item{
+      display: flex;
+      margin: 10px 0;
+      .left{
+        width: 20%;
+      }
+      .right{
+        width: 80%;
+      }
+      .outer{
+        width: 70px;
+        height: 70px;
+        padding: 15px;
+        border-radius: 50%;
+        background-color: #CD5C5C;
+      }
+      .inner{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: $cherry;
+        align-items: center;
+        span{
+          font-size: 1.7rem;
+        }
+      }
+    }
+    .list-break{
+      height: 70px;
+      width: 7px;
+    }
+  }
+}
+.form-contact{
+  width: 75%;
+  margin-left: 50px;
+  background-color: #f4f6f8;
+  padding: 50px 0px;
+  padding-top: 0;
+  border-radius: 20px;
+  border: 2px solid $dark;
+  .bar{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: $cherry;
+  }
+  input{
+    width: 80%;
+    margin: 30px 0;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .brand{
+    background-color: $dark;
+    img{
+      width: 40%;
+    }
+  }
+  @media screen and (max-width: 1700px) {
+    width: 25%;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 70%;
+    margin-left: 0;
+
+    input, textarea{
+      box-sizing: border-box;
+    }
+    input[type=submit]{
+      min-width: 100px;
+      padding: 10px;
+      font-size: 10px;
+    }
+  }
+  h3.intro{
+    padding-bottom: 20px;
+  }
+}
+
+
 .decorator-dream{
-  padding: 150px 100px;
-  background-position: center;
-  background-size: cover;
-  background-color: #FFD5DE;
+  padding: 150px 0px;
+  width: 100%;
+  
   
   @media screen and (max-width: 1500px) {
     padding: 110px 45px;
@@ -1683,7 +1909,7 @@ a{
 .shop {
   color: $white;
   .left{
-    background-color: $olive;
+    // background-color: $olive;
     @media screen and (max-width: 800px) {
       order: 1;
     }
@@ -1695,11 +1921,11 @@ a{
 }
 .food .right{
   color: $blue;
-  background-color: $salmon;
+  // background-color: $salmon;
 }
 .play .left{
   color: $blue;
-  background-color: #E5B581;
+  // background-color: #E5B581;
   @media screen and (max-width: 800px) {
     order: 1;
   }
@@ -3507,7 +3733,7 @@ FOOTER STYLES
 ========================*/
 
 footer {
-  background: $maroon;
+  background: $dark;
   color: #fff;
   font-size: 16px;
   display: block;
