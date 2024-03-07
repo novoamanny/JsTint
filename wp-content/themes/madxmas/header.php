@@ -55,7 +55,7 @@
                             <div class="brand">
                                 <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="Madisonville Christmas logo" /></a>
                             </div>
-                            <div class="right">
+                            <div class="flex">
                                 <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
                             </div>
                             <!--MOBILE MENU-->
