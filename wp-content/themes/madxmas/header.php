@@ -50,15 +50,29 @@
                             // echo $pathWithoutSlash;
                             // if(!$pathWithoutSlash) :
                         ?>
-                        <!--DESKTOP MENU-->
+
+<!--DESKTOP MENU-->
                         <nav id="desktopmenu" class="desktopmenu">
+                            <!-- Desktop In-line Menu -->
+                            <!-- Phone -->
+                            <div class="flex">
+                                <a href="/" class="nav-phone americane uppercase">Free Quote!</a>
+                            </div>
+                            <!-- Left Menu -->
+                            <div class="menu flex">
+                                <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
+                            </div>
+                            <!-- Logo -->
                             <div class="brand">
                                 <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="Madisonville Christmas logo" /></a>
                             </div>
-                            <div class="flex">
+                            <!-- Right Menu -->
+                            <div class="menu flex">
                                 <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
                             </div>
-                            <!--MOBILE MENU-->
+
+
+<!--MOBILE MENU-->
                             <a id="menu-toggle" class="mobile-menu-toggle" href="#menu">Menu</a>
                         </nav>
                         <div class="white-bar"></div>

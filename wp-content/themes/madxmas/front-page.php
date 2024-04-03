@@ -55,7 +55,7 @@ $weekend = $hours['weekend'];
 
 
 <!-- Video Intro -->
-<div class="full-width flex wrap center bg-black white-copy padding-top-bottom">
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
     <div class="half-width flex wrap center">
     <p class="copy mark text-left auto-margin copy-width-intro">Welcome to J's Tint, your ultimate destination for premium car accessories! We specialize in enhancing your driving experience with top-of-the-line products, including custom car stereos, sleek window tinting, and a variety of other accessories to personalize your vehicle.
 
@@ -120,7 +120,7 @@ $weekend = $hours['weekend'];
 
 <!-- Intro -->
 <div class="full-width center">
-    <div class="full-width center padding-top-bottom bg-red white-copy">
+    <div class="full-width center padding-top-bottom bg-white black-copy">
         <div class="full-width">
             <div class="full-width copy">
                 <!-- <h2 class="title mark text-left">Hello</h2>
@@ -263,6 +263,28 @@ $weekend = $hours['weekend'];
         </button>
         </a>
         </div>
+    </div>
+</div>
+
+
+
+
+<div class="services full-width flex wrap center padding-top-bottom">
+    <div class="services-tab bg-silver relative">
+    <p class="copy mark text-left auto-margin copy-width-intro">Welcome to J's Tint, your ultimate destination for premium car accessories! We specialize in enhancing your driving experience with top-of-the-line products, including custom car stereos, sleek window tinting, and a variety of other accessories to personalize your vehicle.
+
+At J's Tint, we understand that your car is more than just a mode of transportation; it's an extension of your personality and style. That's why we offer a wide range of products to suit every taste and budget, all backed by our commitment to quality and customer satisfaction.
+
+    </p>
+        <img src="<?php echo get_template_directory_uri();?>/src/images/silver-car.png"  />
+    </div>
+    <div class="services-tab bg-black">
+    <p class="copy mark text-left auto-margin copy-width-intro white-copy">Welcome to J's Tint, your ultimate destination for premium car accessories! We specialize in enhancing your driving experience with top-of-the-line products, including custom car stereos, sleek window tinting, and a variety of other accessories to personalize your vehicle.
+
+At J's Tint, we understand that your car is more than just a mode of transportation; it's an extension of your personality and style. That's why we offer a wide range of products to suit every taste and budget, all backed by our commitment to quality and customer satisfaction.
+
+    </p>
+        <img src="<?php echo get_template_directory_uri();?>/src/images/blue-car.png"  />
     </div>
 </div>
 

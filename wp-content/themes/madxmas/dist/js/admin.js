@@ -109,7 +109,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/novoa/Projects/JsTint/wp-content/themes/madxmas/src/js/admin.js */"./src/js/admin.js");
+module.exports = __webpack_require__(/*! /Users/novoa/Desktop/JsTint/wp-content/themes/madxmas/src/js/admin.js */"./src/js/admin.js");
 
 
 /***/ })
