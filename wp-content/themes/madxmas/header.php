@@ -55,20 +55,24 @@
                         <nav id="desktopmenu" class="desktopmenu">
                             <!-- Desktop In-line Menu -->
                             <!-- Phone -->
-                            <div class="flex">
-                                <a href="/" class="nav-phone americane uppercase">Free Quote!</a>
-                            </div>
+                          
                             <!-- Left Menu -->
-                            <div class="menu flex">
+                            <!-- <div class="menu flex">
                                 <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
-                            </div>
+                            </div> -->
                             <!-- Logo -->
                             <div class="brand">
                                 <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="Madisonville Christmas logo" /></a>
                             </div>
+
                             <!-- Right Menu -->
-                            <div class="menu flex">
-                                <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
+                            <div class="flex wrap center align">
+                                <div class="menu flex">
+                                    <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
+                                </div>
+                                <div class="flex">
+                                    <a href="/" class="nav-phone americane uppercase">Free Quote!</a>
+                                </div>
                             </div>
 
 

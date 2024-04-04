@@ -14,8 +14,11 @@ $salmon:#F3CFCE;
 $salmonDark: #E67C75;
 $olive: #628C76;
 $blueLight: #3397B4;
+
 $linear-white-fade: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 $linear-tan-fade: linear-gradient(rgba(255,255,255,0), #F4F8FC);
+$linear-steel-blue-fade: linear-gradient(#4682B4, #9198e5);
+
 
 /*======================
 EXTRA STYLES
@@ -108,7 +111,7 @@ $black: #000;
 
 
 /* SMOOTH SCROLL */
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth; margin: 0 !important;}
 
 img {
   max-width: 100%;
@@ -187,7 +190,7 @@ HEADER STYLES
 }
 
 .home .top .brand img{
-  max-width: 150px;
+  max-width: 200px;
   width: 100%;
 }
 
@@ -196,7 +199,7 @@ HEADER STYLES
   color: #fff;
   top: 10px;
   transition: 0.2s all ease;
-  background-color: rgba(0,0,0, 0.75);
+  background-color: none;
   // background-color: rgba(182,32,37, 0.75);
   // background-color: $cherry;
   width: 100%;
@@ -297,7 +300,7 @@ NAVIGATION STYLES
   .desktopmenu{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     // width: 100%;
     padding: 20px 85px;
     transition: .3s all ease;
@@ -361,7 +364,7 @@ ul.navigation li {
   position: relative;
   display: inline-block;
   padding: 3% 0;
-  width: 100px;
+  // width: 100px;
 
   a {
     font-family: 'Neulis Alt', sans-serif;
@@ -396,7 +399,7 @@ ul .navigation li > a {
 ul.navigation li a {
   display: block;
   text-decoration: none;
-  color: $salmon;
+  color: $white;
   transition: 0.2s all ease;
   text-align: center;
   text-transform: uppercase;
@@ -542,10 +545,21 @@ CONTENT STYLES
 .relative{
   position: relative;
 }
+.absolute{
+  position: absolute;
+}
 
 /* L I N E   H E I G H T */
 .no-line-height{
   line-height: 0;
+}
+
+// p o s i t i o n
+.title-position{
+  top: 30%;
+  left: 5%;
+  z-index: 100;
+  width: 45%;
 }
 
 
@@ -556,13 +570,16 @@ CONTENT STYLES
   letter-spacing: 4px;
 }
 .hero-title{
-  font-size: 5.5rem;
+  font-size: 7.5rem;
   margin: 0;
-  line-height: 6.2rem;
+  line-height: 8.5rem;
+  color: $white;
 }
 .title{
   font-size: 4rem;
-  margin: 0;
+  margin: 0px 50px;
+  width: 60%;
+  
 }
 .copy{
   font-size: 2rem;
@@ -855,11 +872,43 @@ CONTENT STYLES
 .bg-red{
   background-color: $cherry;
 }
+.bg-bright-red{
+  background-color: rgb(229, 27, 27);
+}
 .bg-white{
   background-color: #fff;
 }
 .bg-silver{
   background-color: #9a9a9a;
+}
+.bg-powder-blue{
+  background-color: #B6D0E2;
+}
+.bg-steel-blue{
+  background-color: #4682B4;
+}
+
+// Linear BG
+.bg-linear-dark-fade{
+  background: linear-gradient(#2f2f2f, #000, #2f2f2f);
+}
+.bg-linear-dark-fade2{
+  background: linear-gradient(#2f2f2f, #000);
+}
+.bg-linear-white-fade{
+  background: linear-gradient(#FAF9F6, #ffffff);
+}
+.bg-linear-steel-blue-fade{
+  background: linear-gradient(#4682B4, #9198e5);
+}
+.bg-linear-silver-fade{
+  background: linear-gradient(#2f2f2f, #9a9a9a);
+}
+.bg-linear-red-fade{
+  background: linear-gradient( rgb(229, 27, 27), $cherry);
+}
+.bg-linear-yellow-fade{
+  background: linear-gradient(#FFB81C, #FFEA00);
 }
 
 // C o p y  C o l o r s
@@ -871,6 +920,34 @@ CONTENT STYLES
 }
 
 
+
+// Quote Button
+.quote-button{
+  text-decoration: none;
+  color: $white;
+  background-color: rgb(229, 27, 27);
+  padding: 15px 35px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 2em;
+}
+
+.quote-button-margin{
+  margin-top: 50px;
+}
+.link-margin{
+  margin: 0 20px;
+}
+
+.learn-button{
+  text-decoration: none;
+  color: $white;
+  background-color: none;
+  padding: 15px 35px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 2em;
+}
 
 
 
@@ -1278,8 +1355,12 @@ ol{
   list-style-position: inside;
 }
 
-
-
+// Carousel-opacity
+.carousel-opacity .owl-carousel{
+  img{
+    filter: brightness(.7);
+  }
+}
 // OWL CAROUSEL
 
 .owl-carousel{
@@ -1298,12 +1379,12 @@ ol{
     }
   
     .owl-dot.active:before{
-      background-color: $maroon;
+      background-color: rgb(229, 27, 27);
       // width: 0.6em;
       // height: 0.85em;
     }
     .owl-dot.active:after{
-      background-color: $maroon;
+      background-color:rgb(229, 27, 27);
       // width: 0.6em;
       // height: 0.85em;
     }
@@ -1326,7 +1407,7 @@ ol{
   }
 }
 
-.hero-carousel{
+.hero-container{
   width: 100%;
   .owl-carousel{
     .owl-item{
@@ -1335,6 +1416,9 @@ ol{
     .owl-dots{
       position: absolute;
       bottom: -7%;
+    }
+    img{
+      filter: brightness(.70);
     }
   }
  
@@ -1701,7 +1785,8 @@ ol{
 .services-tab{
   width: 35%;
   padding: 50px 30px;
-  margin: 0 0px;
+  margin: 0 80px;
+  border-radius: 15px;
 }
 
 /*======================
@@ -4235,7 +4320,7 @@ FOOTER STYLES
 ========================*/
 
 footer {
-  background: $dark;
+  background: linear-gradient(#2f2f2f, #000);
   color: #fff;
   font-size: 16px;
   display: block;
@@ -4284,14 +4369,14 @@ footer .form{
   p{
     width: 100%;
     text-align: center;
-    color: $salmonDark;
+    color: $white;
     font-weight: 600;
     text-transform: uppercase;
   }
   .button{
     margin: 0;
     cursor:text;
-    color: $salmonDark;
+    color: $white;
   }
   .email{
     padding: 0;
@@ -4303,10 +4388,10 @@ footer .form{
   input{
     margin: 0;
     width: 100%;
-    color: $salmonDark;
+    color: $white;
   }
   input::placeholder{
-    color: $salmonDark;
+    color: $white;
   }
 }
 .footer-form-set{
@@ -4365,7 +4450,7 @@ footer .brand {
 }
   .location, .hours{
     padding: 20px;
-    border: solid 1px $salmonDark;
+    border: solid 1px $white;
     width: 100%;
     margin: 20px 0;
     position: relative;
@@ -4382,7 +4467,7 @@ footer .brand {
       width: 100%;
       margin-top: 0;
       padding-bottom: 0;
-      color: $salmonDark;
+      color: $white;
       font-weight: 600;
       font-size: 17px;
       @media screen and (max-width: 1700px) {
@@ -4394,10 +4479,10 @@ footer .brand {
     }
     // TITLE BOX
     .box{
-      background-color: $maroon;
-      position: absolute;
+      
+  
       width: 60%;
-      top: -10%;
+
       
       text-align: center;
       @media screen and (max-width: 1700px) {
@@ -4416,8 +4501,8 @@ footer .brand {
     }
     h3{
       
-      color: $salmonDark;
-      background-color: $maroon;
+      color: $white;
+      // background-color: $dark;
       text-align: center;
       width: 100%;
       @media screen and (max-width: 1700px) {
@@ -4508,7 +4593,7 @@ footer .center{
     width: 100%;
     position: absolute;
     top: 0;
-    color: #F3CFCE;
+    color: $white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -4537,7 +4622,7 @@ footer .center{
       li{
         margin: 0 30px;
         a{
-        color: #F3CFCE;
+        color: $white;
         @media screen and (max-width: 1600px) {
           font-size: 14px;
         }
@@ -4564,7 +4649,7 @@ footer .center{
     }
     .copyright{
       margin-top: 30px;
-      color: $salmonDark;
+      color: $white;
     }
   }
 }
@@ -4994,3 +5079,5 @@ MEDIA QUERIES
     max-width: 100%;
   }
 }
+
+

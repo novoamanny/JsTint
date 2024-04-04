@@ -34,20 +34,20 @@ $arch_carousel = array();
 <a class='cta-button parallelogram red' href="#"><span class='skew-fix'>Learn More</span></a> -->
     <div class="container">
         <div class="brand">
-            <img class="stars" src="<?php echo get_template_directory_uri();?>/img/footer-stars.png" />
+            <!-- <img class="stars" src="<?php echo get_template_directory_uri();?>/img/footer-stars.png" /> -->
             <div class="left">
                 <div class="location">
                     <div class="box">
                         <h3>LOCATION</h3>
                     </div>
-                        <p><?php echo $address ?></p>
-                        <p><?php echo $city ?>, <?php echo $state ?> <?php echo $zipcode ?></p>
+                        <p>Dallas, Tx</p>
+                        <p>Address</p>
                 </div>
                 <div class="hours">
                     <div class="box">
                         <h3>HOURS</h3>
                     </div>
-                        <p style="padding-bottom: 10px;">Opening in September</p>
+                        <!-- <p style="padding-bottom: 10px;">Opening in September</p> -->
                         <p>OPEN <?php echo $weekday['open'] ?>AM - <?php echo $weekday['close'] ?>PM</p>
                         <p>Mon - Thur</p>
                         <p>OPEN <?php echo $weekend['open'] ?>AM - <?php echo $weekend['close'] ?>PM</p>
@@ -56,25 +56,25 @@ $arch_carousel = array();
                         <p>Sunday</p>
                 </div>
             </div>
-            <div class="right">
+            <!-- <div class="right">
                 <a href="https://www.google.com/maps/search/madisonville+christmas+company/@30.9678663,-95.8890714,15z/data=!3m1!4b1?entry=ttu" target="blank">
                     <img src="<?php echo get_template_directory_uri();?>/img/map.svg" />
                 </a>
-            </div>
+            </div> -->
         </div>
         <div class="center">
-            <img class="madlogo" src="<?php echo get_template_directory_uri();?>/img/footer-logo.png" />
+            <!-- <img class="madlogo" src="<?php echo get_template_directory_uri();?>/img/footer-logo.png" /> -->
             <div class="copy">
-                <h3 style="text-transform: uppercase;">Madisonville Christmas Company</h3>
+                <h3 style="text-transform: uppercase;">J's Tint & Car Audio</h3>
                 <div class="links menu">
-                    <?php wp_nav_menu(array('theme_location' => 'top', 'menu_class' => 'navigation')); ?>
+                    <!-- <?php wp_nav_menu(array('theme_location' => 'top', 'menu_class' => 'navigation')); ?> -->
                     <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
                 </div>
-                <div class="bottom links" style="display: none;">
+                <!-- <div class="bottom links" style="display: none;">
                     <?php wp_nav_menu(array('theme_location' => 'footer_bottom', 'menu_class' => 'navigation')); ?>
-                </div>
+                </div> -->
                 <div class="copyright">
-                    © <?php echo date("Y"); ?> Madisonville Christmas Company
+                    © <?php echo date("Y"); ?> J's Tint & Car Audio
                 </div>
             </div>
         </div>
@@ -175,7 +175,8 @@ $(document).ready(function() {
         dots: true,
         center: true,
         mouseDrag: false, // Disable slide on mouse
-        touchDrag: false // Disable slide on touch
+        touchDrag: false, // Disable slide on touch
+        animateOut: 'fadeOut' // and this
     });
 });
 </script>
