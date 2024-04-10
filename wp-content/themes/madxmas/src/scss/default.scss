@@ -556,7 +556,7 @@ CONTENT STYLES
 
 // p o s i t i o n
 .title-position{
-  top: 30%;
+  top: 40%;
   left: 5%;
   z-index: 100;
   width: 45%;
@@ -1783,9 +1783,9 @@ ol{
 
 // S e r v i c e  T a b
 .services-tab{
-  width: 35%;
+  width: 43%;
   padding: 50px 30px;
-  margin: 0 80px;
+  margin: 0 40px;
   border-radius: 15px;
 }
 
@@ -5081,3 +5081,10 @@ MEDIA QUERIES
 }
 
 
+
+
+// Google Reviews Widget
+.czAlWK{
+  max-width: 100% !important;
+  border-radius: 0;
+}

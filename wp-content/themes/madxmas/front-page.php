@@ -49,13 +49,13 @@ $weekend = $hours['weekend'];
 <!-- <iframe width="100%" height="1200px" src="https://www.youtube.com/embed/5WSCK_fzGW0?si=xmzR_iKKozQuuQnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
     <div class="owl-carousel">
         
-            <img src="<?php echo get_template_directory_uri();?>/src/images/image-1.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
 
-            <img src="<?php echo get_template_directory_uri();?>/src/images/image-2.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
         
-            <img src="<?php echo get_template_directory_uri();?>/src/images/image-3.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
 
-            <img src="<?php echo get_template_directory_uri();?>/src/images/image-4.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
     </div>
 </div>
 
@@ -238,6 +238,9 @@ At J's Tint, we understand that your car is more than just a mode of transportat
 
 <div class="services full-width flex wrap center padding-top-bottom">
     <div class="services-tab bg-linear-silver-fade white-copy">
+    <div class="full-width">
+        <h2 class="title veneer text-left">Elevate Your Drive: Experience Excellence with Our Ceramic Tint Solutions!"</h2>
+    </div>
     <p class="copy mark text-left auto-margin copy-width-intro">Welcome to J's Tint, your ultimate destination for premium car accessories! We specialize in enhancing your driving experience with top-of-the-line products, including custom car stereos, sleek window tinting, and a variety of other accessories to personalize your vehicle.
 
 At J's Tint, we understand that your car is more than just a mode of transportation; it's an extension of your personality and style. That's why we offer a wide range of products to suit every taste and budget, all backed by our commitment to quality and customer satisfaction.
@@ -255,6 +258,9 @@ At J's Tint, we understand that your car is more than just a mode of transportat
     <div class="services-tab bg-linear-steel-blue-fade">
     <div class="flex padding-top-bottom">
         <img src="<?php echo get_template_directory_uri();?>/src/images/blue-car.png"  />
+    </div>
+    <div class="full-width">
+        <h2 class="title veneer text-left white-copy">Elevate Your Drive: Experience Excellence with Our Ceramic Tint Solutions!"</h2>
     </div>
     <p class="copy mark text-left auto-margin copy-width-intro white-copy">Welcome to J's Tint, your ultimate destination for premium car accessories! We specialize in enhancing your driving experience with top-of-the-line products, including custom car stereos, sleek window tinting, and a variety of other accessories to personalize your vehicle.
 
@@ -331,7 +337,8 @@ At J's Tint, we understand that your car is more than just a mode of transportat
 </div>
 
 
-
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-2ac4892a-75d2-49b5-b752-73ffc35efb91" data-elfsight-app-lazy></div>
 
 
 
