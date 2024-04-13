@@ -11,59 +11,63 @@
  *
  */
 get_header();
+// E x t r a   V a r i a b l e s
 $introSection = get_field("intro_section");
 $sectionCopy = $section1['section_1'];
 $sectionTitle = $sectionCopy['title'];
 $section2 = get_field("section_2", "option");
 $section3 = get_field("section_3", "option");
-
 $squares = get_field("square_sections", "option");
 $square_one = $squares['one'];
 $square_two = $squares['two'];
 $square_three = $squares['three'];
-
-
 $footer = get_field("footer", "option");
 $location = $footer['location'];
 $hours = $footer['hours'];
-
 $address = $location['address'];
 $city = $location['city'];
 $state = $location['state'];
 $zipcode = $location['zipcode'];
-
 $weekday = $hours['weekday'];
 $weekend = $hours['weekend'];
 
-
+// H e r o   O p t i o n s   G r o u p
+$hero_options = get_field("hero_options");
+// Hero Options
+$hero_title = $hero_options['title'];
+$hero_subtitle = $hero_options['subtitle'];
 ?>
 
+
+<!-- H e r o   S e c t i o n -->
 <div class="hero-container full-width flex wrap center relative">
     <div class="absolute title-position">
-        <h2 class="hero-title veneer">Customize Your Ride, Unleash Your Style!</h2>
-        <h2 class="hero-subtitle americane white-copy">Crafting Your Dream Ride, One Upgrade at a Time!</h2>
+        <!-- Hero Title -->
+        <h2 class="hero-title veneer"><?php echo $hero_title; ?></h2>
+        <!-- Hero Subtitle -->
+        <h2 class="hero-subtitle americane white-copy"><?php echo $hero_subtitle; ?></h2>
+        <!-- Free Quote CTA -->
         <div class="flex quote-button-margin">
             <a href="/" class="nav-phone americane uppercase text-left quote-button">Free Quote!</a>
         </div>
     </div>
-<!-- <iframe width="100%" height="1200px" src="https://www.youtube.com/embed/5WSCK_fzGW0?si=xmzR_iKKozQuuQnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    <!-- Owl Carousel -->
+    <!-- Need to update this to a Repeater Group -->
     <div class="owl-carousel">
-        
             <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
-
             <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
-        
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
     </div>
 </div>
 
 
 
-<!-- Video Intro -->
+<!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
+    <!-- Left -->
     <div class="half-width flex wrap center">
+        <!-- Need to update copy -->
     <p class="copy mark text-left auto-margin copy-width-intro">Welcome to J's Tint, your ultimate destination for premium car accessories! We specialize in enhancing your driving experience with top-of-the-line products, including custom car stereos, sleek window tinting, and a variety of other accessories to personalize your vehicle.
 
         At J's Tint, we understand that your car is more than just a mode of transportation; it's an extension of your personality and style. That's why we offer a wide range of products to suit every taste and budget, all backed by our commitment to quality and customer satisfaction.
@@ -72,35 +76,28 @@ $weekend = $hours['weekend'];
 
         Browse our selection online or visit our showroom to see our products up close. Let J's Tint help you take your driving experience to the next level!</p>
     </div>
+    <!-- Right -->
     <div class="half-width flex wrap center align">
-       
-            <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/5WSCK_fzGW0?si=xmzR_iKKozQuuQnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-     
+        <!-- Video -->
+        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/5WSCK_fzGW0?si=xmzR_iKKozQuuQnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 
 
-
-<div id="about" class="flex wrap center">
-    <img class="snow-break" src="<?php the_field("snow_break", "option") ?>" />
-    <div class="left half-width carousel-opacity">
-<!-- ARCH IMAGE CAROUSEL -->
-    
-            
-            <div class="owl-carousel">
-                
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
-            </div>
-    
+<!-- S e r v i c e s   S e c t i o n   O n e-->
+<div class="flex wrap center">
+<!-- Left -->
+    <div class="left half-width carousel-opacity">  
+    <!-- Owl Carousel -->
+    <!-- Need to update this to a Repeater Group -->
+        <div class="owl-carousel">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
+        </div>
     </div>
-<!-- SECTION ONE -->
+<!-- Right -->
     <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt">
         <div class="full-width flex wrap justify-left">
             <h2 class="title veneer text-left">Protect Your Paint, Preserve Your Shine with Paint Protection Film!</h2>
