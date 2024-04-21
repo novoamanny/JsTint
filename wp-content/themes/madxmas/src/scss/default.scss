@@ -446,8 +446,8 @@ ul.navigation li.highlight:hover a {
 /* DROPDOWN */
 
 nav .sub-menu {
-  border-top: 2px solid $green;
-  width: 250px;
+  // border-top: 2px solid $cherry;
+  width: 275px;
   padding: 0;
 }
 ul.navigation li ul {
@@ -474,12 +474,12 @@ ul.navigation li:hover li {
 
 ul.navigation li:hover li a {
   text-transform: none;
-  background: $white;
+  background: rgba(255, 255, 255, 0.25);
   display: block;
   margin: 0;
   height: auto;
   text-align: left;
-  color: #000;
+  color: #fff;
   // line-height: 2.7em;
   padding: 12px 20px 12px 20px;
   border: 0;
@@ -492,7 +492,7 @@ ul.navigation li:hover li a {
   }
 }
 ul.navigation li:hover li a:hover {
-  background: $green;
+  background: rgba(255, 255, 255, 0.40);
   color: $white;
 
   &:before {
@@ -536,9 +536,48 @@ CONTENT STYLES
 
 
 /* G L O B A L */
+
+/* M A I N   Q U O T E   C T A   S T Y L E S */
+// Q u o t e   B u t t o n   C T A
+.quote-button{
+  text-decoration: none;
+  color: $white;
+  background-color: rgb(229, 27, 27);
+  padding: 15px 35px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 2rem;
+}
+// Q u o t e   B u t t o n   C T A   M A R G I N
+.hero-cta-margin{
+  margin: 100px 0 0 0;
+}
+.quote-button-margin-top{
+  margin-top: 50px;
+}
+.quote-button-margin-left{
+  margin-left: 55px;
+}
+.link-margin{
+  margin: 0 20px;
+}
+// L E A R N   B u t t o n   C T A
+.learn-button{
+  text-decoration: none;
+  color: $white;
+  background-color: none;
+  padding: 15px 35px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 2rem;
+}
+
+/* M A R G I N   S T Y L E S */
+// A U T O
 .margin-auto{
   margin: auto;
 }
+// N O   M A R G I N
 .no-margin{
   margin: 0;
 }
@@ -554,23 +593,35 @@ CONTENT STYLES
   line-height: 0;
 }
 
-// p o s i t i o n
-.title-position{
-  top: 40%;
+// H e r o   T i t l e   P o s i t i o n
+.title-position-hero{
+  top: 30%;
   left: 5%;
   z-index: 100;
   width: 45%;
 }
+.title-position{
+  top: 7%;
+  left: 6%;
+  z-index: 100;
+  width: 45%;
+}
 
+// H e r o   I c o n s
+.hero-icon{
+  width: 8%;
+  margin: 10px 50px;
+}
 
 /* F O N T  S I Z E */
 .hero-subtitle{
-  font-size: 2.3rem;
-  margin: 10px;
+  font-size: 2.5rem;
+  margin: 20px;
   letter-spacing: 4px;
+  line-height: 3.2rem;
 }
 .hero-title{
-  font-size: 7.5rem;
+  font-size: 8rem;
   margin: 0;
   line-height: 8.5rem;
   color: $white;
@@ -870,6 +921,13 @@ CONTENT STYLES
 
 
 // B a c k g r o u n d  C o l o r s
+.bg-dark-opacity{
+  background-color: rgba(0,0,0, 0.50);
+}
+// on hover
+.bg-dark-opacity.bg-dark-opacity-hover:hover{
+  background-color: rgba(0,0,0, 0.75);
+}
 .bg-black{
   background-color: #000;
 }
@@ -894,10 +952,13 @@ CONTENT STYLES
 
 // Linear BG
 .bg-linear-dark-fade{
-  background: linear-gradient(#2f2f2f, #000, #2f2f2f);
+  background: linear-gradient(#262626, #000, #262626);
 }
 .bg-linear-dark-fade2{
-  background: linear-gradient(#2f2f2f, #000);
+  background: linear-gradient(#262626, #000);
+}
+.bg-linear-dark-fade3{
+  background: linear-gradient(#000,#262626);
 }
 .bg-linear-white-fade{
   background: linear-gradient(#FAF9F6, #ffffff);
@@ -922,37 +983,6 @@ CONTENT STYLES
 .black-copy{
   color: #000;
 }
-
-
-
-// Quote Button
-.quote-button{
-  text-decoration: none;
-  color: $white;
-  background-color: rgb(229, 27, 27);
-  padding: 15px 35px;
-  text-align: center;
-  border-radius: 7px;
-  font-size: 2rem;
-}
-
-.quote-button-margin{
-  margin-top: 50px;
-}
-.link-margin{
-  margin: 0 20px;
-}
-
-.learn-button{
-  text-decoration: none;
-  color: $white;
-  background-color: none;
-  padding: 15px 35px;
-  text-align: center;
-  border-radius: 7px;
-  font-size: 2rem;
-}
-
 
 
 /* HERO SECTIONS */
@@ -1788,9 +1818,25 @@ ol{
 // S e r v i c e  T a b
 .services-tab{
   width: 43%;
-  padding: 50px 30px;
+  padding: 100px 30px;
   margin: 0 40px;
   border-radius: 15px;
+  .list{
+    margin: 50px;
+    li{
+      margin: 40px 30px;
+      font-size: 1.5rem;
+      width: 80%;
+      list-style: none;
+      line-height: 2.5rem;
+    }
+    strong{
+      font-size: 2.2rem;
+    }
+  }
+  .copy{
+    margin: 50px 50px;
+  }
 }
 
 /*======================
@@ -5092,3 +5138,6 @@ MEDIA QUERIES
   max-width: 100% !important;
   border-radius: 0;
 }
+
+
+

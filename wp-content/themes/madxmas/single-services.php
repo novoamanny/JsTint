@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Services
+ * Template Name: Single-Services
  */
 /**
  * The template for displaying all pages.
@@ -14,38 +14,6 @@
  *
  */
 get_header();
-$sign_off = get_field("sign_off");
-$intro = get_field("intro_content");
-$introSection = get_field("intro_section");
-$sectionCopy = $section1['section_1'];
-$sectionTitle = $sectionCopy['title'];
-$section2 = get_field("section_2", "option");
-$section3 = get_field("section_3", "option");
-
-$squares = get_field("square_sections", "option");
-$square_one = $squares['one'];
-$square_two = $squares['two'];
-$square_three = $squares['three'];
-
-
-$footer = get_field("footer", "option");
-$location = $footer['location'];
-$hours = $footer['hours'];
-
-$address = $location['address'];
-$city = $location['city'];
-$state = $location['state'];
-$zipcode = $location['zipcode'];
-
-$weekday = $hours['weekday'];
-$weekend = $hours['weekend'];
-
-
-
-
-
-
-
 ?>
 
 <div class="hero-container full-width flex wrap center relative">
