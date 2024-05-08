@@ -60,9 +60,6 @@ $hero_subtitle = $hero_options['subtitle'];
 </div>
 
 
-
-
-
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
     <!-- Left -->
@@ -94,9 +91,9 @@ $hero_subtitle = $hero_options['subtitle'];
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align">
+    <div class="half-width flex wrap center align youtube-container">
         <!-- Video -->
-        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/5WSCK_fzGW0?si=xmzR_iKKozQuuQnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/h3uo4z0znmg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=h3uo4z0znmg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 
@@ -219,13 +216,21 @@ $hero_subtitle = $hero_options['subtitle'];
             Protect Against
         </h2>
         <div class="full-width flex">
-            <div class="hero-icon">
+            <div class="hero-icon flex wrap center text-center">
                 <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/rock-icon.svg" />
                 <p class="copy americane full-width white-copy">Rocks</p>
             </div>
-            <div class="hero-icon">
-                <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/rock-icon.svg" />
-                <p class="copy americane full-width white-copy">Rocks</p>
+            <div class="hero-icon flex wrap center text-center">
+                <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/scratches.svg" />
+                <p class="copy americane full-width white-copy">Scratches</p>
+            </div>
+            <div class="hero-icon flex wrap center text-center">
+                <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/sun.svg" />
+                <p class="copy americane full-width white-copy">Sun</p>
+            </div>
+            <div class="hero-icon flex wrap center text-center">
+                <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/rain.svg" />
+                <p class="copy americane full-width white-copy">Rain</p>
             </div>
         </div>
         <!-- Free Quote CTA -->

@@ -35,6 +35,26 @@ $white: #fff;
 $black: #000;
 
 
+// Y O U T U B E   V I D E O
+.youtube-container {
+  overflow: hidden;
+  width: 100%;
+  /* Keep it the right aspect-ratio */
+  aspect-ratio: 16/9;
+  /* No clicking/hover effects */
+  pointer-events: none;
+} 
+
+.youtube-container iframe {
+  /* Extend it beyond the viewport... */
+  width: 300%;
+  height: 100%;
+  /* ...and bring it back again */
+  margin-left: -100%;
+}
+
+
+
 /* Fonts */
 @font-face {
   font-family: "americana";
@@ -1446,6 +1466,7 @@ ol{
   .owl-carousel{
     .owl-item{
       // max-width: 1400px;
+      max-height: 100vh;
     }
     .owl-dots{
       position: absolute;

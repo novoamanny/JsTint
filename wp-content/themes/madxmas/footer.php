@@ -172,7 +172,7 @@ $(document).ready(function() {
         autoplayHoverPause: false,
         loop: true,
         nav: false,
-        dots: true,
+        dots: false,
         center: true,
         mouseDrag: false, // Disable slide on mouse
         touchDrag: false, // Disable slide on touch
