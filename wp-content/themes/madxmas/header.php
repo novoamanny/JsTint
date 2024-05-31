@@ -20,6 +20,7 @@
 
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/js/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/js/assets/owl.theme.default.min.css">   
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/src/owl-aos/aos.css">   
 
         <link rel="stylesheet" href="https://use.typekit.net/yeh6lyc.css">
 

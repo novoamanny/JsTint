@@ -15,103 +15,101 @@
  */
 get_header();
 
-
-$footer = get_field("footer", "option");
-$location = $footer['location'];
-$hours = $footer['hours'];
-
-$address = $location['address'];
-$city = $location['city'];
-$state = $location['state'];
-$zipcode = $location['zipcode'];
-
-$weekday = $hours['weekday'];
-$weekend = $hours['weekend'];
-$weekend_2 = $hours['weekend_2'];
-
-$contact = get_field("contact_form_7_form_id");
-
-$sign_off = get_field("sign_off");
+// H e r o   O p t i o n s   G r o u p
+$hero_options = get_field("hero_options");
+// H e r o   O p t i o n s
+$hero_title = $hero_options['title'];
+$hero_subtitle = $hero_options['subtitle'];
 ?>
-<!-- Hero -->
-<?php get_template_part('partials/hero'); ?>
 
-<!-- Intro Content -->
-<div class="hero-carousel">
-    <div class="owl-carousel">
-        <?php
-
-            // check if the repeater field has rows of data
-            if( have_rows("hero_carousel") ):
-                
-                // loop through the rows of data
-                while ( have_rows("hero_carousel") ) : the_row();
-            ?>
-                <img src="<?php echo the_sub_field("image"); ?>" />
-
-        <?php endwhile; endif; ?>
-    </div>
-</div>
-
-
-
-<div class="headline cherry">
-    <div class="headline-section cherry">
-        <h2 class="center contact-space"><?php the_field('headline'); ?></h2>
-    </div>
-    <img class="break contact-break" src="<?php echo get_template_directory_uri();?>/img/snow-trees.png"/>
-</div>
-
-<div class="info">
-    <div class="content-contact">
-        <a href="https://www.google.com/maps/search/madisonville+christmas+company/@30.9678663,-95.8890714,15z/data=!3m1!4b1?entry=ttu" style="text-align: center;" target="blank">
-            <img class="map" src="<?php echo get_template_directory_uri(); ?>/img/contact-map.jpg" />
-        </a>
-        <div class="contact-bottom">
-
-            <img class="watermark-logo" src="<?php echo get_template_directory_uri();?>/img/Madisonville-logo-w.png" />
-
-
-            <div class="information">
-            <img class="stars" src="<?php echo get_template_directory_uri();?>/img/yellow-stars.png" />
-                <h3>Location</h3>
-                <div class="location contact-copy">
-                
-                    <p><?php echo $address ?></p>
-                    <p><?php echo $city ?>, <?php echo $state ?> <?php echo $zipcode ?></p>
-                </div>
-                <h3>Hours</h3>
-                <div class="hours contact-copy">
-                    <p>Opening in September</p>
-                    <p>OPEN <?php echo $weekday['open'] ?>AM - <?php echo $weekday['close'] ?>PM</p>
-                    <p>Mon - Thur</p>
-                    <p>OPEN <?php echo $weekend['open'] ?>AM - <?php echo $weekend['close'] ?>PM</p>
-                    <p>Fri - Sat</p>
-                    <p>OPEN <?php echo $weekend_2['open'] ?>AM - <?php echo $weekend_2['close'] ?>PM</p>
-                    <p>Sunday</p>
-                </div>
-            </div>
-            <div class="form-contact">
-                <?php
-                    // Inject the PHP statement with the dynamic ID into the do_shortcode function
-                    echo do_shortcode("[contact-form-7 id='$contact' title='Subscribe']");
-                ?>
-            </div>
-         
+<!-- H e r o   S e c t i o n -->
+<div class="hero-container full-width flex wrap center relative image-effect image-height-hero-big" style="background-image: url('<?php echo get_template_directory_uri();?>/src/images/about-hero-parallex2.jpeg');">      
+    <div class="opacity-screen">
+        <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position-hero">
+            <!-- Hero Title -->
+            <h2 class="hero-title veneer">
+                <?php echo $hero_title; ?>
+            </h2>
+            <!-- Hero Subtitle -->
+            <h2 class="hero-subtitle americane white-copy">
+                <?php echo $hero_subtitle; ?>
+            </h2>
+            <!-- Free Quote CTA -->
+            <!-- <div class="flex hero-cta-margin">
+                <a href="/" class="nav-phone americane uppercase text-left quote-button">
+                    Free Quote!
+                </a>
+            </div> -->
         </div>
     </div>
+    <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" />
 </div>
-</div>
-<div class="white-break"></div>
 
-<div class="sign-off" style="background-color: <?php echo $sign_off['background_color']; ?>">
-    <img class="snow-break" src="<?php the_field("snow_break", "option") ?>" />
+
+<!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items">
+    <!-- Left -->
+    <div class="third-width flex wrap center align-items">
+        <div class="full-width flex wrap justify-left">
+            <h2 class="title veneer text-left">
+                Contact
+            </h2>
+        </div>
         <div class="copy">
-            <h2><?php echo $sign_off['title'] ?></h2>
-            <?php echo $sign_off['editor'] ?>
+            <h2><?php echo $section1['title']; ?></h2>
+            <h5><?php echo $section1['subtitle']; ?></h5>
+            <?php echo $section1['editor']; ?>
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy black-copy square-copy">
+                We're here to make your experience as seamless as possible. If you have any questions or need assistance, please don't hesitate to reach out to us using the form below. Our dedicated team is ready to assist you with any inquiries or concerns you may have. Your satisfaction is our top priority, and we look forward to helping you with your automotive needs.
+                </p>
+            </div>
         </div>
-    <img class="christmas-break" src="<?php the_field("christmas_break", "option") ?>" />
+    </div>
+    <!-- Right -->
+    <div class="half-width flex wrap center align-items">
+        <div class="full-width flex wrap center logo-contact">
+            <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
+        </div>
+       <form class="full-width flex wrap center">
+            <div class="full-width flex">
+                <input class="half-width"/>
+                <input class="half-width"/>
+            </div>
+            <input class="full-width"/>
+            <div class="full-width flex wrap space-between">
+                <input class="fourth-width"/>
+                <input class="fourth-width"/>
+                <input class="fourth-width"/>
+            </div>
+            <textarea id="Message" name="message" rows="10" cols="50" class="full-width field" placeholder="Let's talk coffee here..." required></textarea>
+                    <!-- Free Quote CTA -->
+        <div class="full-width hero-cta-margin text-center">
+            <a href="/" class="nav-phone americane uppercase text-left quote-button">
+                Submit
+            </a>
+        </div>
+       </form>
+    </div>
 </div>
+
+
+<!-- Info TAB -->
+<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Tesla-shop.jpg);">
+    <div class="seventy-width padding-top-bottom bg-dark-opacity">
+        <div class="full-width">
+            <h2 class="title veneer full-width text-center ">I do not know what to put here, I can replace this section with something else.</h2>
+        </div>
+        <p class="copy mark text-center">
+        At [Company Name], we're dedicated to enhancing your automotive experience. Our mission is to provide unparalleled customer support, ensuring that every interaction leaves you feeling valued and satisfied. Whether you have questions, feedback, or need assistance, we're here to help. Your journey with us begins with a simple connection, and we'll go above and beyond to exceed your expectations every step of the way.
+        </p>
+        <div class="full-width flex wrap center">
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/">Learn More</a>
+        </div>
+    </div>
+</div>
+
+ 
 
 
 <?php

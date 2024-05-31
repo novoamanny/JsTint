@@ -20,126 +20,335 @@ $about = get_field("about_description");
 
 $origin = $about['origin'];
 $team = $about['team'];
+
+
+
+// H e r o   O p t i o n s   G r o u p
+$hero_options = get_field("hero_options");
+// H e r o   O p t i o n s
+$hero_title = $hero_options['title'];
+$hero_subtitle = $hero_options['subtitle'];
 ?>
 
 
-<!-- Hero --> 
-<div class="hero-carousel">
-    <!-- <div class="owl-carousel">
-        <?php
 
-            // check if the repeater field has rows of data
-            if( have_rows("hero_carousel") ):
-                
-                // loop through the rows of data
-                while ( have_rows("hero_carousel") ) : the_row();
-            ?>
-                <img src="<?php echo the_sub_field("image"); ?>" />
-
-        <?php endwhile; endif; ?>
-    </div> -->
-    <img src="<?php echo get_template_directory_uri();?>/img/Company.jpg" />
+<!-- H e r o   S e c t i o n -->
+<div class="hero-container full-width flex wrap center relative image-effect image-height-hero-big" style="background-image: url('<?php echo get_template_directory_uri();?>/src/images/tesla-parallex.jpeg');">      
+    <div class="opacity-screen relative">
+        <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position-hero">
+            <!-- Hero Title -->
+            <h2 class="hero-title veneer">
+                <?php echo $hero_title; ?>
+            </h2>
+            <!-- Hero Subtitle -->
+            <h2 class="hero-subtitle americane white-copy">
+                <?php echo $hero_subtitle; ?>
+            </h2>
+            <!-- Free Quote CTA -->
+            <!-- <div class="flex hero-cta-margin">
+                <a href="/" class="nav-phone americane uppercase text-left quote-button">
+                    Free Quote!
+                </a>
+            </div> -->
+        </div>
+    </div>
+    <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" />
 </div>
 
-<!-- Intro Content -->
 
-<div class="container headline about">
-    <!-- <img class="stamp" src="<?php echo get_template_directory_uri();?>/img/stamp.png" /> -->
-    <div class="headline-section cherry">
-    <h2 class="MV">Mission & Values</h2>
-        <p class="colon-p"><img class="colon" src="<?php echo get_template_directory_uri();?>/img/semi.png" /><?php echo $MV['editor']; ?><p>
-    </div>
-    <div class="split">
-        <img class="stamp-split" src="<?php echo get_template_directory_uri();?>/img/About-stamp.png" />
-    </div>
-</div>
 
-<!-- Origin -->
-<div class="sections sections-alt origin">
-    <div class="right" >
+<!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
+    <!-- Left -->
+    <div class="half-width flex wrap center">
+        <div class="full-width flex wrap center">
+            <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
+        </div>
         <div class="copy">
-            <h2><?php echo $origin['title']; ?></h2>
-            <div class="dashes">
-                <div class="vertical"></div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
+            <h2><?php echo $section1['title']; ?></h2>
+            <h5><?php echo $section1['subtitle']; ?></h5>
+            <?php echo $section1['editor']; ?>
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy black-copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
             </div>
-            <h5><?php echo $origin['subtitle']; ?></h5>
-            <?php echo $origin['editor']; ?>
         </div>
     </div>
-    <div class="left">    
-        <img src="<?php echo $origin['image']; ?>" />
-        
+    <!-- Right -->
+    <div class="half-width flex wrap center align youtube-container">
+        <!-- Video -->
+        <iframe class="video-wrap" width="100%" height="600px" src="https://www.youtube.com/embed/h3uo4z0znmg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=h3uo4z0znmg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 
-<!-- Tags -->
-<div class="tag-section">
-<img src="<?php echo get_template_directory_uri();?>/img/About-tags.png" />
-</div>
 
-<!-- Team -->
-<div class="sections sections-alt team">
-    <div class="right team-content">
-        <div style="position: relative;">
-            <img class="family-image" src="<?php echo $team['image'];  ?>"> </img>
-            <img class="stars" src="<?php echo get_template_directory_uri();?>/img/about-stars.png" />
+
+<!-- About Section -->
+<div class="about-section full-width flex wrap center white-copy bg-linear-dark-fade4">
+        <div class="main-title full-width flex wrap center">
+            <h2 class="title veneer text-center uppercase">
+                Meet The Team
+            </h2>
         </div>
-    </div>
-    <div class="left">
+    <div class="staff third-width flex wrap center">
+        <div class="image full-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/man-about.jpg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Juan
+            </h2>
+        </div>
+        <div class="full-width flex wrap center">
+            <h4 class="subtitle veneer text-center">
+                CEO
+            </h4>
+        </div>
         <div class="copy">
-            <h2><?php echo $team['title']; ?></h2>
-            <div class="dashes">
-                <div class="vertical"></div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
             </div>
-            <h5><?php echo $team['subtitle']; ?></h5>
-            <?php echo $team['editor']; ?>
         </div>
     </div>
-    <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/img/pink-curve-bg.png" />
-</div>
 
-<!-- FAQ -->
-<div class="sign-off faq">
-    <div class="copy">
-        <div style="width: 100%;">
-        <h2>Frequently</h2>
-        <h2>Asked Questions</h2>
+
+
+    <div class="staff third-width flex wrap center">
+        <div class="image full-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/lady-about.jpg" />
         </div>
-        <div>
-        <img class="stamp" src="<?php echo get_template_directory_uri();?>/img/coffee.png" />
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Clemente
+            </h2>
+        </div>
+        <div class="full-width flex wrap center">
+            <h4 class="subtitle veneer text-center">
+                ...
+            </h4>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
+            </div>
         </div>
     </div>
-    <div class="faq_question_container">
-        <?php
 
-        // check if the repeater field has rows of data
-        if( have_rows("faq") ):
-            
-            // loop through the rows of data
-            while ( have_rows("faq") ) : the_row();
-        ?>
-            <?php if(get_sub_field('question')):?>
-            <p class="faq_question">
-                <?php the_sub_field('question'); ?>
-                <span class="icon_container" />
-            </p>
-            <?php endif; ?>
-            <?php if(get_sub_field('answer')):?>
 
-            <div class="faq_answer">
-                <?php the_sub_field('answer'); ?>
+
+
+    <div class="staff third-width flex wrap center">
+        <div class="image full-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/man-about2.jpg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Mariela
+            </h2>
+        </div>
+        <div class="full-width flex wrap center">
+            <h4 class="subtitle veneer text-center">
+                ...
+            </h4>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
             </div>
+        </div>
+    </div>
 
-        <?php endif; ?>
+
+
+    <div class="staff third-width flex wrap center">
+        <div class="image full-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/man-about2.jpg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Staff
+            </h2>
+        </div>
+        <div class="full-width flex wrap center">
+            <h4 class="subtitle veneer text-center">
+                ...
+            </h4>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="staff third-width flex wrap center">
+        <div class="image full-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/man-about.jpg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Staff
+            </h2>
+        </div>
+        <div class="full-width flex wrap center">
+            <h4 class="subtitle veneer text-center">
+                ...
+            </h4>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="staff third-width flex wrap center">
+        <div class="image full-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/lady-about.jpg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Staff
+            </h2>
+        </div>
+        <div class="full-width flex wrap center">
+            <h4 class="subtitle veneer text-center">
+                ...
+            </h4>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
+            </div>
+        </div>
+    </div>
     
-        <?php endwhile; endif; ?>
+
+
+    <div class="staff third-width flex wrap center">
+        <div class="image full-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/lady-about.jpg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Staff
+            </h2>
+        </div>
+        <div class="full-width flex wrap center">
+            <h4 class="subtitle veneer text-center">
+                ...
+            </h4>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
+            </div>
+        </div>
     </div>
-<img class="christmas-break" src="<?php the_field("christmas_break", "option") ?>" />
+
+
+
+    <div class="staff third-width flex wrap center">
+        <div class="image full-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/man-about.jpg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Staff
+            </h2>
+        </div>
+        <div class="full-width flex wrap center">
+            <h4 class="subtitle veneer text-center">
+                ...
+            </h4>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+                <p class="americane copy square-copy">
+                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+
+
+<!-- Info TAB -->
+<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/chevy-parallex.jpeg);">
+    <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
+        <div class="full-width">
+            <h2 class="title veneer full-width text-center ">IT/Software Consulting</h2>
+        </div>
+        <p class="copy mark text-center">
+        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential. Leveraging our deep industry expertise and cutting-edge insights, we collaborate closely with you to craft customized solutions that precisely align with your unique goals and challenges. Whether you're navigating complex software integrations, optimizing IT infrastructure, or embarking on a digital transformation journey, our consultants are dedicated to empowering you to thrive amidst the evolving digital landscape. From startups to enterprises, we stand as your trusted advisors, delivering tangible results and driving sustainable growth through innovative technology solutions.
+        </p>
+        <div class="full-width flex wrap center">
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/">Learn More</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- Google Review -->
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-2ac4892a-75d2-49b5-b752-73ffc35efb91" data-elfsight-app-lazy></div>
+
+
+
+
 <script>
 // Script for expanding the answer to each question
 var questions = document.querySelectorAll('.faq_question');
