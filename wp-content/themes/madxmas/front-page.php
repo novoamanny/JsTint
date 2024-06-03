@@ -28,6 +28,7 @@ $hero_options = get_field("hero_options");
 // H e r o   O p t i o n s
 $hero_title = $hero_options['title'];
 $hero_subtitle = $hero_options['subtitle'];
+
 ?>
 
 
@@ -52,8 +53,8 @@ $hero_subtitle = $hero_options['subtitle'];
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
     <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
     </div>
@@ -61,7 +62,7 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items">
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video">
     <!-- Left -->
     <div class="half-width flex wrap center">
         <div class="full-width flex wrap justify-left">
@@ -69,16 +70,16 @@ $hero_subtitle = $hero_options['subtitle'];
                 Mission Statement
             </h2>
         </div>
-        <div class="copy">
-            <div class="full-width flex wrap center text-left">
-                <p class="americane copy black-copy square-copy">
-                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
-                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
-                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
-                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
-                </p>
-            </div>
+ 
+        <div class="full-width flex wrap justify-left text-left align-items">
+            <p class="americane copy black-copy square-copy square-copy-width">
+                At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+                Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
+                From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
+                Trust the experts at [Shop Name] to turn your car into a masterpiece.
+            </p>
         </div>
+        
     </div>
     <!-- Right -->
     <div class="half-width flex wrap center align youtube-container">
@@ -88,37 +89,37 @@ $hero_subtitle = $hero_options['subtitle'];
 </div>
 
 
-<!-- S e r v i c e s   S e c t i o n   O n e-->
-<div class="flex wrap center">
+<!-- W i n d o w   T i n t -->
+<div class="flex wrap center square-section">
 <!-- Left -->
     <div class="left half-width carousel-opacity">  
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
         <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
         </div>
     </div>
 <!-- Right -->
-    <div class="right half-width bg-linear-dark-fade3 white-copy padding-top-bottom-alt align">
+    <div class="right half-width bg-linear-dark-fade3 white-copy padding-top-bottom-alt flex wrap center align-items">
         <div class="full-width flex wrap justify-left">
             <h2 class="title veneer text-left">
                 Window Tint
             </h2>
         </div>
-        <div class="copy">
+        <div class="copy flex wrap center align-items">
             <div class="full-width flex wrap center text-left">
-            <p class="americane copy white-copy square-copy">
-                Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, 
-                preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, 
-                you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.
-            </p>
+                <p class="americane copy white-copy square-copy">
+                    Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, 
+                    preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, 
+                    you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.
+                </p>
             </div>
-            <div class="flex quote-button-margin wrap justify-right">
+            <div class="flex full-width wrap justify-right">
                 <a href="/" class="nav-phone americane uppercase text-right quote-button">Free Quote!</a>
-                <a href="/" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
+                <a href="/services/window-tint" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
             </div>
         </div>
     </div>
@@ -126,59 +127,50 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 
-
-<!-- S E R V I C E S -->
+<!-- PPF Slides -->
 
 <div class="services full-width flex wrap center padding-top-bottom overflow-x">
-    <div data-aos="fade-right" data-aos-duration="3000" class="services-tab bg-linear-dark-fade white-copy">
-    <div class="full-width">
-        <h2 class="title veneer text-left">Preserve Your Ride, Unleash Its Potential: The Power of Paint Protection Film</h2>
-    </div>
-    <p class="copy mark text-left auto-margin copy-width-intro">
-        Transform the way you protect your vehicle with our industry-leading Paint Protection Film (PPF). 
-        Engineered to shield your car's paint from the rigors of daily driving, our PPF offers unparalleled protection without compromising on style. 
-        Crafted from high-quality materials, our nearly invisible film is designed to keep your car looking newer for longer.
-    </p>
-    <div class="full-width">
-        <h2 class="title veneer text-left uppercase">Benefits of PPF:</h2>
-    </div>
-    <div class="full-width list">
-        <ul>
-            <li class="americane"><strong class="veneer">Ultimate Paint Protection:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-            <li class="americane"><strong class="veneer">Preserves Resale Value:</strong></br> Protecting your car's paint with PPF can significantly increase its resale value by maintaining a flawless exterior. Potential buyers will appreciate the care taken to protect the vehicle.</li>
-        </ul>
-    </div>
-    <div class="flex padding-top-bottom">
-        <img src="<?php echo get_template_directory_uri();?>/src/images/tint-tesla.png"  />
-    </div>
-    
-        <div class="flex quote-button-margin">
-            <a href="/" class="nav-phone americane uppercase text-left quote-button">Free Quote!</a>
-            <!-- <a href="/" class="nav-phone americane uppercase text-right learn-button link-margin black-copy">Learn More</a> -->
+    <!-- TAB -->
+    <div data-aos="fade-right" data-aos-duration="3000" class="services-tab bg-linear-dark-fade white-copy flex wrap center">
+        <div class="full-width">
+            <h2 class="title veneer text-left">Preserve Your Ride, Unleash Its Potential: The Power of Paint Protection Film</h2>
         </div>
-
+        <p class="copy mark text-left auto-margin copy-width-intro">
+            Transform the way you protect your vehicle with our industry-leading Paint Protection Film (PPF). 
+            Engineered to shield your car's paint from the rigors of daily driving, our PPF offers unparalleled protection without compromising on style. 
+            Crafted from high-quality materials, our nearly invisible film is designed to keep your car looking newer for longer.
+        </p>
+        <div class="full-width">
+            <h2 class="title veneer text-left uppercase">Benefits of PPF:</h2>
+        </div>
+        <div class="full-width list">
+            <ul>
+                <li class="americane"><strong class="veneer uppercase">Ultimate Paint Protection:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+                <li class="americane"><strong class="veneer uppercase">Preserves Resale Value:</strong></br> Protecting your car's paint with PPF can significantly increase its resale value by maintaining a flawless exterior. Potential buyers will appreciate the care taken to protect the vehicle.</li>
+                <li class="americane"><strong class="veneer uppercase">Maintains Aesthetics:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+            </ul>
+        </div>
+        <div class="flex wrap center padding-top-bottom">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/tint-tesla.png"  />
+        </div>
     </div>
-    <div data-aos="fade-left" data-aos-duration="3000" class="services-tab bg-linear-red-fade white-copy">
-    <div class="full-width">
-        <h2 class="title veneer text-left uppercase">More Benefits of PPF:</h2>
-    </div>
-    <div class="full-width list">
-        <ul>
-            <li class="americane"><strong class="veneer uppercase">Maintains Aesthetics:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-            <li class="americane"><strong class="veneer uppercase">Self-Healing Technology:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-            <li class="americane"><strong class="veneer uppercase">Easy Maintenance:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-            <li class="americane"><strong class="veneer uppercase">Longevity: </strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-            <li class="americane"><strong class="veneer uppercase">Custom Fit:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-            <li class="americane"><strong class="veneer uppercase">Enhanced Driving Experience:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-            <li class="americane"><strong class="veneer uppercase">Professional Installation: </strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-        </ul>
-    </div>
-    <div class="flex padding-top-bottom">
-        <img src="<?php echo get_template_directory_uri();?>/src/images/tesla-cars.png"  />
-    </div>
-        <div class="flex quote-button-margin">
-            <!-- <a href="/" class="nav-phone americane uppercase text-right quote-button">Free Quote!</a> -->
-            <a href="/services/ppf" class="nav-phone americane uppercase text-right learn-button link-margin bg-dark-opacity bg-dark-opacity-hover">Learn More</a>
+    <!-- TAB -->
+    <div data-aos="fade-left" data-aos-duration="3000" class="services-tab bg-linear-red-fade white-copy flex wrap center">
+        <div class="full-width flex wrap align-items">
+            <h2 class="title veneer text-left uppercase">More Benefits of PPF:</h2>
+        </div>
+        <div class="full-width list">
+            <ul class="flex wrap align-items">
+                <li class="americane"><strong class="veneer uppercase">Self-Healing Technology:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+                <li class="americane"><strong class="veneer uppercase">Easy Maintenance:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+                <li class="americane"><strong class="veneer uppercase">Longevity: </strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+                <li class="americane"><strong class="veneer uppercase">Custom Fit:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+                <li class="americane"><strong class="veneer uppercase">Enhanced Driving Experience:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+                <li class="americane"><strong class="veneer uppercase">Professional Installation: </strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+            </ul>
+        </div>
+        <div class="padding-top-bottom">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/tesla-cars.png"  />
         </div>
     </div>
 </div>
@@ -186,11 +178,11 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 
-<div class="full-width flex wrap center carousel-opacity relative">
+<div class="full-width flex wrap center carousel-opacity relative full-carousel">
     <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position">
         <!-- Hero Title -->
         <h2 class="hero-title veneer">
-        Defend Your Drive, Elevate Your Style: The Pinnacle of Paint Protection Film
+        Defend Your Drive: </br>Paint Protection Film
         </h2>
         <!-- Hero Subtitle -->
         <h2 class="hero-subtitle americane white-copy">
@@ -221,11 +213,11 @@ $hero_subtitle = $hero_options['subtitle'];
             </div>
         </div>
         <!-- Free Quote CTA -->
-        <div class="flex hero-cta-margin">
+        <!-- <div class="flex hero-cta-margin">
             <a href="/" class="nav-phone americane uppercase text-left quote-button">
                 Free Quote!
             </a>
-        </div>
+        </div> -->
     </div>
 <!-- <iframe width="100%" height="1200px" src="https://www.youtube.com/embed/5WSCK_fzGW0?si=xmzR_iKKozQuuQnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
     <div class="owl-carousel">
@@ -250,7 +242,7 @@ $hero_subtitle = $hero_options['subtitle'];
 
 <!-- Section-2 -->
 
-<div class="flex wrap center reverse-row padding-top-bottom-alt-alt overflow-x">
+<div class="flex wrap center reverse-row padding-top-bottom overflow-x intro-video">
     <!-- Right -->
     <div class="half-width flex wrap center align youtube-container">
         <!-- Video -->
@@ -261,56 +253,17 @@ $hero_subtitle = $hero_options['subtitle'];
         <div class="full-width flex wrap justify-left">
             <h2 class="title veneer text-left">Let Us Prep your vehicle for PPF?</h2>
         </div>
-        <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
-            <div class="full-width flex wrap center text-left">
-            <p class="americane copy black-copy square-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
-            </div>
-            <div class="flex quote-button-margin-top wrap quote-button-margin-left">
-                <a href="/" class="nav-phone americane uppercase text-right quote-button">Free Quote!</a>
-                <a href="/" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
-            </div>
+        <div class="full-width flex wrap justify-left text-left align-items">
+            <p class="americane copy black-copy square-copy square-copy-width">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
         </div>
+        <div class="flex quote-button-margin-top wrap quote-button-margin-left">
+            <a href="/services" class="nav-phone americane uppercase text-right quote-button">More Services</a>
+            <a href="/services/ppf" class="nav-phone americane uppercase text-right learn-button link-margin black-copy">Learn More</a>
+        </div>
+      
     </div>
 </div>
 
-
-
-<!-- Google Review -->
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-2ac4892a-75d2-49b5-b752-73ffc35efb91" data-elfsight-app-lazy></div>
-
-
-
-<!-- Section-2 -->
-
-<div class="flex wrap center padding-top-bottom-alt-alt">
-    <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container-reverse">
-        <!-- Video -->
-        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/ALDZTJqKY_8?controls=0&autoplay=1&mute=1&loop=1&playlist=ALDZTJqKY_8&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-<!-- SECTION ONE -->
-    <div class="right half-width black-copy padding-top-bottom-alt align">
-        <div class="full-width flex wrap justify-left">
-            <h2 class="title veneer text-left">Chrome Delete</h2>
-        </div>
-        <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
-            <div class="full-width flex wrap center text-left">
-            <p class="americane copy black-copy square-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
-            </div>
-            <div class="flex quote-button-margin-top wrap quote-button-margin-left">
-                <a href="/" class="nav-phone americane uppercase text-right quote-button">Free Quote!</a>
-                <a href="/" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 

@@ -51,7 +51,6 @@
                             // echo $pathWithoutSlash;
                             // if(!$pathWithoutSlash) :
                         ?>
-
 <!--DESKTOP MENU-->
                         <nav id="desktopmenu" class="desktopmenu">
                             <!-- Desktop In-line Menu -->
@@ -72,11 +71,9 @@
                                     <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
                                 </div>
                                 <div class="flex">
-                                    <a href="/" class="nav-phone americane uppercase">Free Quote!</a>
+                                    <a href="/" class="quote-button americane uppercase">Free Quote!</a>
                                 </div>
                             </div>
-
-
 <!--MOBILE MENU-->
                             <a id="menu-toggle" class="mobile-menu-toggle" href="#menu">Menu</a>
                         </nav>
