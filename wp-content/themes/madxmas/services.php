@@ -48,10 +48,7 @@ $weekend = $hours['weekend'];
 <div class="opacity-screen"></div>
     <div class="absolute title-position-hero">
         <h2 class="hero-title veneer">Customize Your Ride, Unleash Your Style!</h2>
-        <h2 class="hero-subtitle americane white-copy">Crafting Your Dream Ride, One Upgrade at a Time!</h2>
-        <div class="flex quote-button-margin">
-            <a href="/" class="nav-phone americane uppercase text-left quote-button">Free Quote!</a>
-        </div>
+        <h2 class="hero-subtitle americane white-copy">Crafting Your Dream Ride,</br>One Upgrade at a Time!</h2>
     </div>
     <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" />
 </div>
@@ -68,7 +65,7 @@ $weekend = $hours['weekend'];
         Whether you're looking to upgrade your sound system, add some privacy with tinted windows, or simply want to give your car a new look, our experienced team is here to help. With years of industry experience, we have the knowledge and expertise to recommend the perfect accessories for your vehicle.
         Browse our selection online or visit our showroom to see our products up close. Let J's Tint help you take your driving experience to the next level!
     </p> -->
-    <div class="full-width flex wrap justify-left">
+    <div class="full-width flex wrap justify-left align-items">
             <h2 class="title veneer text-left">
                 Revitalize Your Ride, Protect Your Investment!
             </h2>
@@ -79,10 +76,7 @@ $weekend = $hours['weekend'];
             <?php echo $section1['editor']; ?>
             <div class="full-width flex wrap center text-left">
                 <p class="americane copy black-copy square-copy">
-                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
-                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
-                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
-                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                    Driven by a passion for automotive excellence, we are committed to enhancing your driving experience through precision craftsmanship, innovative solutions, and personalized service.
                 </p>
             </div>
         </div>
@@ -96,43 +90,77 @@ $weekend = $hours['weekend'];
 
 
 
-
-
-
-<div class="flex wrap center reverse-row">
-    <div class="left half-width carousel-opacity">
-    
-            
-            <div class="owl-carousel">
-                
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
-            </div>
-    
-    </div>
-<!-- SECTION ONE -->
-    <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt">
+<!-- TAB -->
+<div class="service-tab service-tab-long bg-linear-red-fade white-copy flex wrap align-items" >
+    <div class="third-width padding-top-bottom-alt">
+        <div class="full-width">
+            <h2 class="title veneer text-left">PPF</h2>
+        </div>
+        <p class="copy mark text-left auto-margin copy-width-intro">
+            Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
+        </p>
         <div class="full-width flex wrap justify-left">
-            <h2 class="title veneer text-left">Protect Your Paint, Preserve Your Shine with Paint Protection Film!</h2>
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
         </div>
-        <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
-            <div class="full-width flex wrap center text-left">
-            <p class="americane copy white-copy square-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
-            </div>
-            <div class="flex quote-button-margin wrap justify-right">
-                <a href="/" class="nav-phone americane uppercase text-right quote-button">Free Quote!</a>
-                <a href="/" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
-            </div>
+    </div>
+    <div class="relative seventy-width image-effect image-height-regular" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
+
+    </div>
+</div>
+
+
+<!-- TAB -->
+<div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row" >
+    <div class="third-width padding-top-bottom-alt">
+        <div class="full-width">
+            <h2 class="title veneer text-left">Window Tint</h2>
         </div>
+        <p class="copy mark text-left auto-margin copy-width-intro">
+            Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
+        </p>
+        <div class="full-width flex wrap justify-left">
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
+        </div>
+    </div>
+    <div class="relative seventy-width image-effect image-height-regular" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg);">
+
+    </div>
+</div>
+
+
+<!-- TAB -->
+<div class="service-tab service-tab-long bg-linear-red-fade white-copy flex wrap align-items" >
+    <div class="third-width padding-top-bottom-alt">
+        <div class="full-width">
+            <h2 class="title veneer text-left">Custom Car Audio</h2>
+        </div>
+        <p class="copy mark text-left auto-margin copy-width-intro">
+            Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
+        </p>
+        <div class="full-width flex wrap justify-left">
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
+        </div>
+    </div>
+    <div class="relative seventy-width image-effect image-height-regular" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
+
+    </div>
+</div>
+
+<!-- TAB -->
+<div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row" >
+    <div class="third-width padding-top-bottom-alt">
+        <div class="full-width">
+            <h2 class="title veneer text-left">Window Tint</h2>
+        </div>
+        <p class="copy mark text-left auto-margin copy-width-intro">
+            Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
+        </p>
+        <div class="full-width flex wrap center">
+            <a class="quote-button quote-button-margin white-copy bg-nova-purple americane" href="/">Learn More</a>
+        </div>
+    </div>
+    <div class="relative seventy-width image-effect image-height-regular" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg);">
+
     </div>
 </div>
 
@@ -188,73 +216,48 @@ $weekend = $hours['weekend'];
 
 
 
-<div id="about" class="flex wrap center">
-    <img class="snow-break" src="<?php the_field("snow_break", "option") ?>" />
-    <div class="left half-width carousel-opacity">
-<!-- ARCH IMAGE CAROUSEL -->
-    
-            
-            <div class="owl-carousel">
-                
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
-            </div>
-    
-    </div>
-<!-- SECTION ONE -->
-    <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt">
-        <div class="full-width flex wrap justify-left">
-            <h2 class="title veneer text-left">Protect Your Paint, Preserve Your Shine with Paint Protection Film!</h2>
-        </div>
-        <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
-            <div class="full-width flex wrap center text-left">
-            <p class="americane copy white-copy square-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
-            </div>
-            <div class="flex quote-button-margin wrap justify-right">
-                <a href="/" class="nav-phone americane uppercase text-right quote-button">Free Quote!</a>
-                <a href="/" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg);">
+<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
-            <h2 class="title veneer full-width text-center uppercase">Ceramic vs Regular</h2>
+            <h2 class="title veneer full-width text-center uppercase">Window Tint</h2>
         </div>
         <p class="copy mark text-center">
-        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential. Leveraging our deep industry expertise and cutting-edge insights, we collaborate closely with you to craft customized solutions that precisely align with your unique goals and challenges. Whether you're navigating complex software integrations, optimizing IT infrastructure, or embarking on a digital transformation journey, our consultants are dedicated to empowering you to thrive amidst the evolving digital landscape. From startups to enterprises, we stand as your trusted advisors, delivering tangible results and driving sustainable growth through innovative technology solutions.
+        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Free Quote</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/window-tint">Learn More</a>
         </div>
     </div>
 </div>
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg);">
+<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/about-hero-parallex2.jpeg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
-            <h2 class="title veneer full-width text-center uppercase">Ceramic vs Regular</h2>
+            <h2 class="title veneer full-width text-center uppercase">Ceramic Coating</h2>
         </div>
         <p class="copy mark text-center">
-        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential. Leveraging our deep industry expertise and cutting-edge insights, we collaborate closely with you to craft customized solutions that precisely align with your unique goals and challenges. Whether you're navigating complex software integrations, optimizing IT infrastructure, or embarking on a digital transformation journey, our consultants are dedicated to empowering you to thrive amidst the evolving digital landscape. From startups to enterprises, we stand as your trusted advisors, delivering tangible results and driving sustainable growth through innovative technology solutions.
+        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Free Quote</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Learn More</a>
+        </div>
+    </div>
+</div>
+
+<!-- Info TAB -->
+<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/about-hero-parallex2.jpeg);">
+    <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
+        <div class="full-width">
+            <h2 class="title veneer full-width text-center uppercase">Car Wrap</h2>
+        </div>
+        <p class="copy mark text-center">
+        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential.
+        </p>
+        <div class="full-width flex wrap center">
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Learn More</a>
         </div>
     </div>
 </div>
@@ -262,7 +265,8 @@ $weekend = $hours['weekend'];
 
 
 
-<div class="flex wrap center reverse-row info-tab-margin">
+
+<div class="flex wrap center info-tab-margin">
     <div class="left half-width carousel-opacity">
     
             
@@ -282,7 +286,7 @@ $weekend = $hours['weekend'];
 <!-- SECTION ONE -->
     <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt">
         <div class="full-width flex wrap justify-left">
-            <h2 class="title veneer text-left">Protect Your Paint, Preserve Your Shine with Paint Protection Film!</h2>
+            <h2 class="title veneer text-left">Ceramic Tint</h2>
         </div>
         <div class="copy">
             <h2><?php echo $section1['title']; ?></h2>
@@ -292,46 +296,11 @@ $weekend = $hours['weekend'];
             <p class="americane copy white-copy square-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
             </div>
             <div class="flex quote-button-margin wrap justify-right">
-                <a href="/" class="nav-phone americane uppercase text-right quote-button">Free Quote!</a>
-                <a href="/" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
+                <a href="/services/window-tint" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
             </div>
         </div>
     </div>
 </div>
-
-
-
-<!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
-    <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
-        <div class="full-width">
-            <h2 class="title veneer full-width text-center uppercase">Ceramic vs Regular</h2>
-        </div>
-        <p class="copy mark text-center">
-        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential. Leveraging our deep industry expertise and cutting-edge insights, we collaborate closely with you to craft customized solutions that precisely align with your unique goals and challenges. Whether you're navigating complex software integrations, optimizing IT infrastructure, or embarking on a digital transformation journey, our consultants are dedicated to empowering you to thrive amidst the evolving digital landscape. From startups to enterprises, we stand as your trusted advisors, delivering tangible results and driving sustainable growth through innovative technology solutions.
-        </p>
-        <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Free Quote</a>
-        </div>
-    </div>
-</div>
-
-<!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/about-hero-parallex2.jpeg);">
-    <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
-        <div class="full-width">
-            <h2 class="title veneer full-width text-center uppercase">Ceramic vs Regular</h2>
-        </div>
-        <p class="copy mark text-center">
-        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential. Leveraging our deep industry expertise and cutting-edge insights, we collaborate closely with you to craft customized solutions that precisely align with your unique goals and challenges. Whether you're navigating complex software integrations, optimizing IT infrastructure, or embarking on a digital transformation journey, our consultants are dedicated to empowering you to thrive amidst the evolving digital landscape. From startups to enterprises, we stand as your trusted advisors, delivering tangible results and driving sustainable growth through innovative technology solutions.
-        </p>
-        <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Free Quote</a>
-        </div>
-    </div>
-</div>
-
-
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom">

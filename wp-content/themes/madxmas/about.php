@@ -326,25 +326,16 @@ $hero_subtitle = $hero_options['subtitle'];
 <div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/chevy-parallex.jpeg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
-            <h2 class="title veneer full-width text-center ">IT/Software Consulting</h2>
+            <h2 class="title veneer full-width text-center ">Revolutionizing Your Ride, </br> One Detail at a Time!</h2>
         </div>
         <p class="copy mark text-center">
-        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential. Leveraging our deep industry expertise and cutting-edge insights, we collaborate closely with you to craft customized solutions that precisely align with your unique goals and challenges. Whether you're navigating complex software integrations, optimizing IT infrastructure, or embarking on a digital transformation journey, our consultants are dedicated to empowering you to thrive amidst the evolving digital landscape. From startups to enterprises, we stand as your trusted advisors, delivering tangible results and driving sustainable growth through innovative technology solutions.
+            Driven by a passion for automotive excellence, we are committed to enhancing your driving experience through precision craftsmanship, innovative solutions, and personalized service. Our mission is to inspire confidence and satisfaction in every customer, ensuring that your journey with us is nothing short of exceptional.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/">Learn More</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/">More Services</a>
         </div>
     </div>
 </div>
-
-
-
-
-
-
-<!-- Google Review -->
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-2ac4892a-75d2-49b5-b752-73ffc35efb91" data-elfsight-app-lazy></div>
 
 
 

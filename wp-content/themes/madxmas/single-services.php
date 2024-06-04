@@ -17,7 +17,7 @@ get_header();
 
 $service_name = get_the_title();
 
-if($service_name = 'PPF') : {
+if($service_name == 'PPF') : {
     $service_name = 'Paint Protection Film';
 }
 endif;
@@ -54,19 +54,40 @@ endif;
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
-        <div class="fourth-width flex wrap center align-items">
+        <div class="fourth-width flex wrap center align-items bg-linear-dark-fade padding-top-bottom-alt">
             <div class="full-width padding-top-bottom-alt">
-                <h2 class="text-center uppercase veneer subtitle full-width">Other</br>Services</h2>
+                <h2 class="text-center uppercase veneer subtitle full-width white-copy">Other</br>Services</h2>
             </div>
-            <div class="single-service-cta flex wrap center align-items bg-linear-red-fade padding-top-bottom-alt text-center">
-                <h2 class="hero-subtitle">PPF</h2>
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">PPF</h2>
+                    </div>
+                </div>
             </div>
-            <div class="single-service-cta flex wrap center align-items bg-linear-red-fade padding-top-bottom-alt text-center">
-                <h2 class="hero-subtitle">Car Wrap</h2>
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Ceramic Coating</h2>
+                    </div>
+                </div>
             </div>
-            <div class="single-service-cta flex wrap center align-items bg-linear-red-fade padding-top-bottom-alt text-center">
-                <h2 class="hero-subtitle">Custom Audio</h2>
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Custom Audio</h2>
+                    </div>
+                </div>
             </div>
+                        <!-- Service TAB -->
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Car Wrap</h2>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -80,14 +101,11 @@ endif;
 <div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
-            <h2 class="title veneer full-width text-center uppercase">Ceramic vs Regular</h2>
+            <h2 class="title veneer full-width text-center uppercase">Service Description</h2>
         </div>
         <p class="copy mark text-center">
         In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential. Leveraging our deep industry expertise and cutting-edge insights, we collaborate closely with you to craft customized solutions that precisely align with your unique goals and challenges. Whether you're navigating complex software integrations, optimizing IT infrastructure, or embarking on a digital transformation journey, our consultants are dedicated to empowering you to thrive amidst the evolving digital landscape. From startups to enterprises, we stand as your trusted advisors, delivering tangible results and driving sustainable growth through innovative technology solutions.
         </p>
-        <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Free Quote</a>
-        </div>
     </div>
 </div>
 
@@ -101,7 +119,7 @@ endif;
     <div class="half-width flex wrap center">
         <div class="full-width flex wrap justify-left">
             <h2 class="title veneer text-left">
-                Mission Statement
+                Service Statement
             </h2>
         </div>
  
@@ -112,8 +130,11 @@ endif;
                 From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
                 Trust the experts at [Shop Name] to turn your car into a masterpiece.
             </p>
+            <div class="flex quote-button-margin-top wrap justify-left">
+                <a href="/services" class="nav-phone americane uppercase text-left quote-button quote-button-margin-left">Free Quote!</a>
+                <a href="/services/ppf" class="nav-phone americane uppercase text-left learn-button link-margin white-copy">More Services</a>
+            </div>
         </div>
-        
     </div>
     <!-- Right -->
     <div class="half-width flex wrap center align youtube-container">
@@ -144,72 +165,58 @@ endif;
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
-        <div class="fourth-width flex wrap center align-items">
+        <div class="fourth-width flex wrap center align-items bg-linear-dark-fade padding-top-bottom-alt">
             <div class="full-width padding-top-bottom-alt">
-                <h2 class="text-center uppercase veneer subtitle full-width">Other</br>Services</h2>
+                <h2 class="text-center uppercase veneer subtitle full-width white-copy">Other</br>Services</h2>
             </div>
-            <div class="single-service-cta flex wrap center align-items bg-linear-red-fade padding-top-bottom-alt">
-                <h2 class="hero-subtitle">Chrome Delete</h2>
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">PPF</h2>
+                    </div>
+                </div>
             </div>
-            <div class="single-service-cta flex wrap center align-items bg-linear-red-fade padding-top-bottom-alt">
-                <h2 class="hero-subtitle">Service</h2>
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Ceramic Coating</h2>
+                    </div>
+                </div>
             </div>
-            <div class="single-service-cta flex wrap center align-items bg-linear-red-fade padding-top-bottom-alt">
-                <h2 class="hero-subtitle">Service</h2>
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Custom Audio</h2>
+                    </div>
+                </div>
             </div>
-            <div class="single-service-cta flex wrap center align-items bg-linear-red-fade padding-top-bottom-alt">
-                <h2 class="hero-subtitle">Service</h2>
+                        <!-- Service TAB -->
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Car Wrap</h2>
+                    </div>
+                </div>
             </div>
-            <div class="single-service-cta flex wrap center align-items bg-linear-red-fade padding-top-bottom-alt">
-                <h2 class="hero-subtitle">Service</h2>
+                         <!-- Service TAB -->
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Car Wrap</h2>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-
-</div>
-
-
-
-
-
-
-<div id="about" class="flex wrap center">
-    <img class="snow-break" src="<?php the_field("snow_break", "option") ?>" />
-    <div class="left half-width carousel-opacity">
-<!-- ARCH IMAGE CAROUSEL -->
-    
-            
-            <div class="owl-carousel">
-                
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-
-                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
-            </div>
-    
-    </div>
-<!-- SECTION ONE -->
-    <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt">
-        <div class="full-width flex wrap justify-left">
-            <h2 class="title veneer text-left">Protect Your Paint, Preserve Your Shine with Paint Protection Film!</h2>
-        </div>
-        <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
-            <div class="full-width flex wrap center text-left">
-            <p class="americane copy white-copy square-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
-            </div>
-            <div class="flex quote-button-margin wrap justify-right">
-                <a href="/" class="nav-phone americane uppercase text-right quote-button">Free Quote!</a>
-                <a href="/" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
+                        <!-- Service TAB -->
+            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
+                <div class="full-width bg-dark-opacity info-white-border">
+                    <div class="full-width flex wrap center align-items">
+                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Car Wrap</h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 
 

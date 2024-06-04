@@ -81,12 +81,12 @@ $arch_carousel = array();
         <div class="links">
             <!-- <?php wp_nav_menu(array('theme_location' => 'footer_column_1', 'menu_class' => 'sitemap', 'container' => false, 'depth' => '1')); ?>
             <?php wp_nav_menu(array('theme_location' => 'footer_column_2', 'menu_class' => 'sitemap', 'container' => false, 'depth' => '1')); ?> -->
-            <div class="social">
+            <!-- <div class="social">
                 <a href="https://www.facebook.com/MadisonvilleChristmasCo" target="_blank"><img src="<?php echo get_template_directory_uri();?>/img/facebook.png" /></a>
                 <a href="https://www.pinterest.com/MadisonvilleChristmasCo/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/img/pint.png" /></a>
                 <a href="https://www.instagram.com/madisonvillechristmasco/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/img/insta.png" /></a>
                 <a href="/" style="display: none;" target="_blank"><img src="<?php echo get_template_directory_uri();?>/img/twitter.png" /></a>
-            </div>
+            </div> -->
             <!-- <form class="form">
                 <p>Join The Fun</p>
                 <div class="button email">
@@ -96,7 +96,7 @@ $arch_carousel = array();
                 </div>
             </form> -->
             
-            <form action=https://squareup.com/outreach/Kefzvy/subscribe method="POST" target="_blank" class="form">
+            <!-- <form action=https://squareup.com/outreach/Kefzvy/subscribe method="POST" target="_blank" class="form">
                 
                 <p>Join The Fun</p>
 
@@ -111,7 +111,7 @@ $arch_carousel = array();
                         <input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Submit"><span class="wpcf7-spinner">
                     </div>
                 </div>
-            </form>
+            </form> -->
             <!-- <div class="form">
                 <p>Join The Fun</p>
                 <div class="button email">
@@ -125,7 +125,7 @@ $arch_carousel = array();
                     ?>
                 </div>
             </div> -->
-        </div>
+        <!-- </div> -->
     </div>
     <!-- <div class="bottom">
         <div class="container flex">

@@ -253,6 +253,12 @@ HEADER STYLES
     @media (max-width: 2000px) {
       max-width: 170px;
     }
+    @media (max-width: 1800px) {
+      max-width: 140px;
+    }
+    @media (max-width: 1500px) {
+      max-width: 100px;
+    }
   }
   .brand img.mobile{
     display: none;
@@ -391,6 +397,9 @@ ul.navigation li {
   display: inline-block;
   padding: 3% 0;
   // width: 100px;
+  @media (max-width: 1500px) {
+    margin: 0 20px;
+  }
 
   a {
     font-family: 'Neulis Alt', sans-serif;
@@ -436,6 +445,12 @@ ul.navigation li a {
   font-style: normal;
   padding: 10px 20px;
   outline: none;
+  @media (max-width: 2000px) {
+    font-size: 15px;
+  }
+  @media (max-width: 2000px) {
+    font-size: 12px;
+  }
 }
 
 ul.navigation li.current-menu-item a {
@@ -577,8 +592,20 @@ CONTENT STYLES
     font-size: 1.7rem;
   }
   @media (max-width: 2000px) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding: 12px 30px;
+  }
+  @media (max-width: 1800px) {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+  }
+  @media (max-width: 1600px) {
+    font-size: 1rem;
+    padding: 10px 30px;
+  }
+  @media (max-width: 1500px) {
+    font-size: .9rem;
+    padding: 10px 30px;
   }
 }
 // Q u o t e   B u t t o n   C T A   M A R G I N
@@ -596,9 +623,18 @@ CONTENT STYLES
 }
 .quote-button-margin-top{
   margin-top: 50px;
+  @media (max-width: 1600px) {
+    margin-top: 30px;
+  }
+  @media (max-width: 1500px) {
+    margin-top: 10px;
+  }
 }
 .quote-button-margin-left{
   margin-left: 55px;
+}
+.quote-button-margin-right{
+  margin-right: 55px;
 }
 .link-margin{
   margin: 0 20px;
@@ -640,29 +676,44 @@ CONTENT STYLES
 
 // H e r o   T i t l e   P o s i t i o n
 .title-position-hero{
-  top: 28%;
-  left: 6%;
+  top: 34%;
+  left: 5%;
   z-index: 100;
   width: 45%;
   @media (max-width: 2200px) {
-    top: 25%;
+    top: 35%;
   }
   @media (max-width: 2000px) {
-    top: 27%;
+    top: 34%;
     left: 5%;
   }
 }
 .title-position{
-  top: 7%;
+  top: 12%;
   left: 6%;
   z-index: 100;
   width: 45%;
+  @media (max-width: 2300px) {
+    top: 10%;
+  }
+  @media (max-width: 1800px) {
+    top: 7%;
+  }
+  @media (max-width: 1400px) {
+    top: 5%;
+  }
 }
 
 // H e r o   I c o n s
 .hero-icon{
   width: 8%;
-  margin: 10px 50px;
+  margin: 10px 60px;
+  @media (max-width: 2200px) {
+    margin: 10px 40px;
+  }
+  @media (max-width: 1800px) {
+    margin: 7px 40px;
+  }
 }
 
 /* F O N T  S I Z E */
@@ -672,6 +723,10 @@ CONTENT STYLES
   margin: 20px;
   letter-spacing: 4px;
   line-height: 3.2rem;
+  @media (max-width: 2350px) {
+    font-size: 2rem;
+    margin: 15px 18px;
+  }
   @media (max-width: 2200px) {
     font-size: 2rem;
     margin: 15px 18px;
@@ -681,6 +736,16 @@ CONTENT STYLES
     margin: 15px 18px;
     line-height: 2.8rem;
   }
+  @media (max-width: 1800px) {
+    font-size: 1.7rem;
+    margin: 10px 18px;
+    line-height: 2.8rem;
+  }
+  @media (max-width: 1600px) {
+    font-size: 1.4rem;
+    margin: 10px 18px;
+    line-height: 2.3rem;
+  }
 }
 // H E R O   T I T L E
 .hero-title{
@@ -688,13 +753,25 @@ CONTENT STYLES
   margin: 0;
   line-height: 8.5rem;
   color: $white;
+  @media (max-width: 2350px) {
+    font-size: 7.5rem;
+    line-height: 8rem;
+  }
   @media (max-width: 2200px) {
     font-size: 7rem;
     line-height: 8rem;
   }
   @media (max-width: 2000px) {
-    font-size: 6.5rem;
-    line-height: 7.5rem;
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+  @media (max-width: 1800px) {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  @media (max-width: 1600px) {
+    font-size: 4.5rem;
+    line-height: 5rem;
   }
 }
 
@@ -702,8 +779,12 @@ CONTENT STYLES
 .title{
   font-size: 5.4rem;
   margin: 0px 50px;
-  width: 60%;
+  width: 70%;
   
+}
+// Homepage bottom carousel
+.bold-title{
+  margin-bottom: 50px;
 }
 // C O P Y   S E T T I N G S
 .copy{
@@ -730,70 +811,90 @@ CONTENT STYLES
 .name{
   margin-bottom: 20px;
 }
-@media (max-width: 1500px){
+@media (max-width: 2350px){
+  .title{
+      font-size: 5rem;
+  }
+  .copy{
+      font-size: 1.7rem;
+  }
+  // .hero-subtitle{
+  //     font-size: 2rem;
+  //     margin: 10px;
+  //     letter-spacing: 4px;
+  // }
+  // .hero-title{
+  //     font-size: 5rem;
+  //     margin: 0;
+  //     line-height: 6.2rem;
+  // }
+}
+@media (max-width: 2200px){
+  .title{
+      font-size: 4.5rem;
+      line-height: 3rem;
+  }
+  .copy{
+      font-size: 1.5rem;
+  }
+  // .hero-subtitle{
+  //     font-size: 2rem;
+  //     margin: 10px;
+  //     letter-spacing: 4px;
+  // }
+  // .hero-title{
+  //     font-size: 5rem;
+  //     margin: 0;
+  //     line-height: 6.2rem;
+  // }
+}
+@media (max-width: 2000px){
+  .title{
+      font-size: 3.8rem;
+  }
+  .copy{
+      font-size: 1.5rem;
+  }
+  // .hero-subtitle{
+  //     font-size: 2rem;
+  //     margin: 10px;
+  //     letter-spacing: 4px;
+  // }
+  // .hero-title{
+  //     font-size: 5rem;
+  //     margin: 0;
+  //     line-height: 6.2rem;
+  // }
+}
+@media (max-width: 1700px){
   .title{
       font-size: 3.5rem;
   }
   .copy{
-      font-size: 1.7rem;
-  }
-  .hero-subtitle{
-      font-size: 2rem;
-      margin: 10px;
-      letter-spacing: 4px;
-  }
-  .hero-title{
-      font-size: 5rem;
-      margin: 0;
-      line-height: 6.2rem;
-  }
-  .product-name{
-      font-size: 2rem;
-  }
-}
-@media (max-width: 1300px){
-  .title{
-      font-size: 3rem;
-  }
-  .copy{
-      font-size: 1.7rem;
-  }
-  .hero-subtitle{
-      font-size: 1.8rem;
-      margin: 10px;
-      letter-spacing: 4px;
-  }
-  .hero-title{
-      font-size: 4rem;
-      margin: 0;
-      line-height: 5rem;
-  }
-  .product-name{
-      font-size: 1.8rem;
-  }
-}
-@media (max-width: 1300px){
-  .title{
-      font-size: 3rem;
-  }
-  .copy{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       line-height: 2.5rem;
   }
-  .hero-subtitle{
-      font-size: 1.8rem;
-      margin: 10px;
-      letter-spacing: 4px;
+  // .hero-subtitle{
+  //     font-size: 2rem;
+  //     margin: 10px;
+  //     letter-spacing: 4px;
+  // }
+  // .hero-title{
+  //     font-size: 5rem;
+  //     margin: 0;
+  //     line-height: 6.2rem;
+  // }
+}
+@media (max-width: 1600px){
+    .title{
+      font-size: 2.8rem;
   }
-  .hero-title{
-      font-size: 4rem;
-      margin: 0;
-      line-height: 5rem;
-  }
-  .product-name{
-      font-size: 1.8rem;
+  .copy{
+      font-size: 1.2rem;
+      line-height: 2.2rem;
   }
 }
+
 @media (max-width: 900px){
   .title{
       font-size: 2.5rem;
@@ -948,7 +1049,7 @@ CONTENT STYLES
 .padding-top-bottom-alt-alt{
   padding: 80px 0;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
   .padding-top-bottom{
       padding: 120px 0;
   }
@@ -956,7 +1057,7 @@ CONTENT STYLES
       padding: 70px 0;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
   .padding-top-bottom{
       padding: 90px 0;
   }
@@ -1676,6 +1777,19 @@ ol{
 .intro-video{
   .title{
     margin-bottom: 70px;
+    line-height: 6rem;
+    @media (max-width:2000px) {
+      line-height: 5rem;
+      margin-bottom: 50px;
+    }
+    @media (max-width:1700px) {
+      line-height: 5rem;
+      margin-bottom: 40px;
+    }
+    @media (max-width:1600px) {
+      line-height: 3.5rem;
+      margin-bottom: 40px;
+    }
   }
 }
 
@@ -1687,6 +1801,10 @@ ol{
   .copy{
     margin-top: 50px;
     margin-bottom: 50px;
+    @media (max-width: 1500px) {
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -1697,16 +1815,44 @@ ol{
   padding: 100px 30px;
   margin: 0 40px;
   border-radius: 15px;
+  @media (max-width: 2000px) {
+    margin: 0 30px;
+  }
+  @media (max-width: 1800px) {
+    margin: 0 25px;
+    width: 40%;
+  }
+  @media (max-width: 1500px) {
+    margin: 0 20px;
+    width: 42%;
+    padding: 60px 15px;
+  }
   .title{
     font-size: 5rem;
     width: 80%;
     margin-bottom: 40px;
     line-height: 6rem;
+    @media (max-width: 2000px) {
+      font-size: 4.5rem;
+      line-height: 5rem;
+    }
+    @media (max-width: 1800px) {
+      font-size: 3.8rem;
+      line-height: 4.5rem;
+    }
+    @media (max-width: 1700px) {
+      font-size: 3.4rem;
+      line-height: 4rem;
+    }
+    @media (max-width: 1600px) {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
   }
   .list{
     margin: 50px;
     li{
-      margin: 40px 30px;
+      margin: 30px 30px;
       font-size: 1.5rem;
       width: 80%;
       list-style: none;
@@ -1715,9 +1861,57 @@ ol{
     strong{
       font-size: 2.2rem;
     }
+    @media (max-width: 2000px) {
+      margin: 30px 40px;
+      li{
+        margin: 30px 25px;
+        font-size: 1.3rem;
+      }
+      strong{
+        font-size: 2rem;
+      }
+    }
+    @media (max-width: 1800px) {
+      margin: 20px 40px;
+      li{
+        margin: 20px 20px;
+        font-size: 1.3rem;
+      }
+      strong{
+        font-size: 2rem;
+      }
+    }
+    @media (max-width: 1700px) {
+      margin: 20px 40px;
+      li{
+        margin: 20px 20px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+      strong{
+        font-size: 1.7rem;
+      }
+    }
+    @media (max-width: 1600px) {
+      margin: 20px 40px;
+      li{
+        margin: 20px 20px;
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+      strong{
+        font-size: 1.4rem;
+      }
+    }
   }
   .copy{
     margin: 50px 50px;
+    @media (max-width: 2000px) {
+      margin: 30px 50px;
+    }
+    @media (max-width: 1800px) {
+      margin: 20px 50px;
+    }
   }
 }
 .info-tab{
@@ -1756,10 +1950,48 @@ ol{
   margin-top: 40px;
 }
 
+
+// S e r v i c e   T a b
+.service-tab{
+  box-shadow: 12px 12px 2px 1px rgba(0,0,0, 0.32);
+  width: 43%;
+  // padding: 100px 30px;
+  margin: 40px;
+  border-radius: 15px;
+  .list{
+    margin: 50px;
+    li{
+      margin: 40px 30px;
+      font-size: 1.5rem;
+      width: 80%;
+      list-style: none;
+      line-height: 2.5rem;
+    }
+    strong{
+      font-size: 2.2rem;
+    }
+  }
+  .copy{
+    margin: 50px 50px;
+  }
+}
+.service-tab-long{
+  box-shadow: none;
+  border-radius: 0;
+  width: 100%;
+  margin: 20px 0;
+}
+
 // F U L L   C A R O U S E L
 .full-carousel{
   .copy{
     margin: 45px 20px;
+    @media (max-width: 1800px) {
+      margin: 30px 20px;
+    }
+    @media (max-width: 1800px) {
+      margin: 15px 20px;
+    }
   }
 }
 
@@ -1820,6 +2052,9 @@ Image Effect Styles
 .image-height-big{
   min-height: 1100px;
 }
+.image-height-service{
+  min-height: 850px;
+}
 
 
 
@@ -1827,32 +2062,7 @@ Image Effect Styles
 /*======================
 HOME STYLES
 ========================*/
-// H O M E
-.home{
-  .hero-container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
 
-  .full-carousel{
-    .title-position{
-      top: 12%;
-    }
-  }
-  
-}
-// video
-.home{
-  .christmas-video{
-    position: relative;
-    display: flex;
-    width: 100%;
-    min-height: 1135px;
-  }
-}
 
 /*======================
 ABOUT STYLES
