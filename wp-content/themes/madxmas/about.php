@@ -60,7 +60,7 @@ $hero_subtitle = $hero_options['subtitle'];
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
     <!-- Left -->
-    <div class="half-width flex wrap center">
+    <div class="half-width flex wrap center mobile-full">
         <div class="full-width flex wrap center">
             <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
@@ -79,7 +79,7 @@ $hero_subtitle = $hero_options['subtitle'];
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container">
+    <div class="half-width flex wrap center align youtube-container mobile-full">
         <!-- Video -->
         <iframe class="video-wrap" width="100%" height="600px" src="https://www.youtube.com/embed/h3uo4z0znmg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=h3uo4z0znmg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>

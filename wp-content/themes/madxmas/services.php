@@ -55,9 +55,9 @@ $weekend = $hours['weekend'];
 
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video mobile-section-video">
     <!-- Left -->
-    <div class="half-width flex wrap center">
+    <div class="half-width flex wrap center mobile-full mobile-section-copy">
         <!-- Need to update copy -->
     <!-- <p class="copy mark text-left auto-margin copy-width-intro">
         Welcome to J's Tint, your ultimate destination for premium car accessories! We specialize in enhancing your driving experience with top-of-the-line products, including custom car stereos, sleek window tinting, and a variety of other accessories to personalize your vehicle.
@@ -65,24 +65,21 @@ $weekend = $hours['weekend'];
         Whether you're looking to upgrade your sound system, add some privacy with tinted windows, or simply want to give your car a new look, our experienced team is here to help. With years of industry experience, we have the knowledge and expertise to recommend the perfect accessories for your vehicle.
         Browse our selection online or visit our showroom to see our products up close. Let J's Tint help you take your driving experience to the next level!
     </p> -->
-    <div class="full-width flex wrap justify-left align-items">
+    <div class="full-width flex wrap justify-left align-items mobile-section-title">
             <h2 class="title veneer text-left">
                 Revitalize Your Ride, Protect Your Investment!
             </h2>
         </div>
         <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
             <div class="full-width flex wrap center text-left">
-                <p class="americane copy black-copy square-copy">
+                <p class="americane copy black-copy square-copy square-copy-width mobile-copy">
                     Driven by a passion for automotive excellence, we are committed to enhancing your driving experience through precision craftsmanship, innovative solutions, and personalized service.
                 </p>
             </div>
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container">
+    <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
         <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/h3uo4z0znmg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=h3uo4z0znmg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
@@ -91,8 +88,8 @@ $weekend = $hours['weekend'];
 
 
 <!-- TAB -->
-<div class="service-tab service-tab-long bg-linear-red-fade white-copy flex wrap align-items" >
-    <div class="third-width padding-top-bottom-alt">
+<div class="service-tab service-tab-long bg-linear-red-fade white-copy flex wrap align-items parralex parralex-reverse" >
+    <div class="third-width padding-top-bottom-alt parallex-copy">
         <div class="full-width">
             <h2 class="title veneer text-left">PPF</h2>
         </div>
@@ -100,18 +97,24 @@ $weekend = $hours['weekend'];
             Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
         </p>
         <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/ppf">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
 
     </div>
+        <div class="owl-carousel">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
+        </div>
 </div>
 
 
 <!-- TAB -->
-<div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row" >
-    <div class="third-width padding-top-bottom-alt">
+<div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row parralex parralex-no-reverse" >
+    <div class="third-width padding-top-bottom-alt parallex-copy">
         <div class="full-width">
             <h2 class="title veneer text-left">Window Tint</h2>
         </div>
@@ -122,15 +125,21 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg);">
 
     </div>
+        <div class="owl-carousel">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
+        </div>
 </div>
 
 
 <!-- TAB -->
-<div class="service-tab service-tab-long bg-linear-red-fade white-copy flex wrap align-items" >
-    <div class="third-width padding-top-bottom-alt">
+<div class="service-tab service-tab-long bg-linear-red-fade white-copy flex wrap align-items parralex parralex-reverse" >
+    <div class="third-width padding-top-bottom-alt parallex-copy">
         <div class="full-width">
             <h2 class="title veneer text-left">Custom Car Audio</h2>
         </div>
@@ -141,14 +150,20 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
 
     </div>
+        <div class="owl-carousel">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
+        </div>
 </div>
 
 <!-- TAB -->
-<div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row" >
-    <div class="third-width padding-top-bottom-alt">
+<div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row parralex parralex-no-reverse" >
+    <div class="third-width padding-top-bottom-alt parallex-copy">
         <div class="full-width">
             <h2 class="title veneer text-left">Window Tint</h2>
         </div>
@@ -159,9 +174,15 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin white-copy bg-nova-purple americane" href="/">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg);">
 
     </div>
+        <div class="owl-carousel">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
+        </div>
 </div>
 
 
@@ -266,8 +287,8 @@ $weekend = $hours['weekend'];
 
 
 
-<div class="flex wrap center info-tab-margin">
-    <div class="left half-width carousel-opacity">
+<div class="flex wrap center info-tab-margin mobile-section">
+    <div class="left half-width carousel-opacity mobile-full">
     
             
             <div class="owl-carousel">
@@ -284,18 +305,15 @@ $weekend = $hours['weekend'];
     
     </div>
 <!-- SECTION ONE -->
-    <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt">
-        <div class="full-width flex wrap justify-left">
+    <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt flex wrap center align-items mobile-full mobile-section-copy">
+        <div class="full-width flex wrap justify-left mobile-section-title">
             <h2 class="title veneer text-left">Ceramic Tint</h2>
         </div>
         <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
             <div class="full-width flex wrap center text-left">
-            <p class="americane copy white-copy square-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
+            <p class="americane copy white-copy square-copy mobile-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
             </div>
-            <div class="flex quote-button-margin wrap justify-right">
+            <div class="flex quote-button-margin wrap justify-right mobile-section-cta">
                 <a href="/services/window-tint" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
             </div>
         </div>
@@ -303,9 +321,9 @@ $weekend = $hours['weekend'];
 </div>
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video mobile-section-video">
     <!-- Left -->
-    <div class="half-width flex wrap center">
+    <div class="half-width flex wrap center mobile-full mobile-section-copy">
         <!-- Need to update copy -->
     <!-- <p class="copy mark text-left auto-margin copy-width-intro">
         Welcome to J's Tint, your ultimate destination for premium car accessories! We specialize in enhancing your driving experience with top-of-the-line products, including custom car stereos, sleek window tinting, and a variety of other accessories to personalize your vehicle.
@@ -313,7 +331,7 @@ $weekend = $hours['weekend'];
         Whether you're looking to upgrade your sound system, add some privacy with tinted windows, or simply want to give your car a new look, our experienced team is here to help. With years of industry experience, we have the knowledge and expertise to recommend the perfect accessories for your vehicle.
         Browse our selection online or visit our showroom to see our products up close. Let J's Tint help you take your driving experience to the next level!
     </p> -->
-    <div class="full-width flex wrap justify-left">
+    <div class="full-width flex wrap justify-left mobile-section-title">
             <h2 class="title veneer text-left">
                 Revitalize Your Ride, Protect Your Investment!
             </h2>
@@ -323,7 +341,7 @@ $weekend = $hours['weekend'];
             <h5><?php echo $section1['subtitle']; ?></h5>
             <?php echo $section1['editor']; ?>
             <div class="full-width flex wrap center text-left">
-                <p class="americane copy black-copy square-copy">
+                <p class="americane copy black-copy square-copy square-copy-width mobile-copy">
                     At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
                     Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
                     From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
@@ -333,7 +351,7 @@ $weekend = $hours['weekend'];
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container">
+    <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
         <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/h3uo4z0znmg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=h3uo4z0znmg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>

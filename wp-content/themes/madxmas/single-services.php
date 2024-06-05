@@ -44,7 +44,7 @@ endif;
 
 <div class="single-copy full-width">
     <div class="full-width flex wrap center align-items padding-top-bottom-alt">
-        <div class="seventy-width flex wrap center">
+        <div class="full-width flex wrap center">
             <div class="full-width padding-top-bottom-alt">
                 <h2 class="text-center uppercase veneer title full-width"><?php echo $service_name ?></h2>
             </div>
@@ -54,41 +54,7 @@ endif;
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
-        <div class="fourth-width flex wrap center align-items bg-linear-dark-fade padding-top-bottom-alt">
-            <div class="full-width padding-top-bottom-alt">
-                <h2 class="text-center uppercase veneer subtitle full-width white-copy">Other</br>Services</h2>
-            </div>
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">PPF</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Ceramic Coating</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Custom Audio</h2>
-                    </div>
-                </div>
-            </div>
-                        <!-- Service TAB -->
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Car Wrap</h2>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        
     </div>
 
 </div>
@@ -114,30 +80,26 @@ endif;
 
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-linear-dark-fade white-copy padding-top-bottom align-items intro-video">
+<div class="full-width flex wrap center bg-linear-dark-fade white-copy padding-top-bottom align-items intro-video mobile-section-video">
     <!-- Left -->
-    <div class="half-width flex wrap center">
-        <div class="full-width flex wrap justify-left">
+    <div class="half-width flex wrap center mobile-full mobile-section-copy">
+        <div class="full-width flex wrap justify-left mobile-section-title">
             <h2 class="title veneer text-left">
                 Service Statement
             </h2>
         </div>
  
         <div class="full-width flex wrap justify-left text-left align-items">
-            <p class="americane copy white-copy square-copy square-copy-width">
+            <p class="americane copy white-copy square-copy square-copy-width mobile-copy">
                 At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
                 Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
                 From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
                 Trust the experts at [Shop Name] to turn your car into a masterpiece.
             </p>
-            <div class="flex quote-button-margin-top wrap justify-left">
-                <a href="/services" class="nav-phone americane uppercase text-left quote-button quote-button-margin-left">Free Quote!</a>
-                <a href="/services/ppf" class="nav-phone americane uppercase text-left learn-button link-margin white-copy">More Services</a>
-            </div>
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container">
+    <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
         <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/GFplWZMHd08?controls=0&autoplay=1&mute=1&loop=1&playlist=GFplWZMHd08&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
@@ -151,7 +113,7 @@ endif;
 
 <div class="single-copy full-width">
     <div class="full-width flex wrap center align-items padding-top-bottom-alt reverse-row">
-        <div class="seventy-width flex wrap center">
+        <div class="full-width flex wrap center">
             <!-- <div class="full-width padding-top-bottom-alt">
                 <h2 class="text-center uppercase veneer title full-width">Window Tint</h2>
             </div> -->
@@ -165,56 +127,7 @@ endif;
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
-        <div class="fourth-width flex wrap center align-items bg-linear-dark-fade padding-top-bottom-alt">
-            <div class="full-width padding-top-bottom-alt">
-                <h2 class="text-center uppercase veneer subtitle full-width white-copy">Other</br>Services</h2>
-            </div>
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">PPF</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Ceramic Coating</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Custom Audio</h2>
-                    </div>
-                </div>
-            </div>
-                        <!-- Service TAB -->
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Car Wrap</h2>
-                    </div>
-                </div>
-            </div>
-                         <!-- Service TAB -->
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Car Wrap</h2>
-                    </div>
-                </div>
-            </div>
-                        <!-- Service TAB -->
-            <div class="single-service-cta flex wrap center align-items padding-top-bottom-alt text-center relative bg-linear-red-fade">
-                <div class="full-width bg-dark-opacity info-white-border">
-                    <div class="full-width flex wrap center align-items">
-                        <h2 class="hero-subtitle veneer full-width text-center uppercase no-margin">Car Wrap</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 
 </div>

@@ -62,24 +62,24 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video">
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video mobile-section-video">
     <!-- Left -->
-    <div class="half-width flex wrap center">
-        <div class="full-width flex wrap justify-left">
+    <div class="half-width flex wrap center mobile-full mobile-section-copy">
+        <div class="full-width flex wrap justify-left mobile-section-title">
             <h2 class="title veneer text-left uppercase">
                 Revolutionizing Your Ride,</br>One Detail at a Time!
             </h2>
         </div>
  
         <div class="full-width flex wrap justify-left text-left align-items">
-            <p class="americane copy black-copy square-copy square-copy-width">
+            <p class="americane copy black-copy square-copy square-copy-width mobile-copy">
                 Driven by a passion for automotive excellence, we are committed to enhancing your driving experience through precision craftsmanship, innovative solutions, and personalized service. Our mission is to inspire confidence and satisfaction in every customer, ensuring that your journey with us is nothing short of exceptional.
             </p>
         </div>
         
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container">
+    <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
         <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/GFplWZMHd08?controls=0&autoplay=1&mute=1&loop=1&playlist=GFplWZMHd08&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
@@ -87,9 +87,9 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 <!-- W i n d o w   T i n t -->
-<div class="flex wrap center square-section">
+<div class="flex wrap center square-section mobile-section">
 <!-- Left -->
-    <div class="left half-width carousel-opacity">  
+    <div class="left half-width carousel-opacity mobile-full">  
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
         <div class="owl-carousel">
@@ -100,19 +100,19 @@ $hero_subtitle = $hero_options['subtitle'];
         </div>
     </div>
 <!-- Right -->
-    <div class="right half-width bg-linear-dark-fade3 white-copy padding-top-bottom-alt flex wrap center align-items">
+    <div class="right half-width bg-linear-dark-fade3 white-copy padding-top-bottom-alt flex wrap center align-items mobile-full mobile-section-copy">
         <div class="flex wrap center align-items">
-            <div class="full-width flex wrap justify-left">
+            <div class="full-width flex wrap justify-left mobile-section-title">
                 <h2 class="title veneer text-left uppercase">
                     Ceramic Window Tint
                 </h2>
             </div>
             <div class="full-width flex wrap center text-left">
-                <p class="americane copy white-copy square-copy">
+                <p class="americane copy white-copy square-copy mobile-copy">
                     Ceramic Window Tint offers superior heat rejection, glare reduction, and UV protection, ensuring a cooler and more comfortable driving experience. Discover the ultimate combination of style and functionality for your vehicle today.
                 </p>
             </div>
-            <div class="flex full-width wrap justify-right">
+            <div class="flex full-width wrap justify-right mobile-section-cta">
                 <a href="/servies/window-tint" class="nav-phone americane uppercase text-right quote-button quote-button-margin-right">Learn More!</a>
                 <!-- <a href="/services/window-tint" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a> -->
             </div>
@@ -232,34 +232,29 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 
-
-
-
-<!-- Section-2 -->
-
-<div class="flex wrap center reverse-row padding-top-bottom overflow-x intro-video">
+<!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video mobile-section-video">
+    <!-- Left -->
+    <div class="half-width flex wrap center mobile-full mobile-section-copy">
+        <div class="full-width flex wrap justify-left mobile-section-title">
+            <h2 class="title veneer text-left uppercase">
+                Let Us Prep your</br>vehicle for PPF?
+            </h2>
+        </div>
+ 
+        <div class="full-width flex wrap justify-left text-left align-items">
+            <p class="americane copy black-copy square-copy square-copy-width mobile-copy">
+                Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.
+            </p>
+        </div>
+        
+    </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container">
+    <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
         <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/GFplWZMHd08?controls=0&autoplay=1&mute=1&loop=1&playlist=GFplWZMHd08&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-<!-- SECTION ONE -->
-    <div class="right half-width bg-white black-copy padding-top-bottom-alt align">
-        <div class="full-width flex wrap justify-left">
-            <h2 class="title veneer text-left uppercase">Let Us Prep your</br>vehicle for PPF?</h2>
-        </div>
-        <div class="full-width flex wrap justify-left text-left align-items">
-            <p class="americane copy black-copy square-copy square-copy-width">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
-        </div>
-        <div class="flex quote-button-margin-top wrap quote-button-margin-left align-items">
-            <a href="/services" class="nav-phone americane uppercase text-center quote-button">More Services</a>
-            <a href="/services/ppf" class="nav-phone americane uppercase text-right learn-button link-margin black-copy">Learn More</a>
-        </div>
-      
-    </div>
 </div>
-
-
 
 
 

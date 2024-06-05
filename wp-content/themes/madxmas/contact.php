@@ -49,7 +49,7 @@ $hero_subtitle = $hero_options['subtitle'];
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items">
     <!-- Left -->
-    <div class="third-width flex wrap center align-items">
+    <div class="third-width flex wrap center align-items mobile-full">
         <div class="full-width flex wrap justify-left">
             <h2 class="title veneer text-left">
                 Contact
@@ -67,7 +67,7 @@ $hero_subtitle = $hero_options['subtitle'];
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align-items">
+    <div class="half-width flex wrap center align-items mobile-full">
         <div class="full-width flex wrap center logo-contact">
             <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
