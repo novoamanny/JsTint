@@ -94,7 +94,7 @@ $weekend = $hours['weekend'];
             <h2 class="title veneer text-left">PPF</h2>
         </div>
         <p class="copy mark text-left auto-margin copy-width-intro">
-            Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
+        Protect your vehicle's pristine finish with our advanced Paint Protection Film (PPF), shielding against scratches, road debris, and environmental elements while maintaining its showroom shine.
         </p>
         <div class="full-width flex wrap justify-left">
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/ppf">Learn More</a>
