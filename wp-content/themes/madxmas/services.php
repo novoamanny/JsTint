@@ -117,7 +117,7 @@ $weekend = $hours['weekend'];
             <h2 class="title veneer text-left">Window Tint</h2>
         </div>
         <p class="copy mark text-left auto-margin copy-width-intro">
-            Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
+        Upgrade to our Ceramic window tint for unparalleled heat rejection, ensuring a cooler and more comfortable interior.
         </p>
         <div class="full-width flex wrap justify-left">
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
@@ -332,9 +332,7 @@ $weekend = $hours['weekend'];
             </h2>
         </div>
         <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
+     
             <div class="full-width flex wrap center text-left">
                 <p class="americane copy black-copy square-copy square-copy-width mobile-copy">
                     At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
