@@ -53,8 +53,9 @@ $hero_subtitle = $hero_options['subtitle'];
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
     <div class="owl-carousel">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-2.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
     </div>
@@ -95,7 +96,7 @@ $hero_subtitle = $hero_options['subtitle'];
         <div class="owl-carousel">
             <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-3.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
         </div>
     </div>

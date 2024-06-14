@@ -125,7 +125,7 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-cleo.jpg);">
 
     </div>
         <div class="owl-carousel">
@@ -150,7 +150,7 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-4.jpg);">
 
     </div>
         <div class="owl-carousel">
@@ -239,7 +239,7 @@ $weekend = $hours['weekend'];
 
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
+<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-5.jpg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
             <h2 class="title veneer full-width text-center uppercase">Window Tint</h2>
@@ -269,7 +269,7 @@ $weekend = $hours['weekend'];
 </div>
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/about-hero-parallex2.jpeg);">
+<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero.jpg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
             <h2 class="title veneer full-width text-center uppercase">Car Wrap</h2>

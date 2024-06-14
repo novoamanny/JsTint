@@ -23,7 +23,7 @@ $hero_subtitle = $hero_options['subtitle'];
 ?>
 
 <!-- H e r o   S e c t i o n -->
-<div class="hero-container full-width flex wrap center relative image-effect image-height-hero-big" style="background-image: url('<?php echo get_template_directory_uri();?>/src/images/about-hero-parallex2.jpeg');">      
+<div class="hero-container full-width flex wrap center relative image-effect image-height-hero-big" style="background-image: url('<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero.jpg');">      
     <div class="opacity-screen">
         <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position-hero">
             <!-- Hero Title -->
