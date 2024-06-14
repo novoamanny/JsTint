@@ -2282,6 +2282,11 @@ Image Effect Styles
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 1200px) {
+  .image-effect {
+    background-attachment: unset;
+  }
+}
 
 .image-height-hero {
   min-height: 70vh;
