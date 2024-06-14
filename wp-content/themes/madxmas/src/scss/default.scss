@@ -2580,310 +2580,31 @@ CONTACT STYLES
 ========================*/
 
 .page-template-contact{
-  .headline{
-    padding-top: 165px;
-    padding-bottom: 245px;
-    position: relative;
-
-    &:after{
-      display: none;
-      content: '';
-      width: 100px;
-      height: 40px;
-      background: url(../../img/stamp.png) no-repeat center;
-      background-size: contain;
-      width: 351px;
-      top: -90px;
-      right: 0;
-      position: absolute;
-      height: 130px;
-      z-index: 5;
-
-      @media screen and (max-width: 1000px) {
-        width: 130px;
-        top: -90px;
-        right: 20px;
-      }
-
+  .contact-section{
+    .title{
+      margin-bottom: 50px;
     }
-    
-    .headline-section{
-      padding: 0;
-      h2{
-        font-size: 70px;
-        @media screen and (max-width: 1500px) {
-          font-size: 60px;
-        }
-        @media screen and (max-width: 1200px) {
-          font-size: 50px;
-        }
-        @media screen and (max-width: 1000px) {
-          font-size: 45px;
-        }
-        @media screen and (max-width: 1000px) {
-          font-size: 40px;
-        }
-      }
+  }
+  
+  
+  .form-contact{
+    width: 80%;
+    @media screen and (max-width: 1700px) {
+      width: 25%;
     }
-    @media screen and (max-width: 1800px) {
-      padding-top: 140px;
-      padding-bottom: 200px;
-    }
-    @media screen and (max-width: 1500px) {
-      padding-top: 100px;
-      padding-bottom: 150px;
-    }
-    @media screen and (max-width: 1200px) {
-      padding-top: 70px;
-      padding-bottom: 120px;
-    } 
     @media screen and (max-width: 1000px) {
-      padding-top: 70px;
-      padding-bottom: 80px;
-    }
-    @media screen and (max-width: 750px) {
-      padding-top: 50px;
-      padding-bottom: 30px;
-    }
-  }
-  .info{
-   
-    
-  }
-  .contact-bottom{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    position: relative;
-    // width: 70%;
-
-    @media screen and (max-width:1000px) {
-      flex-direction: column;
-      align-items: center;
-    }
-    
-  }
-  .content-contact{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-    .map{
       width: 70%;
-      margin-top: 100px;
-      margin-bottom: 120px;
-      @media screen and (max-width:1200px) {
-        margin-top: 80px;
-        margin-bottom: 80px;
-      }
-      @media screen and (max-width:1200px) {
-        margin-top: 50px;
-        margin-bottom: 80px;
-      }
-      @media screen and (max-width:850px) {
-        width: 80%;
-        margin-bottom: 50px;
-      }
-    }
-    .location, .hours{
-      padding: 20px;
-      border: solid 1px #B62025;
-      width: 70%;
-      margin: 20px 0;
-      position: relative;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding-top: 35px;
-      margin-bottom: 40px;
-      @media screen and (max-width: 850px) {
-        padding-top: 0;
-      }
-      @media screen and (max-width: 600px) {
-        width: 90%;
-      }
-
-      
-    }
-    .contact-copy{
-      width: 100%;
-      p{
-        line-height: 1em;
-        text-align: center;
-        width: 100%;
-        margin-top: 15px;
-        padding-bottom: 0;
-        color: #B62025;
-        font-weight: lighter;
-        font-size: 27px;
-        font-family: "Bigola Display";
-        @media screen and (max-width: 1800px) {
-          font-size: 22px;
-        }
-        @media screen and (max-width: 1300px) {
-          font-size: 18px;
-        }
-      }
-    }
-    .location{
-      position: relative;
-    }
-    h3{
-        
-      color: #B62025;
-      // background-color: $maroon;
-      text-align: center;
-      width: 100%;
-      margin-bottom: 0;
-      font-family: "Bigola Display";
-      font-weight: lighter;
-      @media screen and (max-width: 1700px) {
-        font-size: 25px;
-      }
-      @media screen and (max-width: 1400px) {
-        font-size: 20px;
-      }
-    }
-    .watermark-logo{
-      position: absolute;
-      top: -35%;
-      right: -5%;
-      opacity: 0.1;
-      width: 800px;
-      height: 800px;
-      z-index: -1;
-    }
-    .information{
-      width: 20%;
-      margin-right: 50px;
-      // margin: 0 50px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      position: relative;
-      @media screen and (max-width: 1700px) {
-        width: 25%;
-      }
-      @media screen and (max-width: 1000px) {
-        width: 70%;
-        margin-right: 0;
-      }
-      .stars{
-        position: absolute;
-        top: -15%;
-        left: -20%;
-        @media screen and (max-width: 1800px) {
-          width: 20%;
-          top: -5%;
-          left: -12%;
-        }
-        @media screen and (max-width: 600px) {
-          top: -5%;
-        }
-      }
-      // @media screen and (max-width: 2200px) {
-      //   width: 30%;
-      // }
-      // @media screen and (max-width: 1800px) {
-      //   width: 35%;
-      // }
-    }
-    .form-contact{
-      width: 20%;
-      margin-left: 50px;
-      @media screen and (max-width: 1700px) {
-        width: 25%;
-      }
-      @media screen and (max-width: 1000px) {
-        width: 70%;
-        margin-left: 0;
-
-        input, textarea{
-          box-sizing: border-box;
-        }
-        input[type=submit]{
-          min-width: 100px;
-          padding: 10px;
-          font-size: 10px;
-        }
-      }
-      h3.intro{
-        padding-bottom: 20px;
-      }
-    }
-    form{
-      // display: flex;
-      // flex-wrap: wrap;
-      // justify-content: center;
-      
-      // @media screen and (max-width: 850px) {
-      //   padding-top: 40px;
-      // }
-      p.intro{
-        width: 100%;
-        text-align: center;
-        color: $salmonDark;
-        font-weight: 600;
-        // text-transform: uppercase;
-        margin: 0;
-        font-family: "Bigola Display";
-      }
-      .field{
-        margin: 0;
-        
-        cursor:text;
-        color: $salmonDark;
-    
-        p{
-          margin: 0;
-          padding: 0;
-        }
-      }
-      .email{
-        // padding: 0;
-        // margin: 0;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        
-      }
-      input, textarea{
-        margin-bottom: 20px;
-        padding: 20px 20px;
-        width: 100%;
-        max-width: 340px;
-        color: $salmonDark;
-
-        &::-webkit-input-placeholder { /* Edge */
-          font-family: "Bigola Display";
-          color: $salmonDark;
-        }
-        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-          font-family: "Bigola Display";
-          color: $salmonDark;
-        }
-        &::placeholder {
-          font-family: "Bigola Display";
-          color: $salmonDark;
-        }
-      }
-      
+      margin-left: 0;
       input[type=submit]{
-        width: auto;
-        min-width: 160px;
-        transition: 0.3s all ease;
-        padding: 15px;
-        font-family: "Bigola Display";
-        letter-spacing: .25em;
-        text-transform: none;
-
-        &:hover{
-          background-color: $cherry;
-          color: $white;
-        }
+        min-width: 100px;
+        padding: 10px;
+        font-size: 10px;
       }
     }
   }
+
+  
+
   .wpcf7-response-output{
     color: #B62025;
   }
@@ -2898,10 +2619,63 @@ FORM STYLES
 .page-template-contact{
   .logo-contact{
     img{
-      width: 320px;
+      width: 350px;
     }
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
+
+  form{
+    .field{
+      cursor:text;
+      color: $dark;
+      width: 92%;
+    }
+    .email{
+      width: 100%;
+      
+    }
+    input, textarea{
+      margin-bottom: 20px;
+      padding: 20px 20px;
+      font-size: 1.5rem;
+
+      color: $salmonDark;
+
+      &::-webkit-input-placeholder { /* Edge */
+        font-family: "Bigola Display";
+
+      }
+      &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-family: "Bigola Display";
+
+      }
+      &::placeholder {
+        font-family: "Bigola Display";
+
+      }
+    }
+    input[type=text]{
+      width: 41%;
+    }
+    
+    input[type=submit]{
+      width: auto;
+      min-width: 160px;
+      transition: 0.3s all ease;
+      padding: 15px;
+      font-family: "Bigola Display";
+      letter-spacing: .25em;
+      text-transform: none;
+
+      &:hover{
+        background-color: $cherry;
+        color: $white;
+      }
+    }
+  }
+
+
+
 }
 
 form{

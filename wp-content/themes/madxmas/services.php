@@ -104,10 +104,8 @@ $weekend = $hours['weekend'];
 
     </div>
         <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
         </div>
 </div>
 
@@ -130,8 +128,8 @@ $weekend = $hours['weekend'];
     </div>
         <div class="owl-carousel">
             <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-cleo.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
         </div>
 </div>
@@ -154,10 +152,7 @@ $weekend = $hours['weekend'];
 
     </div>
         <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
         </div>
 </div>
 
@@ -165,7 +160,7 @@ $weekend = $hours['weekend'];
 <div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row parralex parralex-no-reverse" >
     <div class="third-width padding-top-bottom-alt parallex-copy">
         <div class="full-width">
-            <h2 class="title veneer text-left">Window Tint</h2>
+            <h2 class="title veneer text-left">Another Service</h2>
         </div>
         <p class="copy mark text-left auto-margin copy-width-intro">
             Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
@@ -179,7 +174,7 @@ $weekend = $hours['weekend'];
     </div>
         <div class="owl-carousel">
             <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-cleo.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
             <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
         </div>
@@ -307,7 +302,7 @@ $weekend = $hours['weekend'];
 <!-- SECTION ONE -->
     <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt flex wrap center align-items mobile-full mobile-section-copy">
         <div class="full-width flex wrap justify-left mobile-section-title">
-            <h2 class="title veneer text-left">Ceramic Tint</h2>
+            <h2 class="title veneer text-left">Gallery/Thank You</h2>
         </div>
         <div class="copy">
             <div class="full-width flex wrap center text-left">
@@ -333,7 +328,7 @@ $weekend = $hours['weekend'];
     </p> -->
     <div class="full-width flex wrap justify-left mobile-section-title">
             <h2 class="title veneer text-left">
-                Revitalize Your Ride, Protect Your Investment!
+                Video
             </h2>
         </div>
         <div class="copy">

@@ -47,7 +47,7 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items">
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items contact-section">
     <!-- Left -->
     <div class="third-width flex wrap center align-items mobile-full">
         <div class="full-width flex wrap justify-left">
@@ -56,9 +56,6 @@ $hero_subtitle = $hero_options['subtitle'];
             </h2>
         </div>
         <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
             <div class="full-width flex wrap center text-left">
                 <p class="americane copy black-copy square-copy">
                 We're here to make your experience as seamless as possible. If you have any questions or need assistance, please don't hesitate to reach out to us using the form below. Our dedicated team is ready to assist you with any inquiries or concerns you may have. Your satisfaction is our top priority, and we look forward to helping you with your automotive needs.
@@ -67,16 +64,17 @@ $hero_subtitle = $hero_options['subtitle'];
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align-items mobile-full">
+    <div class="half-width flex wrap center align-items contact-form mobile-full">
         <div class="full-width flex wrap center logo-contact">
             <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
-       <form class="full-width flex wrap center">
-            <div class="full-width flex">
-                <input class="half-width"/>
-                <input class="half-width"/>
+       <form class="full-width flex wrap center form-contact">
+            <div class="full-width flex wrap center">
+                <input placeholder="First Name" name="first_name" type="text" class=""/>
+                <input placeholder="Last Name" name="last_name" type="text" class=""/>
             </div>
-            <input class="full-width"/>
+            <input placeholder="Email" name="email" type="email" class="full-width"/>
+            <input placeholder="Phone #" name="phone" type="phone" class="full-width"/>
             <div class="full-width flex wrap space-between">
                 <input class="fourth-width"/>
                 <input class="fourth-width"/>

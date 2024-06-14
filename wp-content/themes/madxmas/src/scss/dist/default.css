@@ -2634,322 +2634,27 @@ BLOG STYLES
 /*======================
 CONTACT STYLES
 ========================*/
-.page-template-contact .headline {
-  padding-top: 165px;
-  padding-bottom: 245px;
-  position: relative;
+.page-template-contact .contact-section .title {
+  margin-bottom: 50px;
 }
-.page-template-contact .headline:after {
-  display: none;
-  content: "";
-  width: 100px;
-  height: 40px;
-  background: url(../../img/stamp.png) no-repeat center;
-  background-size: contain;
-  width: 351px;
-  top: -90px;
-  right: 0;
-  position: absolute;
-  height: 130px;
-  z-index: 5;
-}
-@media screen and (max-width: 1000px) {
-  .page-template-contact .headline:after {
-    width: 130px;
-    top: -90px;
-    right: 20px;
-  }
-}
-.page-template-contact .headline .headline-section {
-  padding: 0;
-}
-.page-template-contact .headline .headline-section h2 {
-  font-size: 70px;
-}
-@media screen and (max-width: 1500px) {
-  .page-template-contact .headline .headline-section h2 {
-    font-size: 60px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .page-template-contact .headline .headline-section h2 {
-    font-size: 50px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .page-template-contact .headline .headline-section h2 {
-    font-size: 45px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .page-template-contact .headline .headline-section h2 {
-    font-size: 40px;
-  }
-}
-@media screen and (max-width: 1800px) {
-  .page-template-contact .headline {
-    padding-top: 140px;
-    padding-bottom: 200px;
-  }
-}
-@media screen and (max-width: 1500px) {
-  .page-template-contact .headline {
-    padding-top: 100px;
-    padding-bottom: 150px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .page-template-contact .headline {
-    padding-top: 70px;
-    padding-bottom: 120px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .page-template-contact .headline {
-    padding-top: 70px;
-    padding-bottom: 80px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .page-template-contact .headline {
-    padding-top: 50px;
-    padding-bottom: 30px;
-  }
-}
-.page-template-contact .contact-bottom {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  position: relative;
-}
-@media screen and (max-width: 1000px) {
-  .page-template-contact .contact-bottom {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.page-template-contact .content-contact {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.page-template-contact .content-contact .map {
-  width: 70%;
-  margin-top: 100px;
-  margin-bottom: 120px;
-}
-@media screen and (max-width: 1200px) {
-  .page-template-contact .content-contact .map {
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .page-template-contact .content-contact .map {
-    margin-top: 50px;
-    margin-bottom: 80px;
-  }
-}
-@media screen and (max-width: 850px) {
-  .page-template-contact .content-contact .map {
-    width: 80%;
-    margin-bottom: 50px;
-  }
-}
-.page-template-contact .content-contact .location, .page-template-contact .content-contact .hours {
-  padding: 20px;
-  border: solid 1px #B62025;
-  width: 70%;
-  margin: 20px 0;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 35px;
-  margin-bottom: 40px;
-}
-@media screen and (max-width: 850px) {
-  .page-template-contact .content-contact .location, .page-template-contact .content-contact .hours {
-    padding-top: 0;
-  }
-}
-@media screen and (max-width: 600px) {
-  .page-template-contact .content-contact .location, .page-template-contact .content-contact .hours {
-    width: 90%;
-  }
-}
-.page-template-contact .content-contact .contact-copy {
-  width: 100%;
-}
-.page-template-contact .content-contact .contact-copy p {
-  line-height: 1em;
-  text-align: center;
-  width: 100%;
-  margin-top: 15px;
-  padding-bottom: 0;
-  color: #B62025;
-  font-weight: lighter;
-  font-size: 27px;
-  font-family: "Bigola Display";
-}
-@media screen and (max-width: 1800px) {
-  .page-template-contact .content-contact .contact-copy p {
-    font-size: 22px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .page-template-contact .content-contact .contact-copy p {
-    font-size: 18px;
-  }
-}
-.page-template-contact .content-contact .location {
-  position: relative;
-}
-.page-template-contact .content-contact h3 {
-  color: #B62025;
-  text-align: center;
-  width: 100%;
-  margin-bottom: 0;
-  font-family: "Bigola Display";
-  font-weight: lighter;
+.page-template-contact .form-contact {
+  width: 80%;
 }
 @media screen and (max-width: 1700px) {
-  .page-template-contact .content-contact h3 {
-    font-size: 25px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .page-template-contact .content-contact h3 {
-    font-size: 20px;
-  }
-}
-.page-template-contact .content-contact .watermark-logo {
-  position: absolute;
-  top: -35%;
-  right: -5%;
-  opacity: 0.1;
-  width: 800px;
-  height: 800px;
-  z-index: -1;
-}
-.page-template-contact .content-contact .information {
-  width: 20%;
-  margin-right: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
-}
-@media screen and (max-width: 1700px) {
-  .page-template-contact .content-contact .information {
+  .page-template-contact .form-contact {
     width: 25%;
   }
 }
 @media screen and (max-width: 1000px) {
-  .page-template-contact .content-contact .information {
-    width: 70%;
-    margin-right: 0;
-  }
-}
-.page-template-contact .content-contact .information .stars {
-  position: absolute;
-  top: -15%;
-  left: -20%;
-}
-@media screen and (max-width: 1800px) {
-  .page-template-contact .content-contact .information .stars {
-    width: 20%;
-    top: -5%;
-    left: -12%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .page-template-contact .content-contact .information .stars {
-    top: -5%;
-  }
-}
-.page-template-contact .content-contact .form-contact {
-  width: 20%;
-  margin-left: 50px;
-}
-@media screen and (max-width: 1700px) {
-  .page-template-contact .content-contact .form-contact {
-    width: 25%;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .page-template-contact .content-contact .form-contact {
+  .page-template-contact .form-contact {
     width: 70%;
     margin-left: 0;
   }
-  .page-template-contact .content-contact .form-contact input, .page-template-contact .content-contact .form-contact textarea {
-    box-sizing: border-box;
-  }
-  .page-template-contact .content-contact .form-contact input[type=submit] {
+  .page-template-contact .form-contact input[type=submit] {
     min-width: 100px;
     padding: 10px;
     font-size: 10px;
   }
-}
-.page-template-contact .content-contact .form-contact h3.intro {
-  padding-bottom: 20px;
-}
-.page-template-contact .content-contact form p.intro {
-  width: 100%;
-  text-align: center;
-  color: #E67C75;
-  font-weight: 600;
-  margin: 0;
-  font-family: "Bigola Display";
-}
-.page-template-contact .content-contact form .field {
-  margin: 0;
-  cursor: text;
-  color: #E67C75;
-}
-.page-template-contact .content-contact form .field p {
-  margin: 0;
-  padding: 0;
-}
-.page-template-contact .content-contact form .email {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.page-template-contact .content-contact form input, .page-template-contact .content-contact form textarea {
-  margin-bottom: 20px;
-  padding: 20px 20px;
-  width: 100%;
-  max-width: 340px;
-  color: #E67C75;
-}
-.page-template-contact .content-contact form input::-webkit-input-placeholder, .page-template-contact .content-contact form textarea::-webkit-input-placeholder {
-  /* Edge */
-  font-family: "Bigola Display";
-  color: #E67C75;
-}
-.page-template-contact .content-contact form input:-ms-input-placeholder, .page-template-contact .content-contact form textarea:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  font-family: "Bigola Display";
-  color: #E67C75;
-}
-.page-template-contact .content-contact form input::placeholder, .page-template-contact .content-contact form textarea::placeholder {
-  font-family: "Bigola Display";
-  color: #E67C75;
-}
-.page-template-contact .content-contact form input[type=submit] {
-  width: auto;
-  min-width: 160px;
-  transition: 0.3s all ease;
-  padding: 15px;
-  font-family: "Bigola Display";
-  letter-spacing: 0.25em;
-  text-transform: none;
-}
-.page-template-contact .content-contact form input[type=submit]:hover {
-  background-color: #B62025;
-  color: #fff;
 }
 .page-template-contact .wpcf7-response-output {
   color: #B62025;
@@ -2962,10 +2667,51 @@ CONTACT STYLES
 FORM STYLES
 ========================*/
 .page-template-contact .logo-contact {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .page-template-contact .logo-contact img {
-  width: 320px;
+  width: 350px;
+}
+.page-template-contact form .field {
+  cursor: text;
+  color: #1a1a1a;
+  width: 92%;
+}
+.page-template-contact form .email {
+  width: 100%;
+}
+.page-template-contact form input, .page-template-contact form textarea {
+  margin-bottom: 20px;
+  padding: 20px 20px;
+  font-size: 1.5rem;
+  color: #E67C75;
+}
+.page-template-contact form input::-webkit-input-placeholder, .page-template-contact form textarea::-webkit-input-placeholder {
+  /* Edge */
+  font-family: "Bigola Display";
+}
+.page-template-contact form input:-ms-input-placeholder, .page-template-contact form textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "Bigola Display";
+}
+.page-template-contact form input::placeholder, .page-template-contact form textarea::placeholder {
+  font-family: "Bigola Display";
+}
+.page-template-contact form input[type=text] {
+  width: 41%;
+}
+.page-template-contact form input[type=submit] {
+  width: auto;
+  min-width: 160px;
+  transition: 0.3s all ease;
+  padding: 15px;
+  font-family: "Bigola Display";
+  letter-spacing: 0.25em;
+  text-transform: none;
+}
+.page-template-contact form input[type=submit]:hover {
+  background-color: #B62025;
+  color: #fff;
 }
 
 form {
