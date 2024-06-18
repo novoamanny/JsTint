@@ -2731,7 +2731,7 @@ form{
 }
 
 
-.forminator-ui#forminator-module-186.forminator-design--default, .forminator-button-submit {
+.forminator-ui#forminator-module-186.forminator-design--default, .forminator-ui#forminator-module-25.forminator-design--default, .forminator-button-submit {
   .quote-button{
     text-decoration: none;
     color: $white;
@@ -2778,7 +2778,7 @@ form{
   }
 }
 
-.forminator-ui#forminator-module-186.forminator-design--default{
+.forminator-ui#forminator-module-186.forminator-design--default, .forminator-ui#forminator-module-25.forminator-design--default{
   @media (max-width: 2000px) {
     margin: 0;
   }

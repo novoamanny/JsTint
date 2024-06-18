@@ -2783,12 +2783,12 @@ form textarea {
   margin: 15px 20px;
 }
 
-.forminator-ui#forminator-module-186.forminator-design--default, .forminator-button-submit {
+.forminator-ui#forminator-module-186.forminator-design--default, .forminator-ui#forminator-module-25.forminator-design--default, .forminator-button-submit {
   background-color: #2c2c2c;
   padding: 70px 20px;
   margin: 0 120px;
 }
-.forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
+.forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-ui#forminator-module-25.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
   text-decoration: none;
   color: #fff;
   background-color: #e51b1b;
@@ -2798,48 +2798,48 @@ form textarea {
   font-size: 2rem;
 }
 @media (max-width: 2200px) {
-  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
+  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-ui#forminator-module-25.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
     font-size: 1.7rem;
   }
 }
 @media (max-width: 2000px) {
-  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
+  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-ui#forminator-module-25.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
     font-size: 1.4rem;
     padding: 12px 30px;
   }
 }
 @media (max-width: 1800px) {
-  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
+  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-ui#forminator-module-25.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
     font-size: 1.2rem;
     padding: 12px 30px;
   }
 }
 @media (max-width: 1600px) {
-  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
+  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-ui#forminator-module-25.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
     font-size: 1rem;
     padding: 10px 30px;
   }
 }
 @media (max-width: 1500px) {
-  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
+  .forminator-ui#forminator-module-186.forminator-design--default .quote-button, .forminator-ui#forminator-module-25.forminator-design--default .quote-button, .forminator-button-submit .quote-button {
     font-size: 0.9rem;
     padding: 10px 30px;
   }
 }
-.forminator-ui#forminator-module-186.forminator-design--default span, .forminator-button-submit span {
+.forminator-ui#forminator-module-186.forminator-design--default span, .forminator-ui#forminator-module-25.forminator-design--default span, .forminator-button-submit span {
   color: #fff;
 }
-.forminator-ui#forminator-module-186.forminator-design--default input, .forminator-button-submit input {
+.forminator-ui#forminator-module-186.forminator-design--default input, .forminator-ui#forminator-module-25.forminator-design--default input, .forminator-button-submit input {
   padding: 14px 10px;
   border-radius: 7px;
 }
-.forminator-ui#forminator-module-186.forminator-design--default textarea, .forminator-button-submit textarea {
+.forminator-ui#forminator-module-186.forminator-design--default textarea, .forminator-ui#forminator-module-25.forminator-design--default textarea, .forminator-button-submit textarea {
   padding: 14px 10px;
   border-radius: 7px;
 }
 
 @media (max-width: 2000px) {
-  .forminator-ui#forminator-module-186.forminator-design--default {
+  .forminator-ui#forminator-module-186.forminator-design--default, .forminator-ui#forminator-module-25.forminator-design--default {
     margin: 0;
   }
 }

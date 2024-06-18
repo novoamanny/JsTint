@@ -76,6 +76,11 @@ $hero_subtitle = $hero_options['subtitle'];
             // Inject the PHP statement with the dynamic ID into the do_shortcode function
             echo do_shortcode('[forminator_form id="186"]');
         ?>
+         <?php
+            // Inject the PHP statement with the dynamic ID into the do_shortcode function
+            echo do_shortcode('[forminator_form id="25"]');
+        ?>
+        [forminator_form id="25"]
 
 
        <!-- <form class="full-width flex wrap center form-contact">
