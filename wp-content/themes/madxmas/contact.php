@@ -72,10 +72,10 @@ $hero_subtitle = $hero_options['subtitle'];
             <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
 
-        <?php
+        <!-- <?php
             // Inject the PHP statement with the dynamic ID into the do_shortcode function
             echo do_shortcode('[forminator_form id="186"]');
-        ?>
+        ?> -->
          <?php
             // Inject the PHP statement with the dynamic ID into the do_shortcode function
             echo do_shortcode('[forminator_form id="25"]');
