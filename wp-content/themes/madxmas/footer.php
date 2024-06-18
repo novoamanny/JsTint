@@ -29,8 +29,22 @@ $weekend_2 = $hours['weekend_2'];
 
 $arch_carousel = array();
 ?>
-<footer id="contact">
-   
+<footer class="flex wrap center full-width">
+   <div class="third-width flex wrap justify-right">
+        <!-- <ul class="copy white-copy full-width flex wrap center">
+            <li class="full-width"><a href="/services">Services</a></li>
+            <li class="full-width"><a href="/contact">Contact</a></li>
+            <li class="full-width"><a href="/about">About</a></li>
+        </ul> -->
+   </div>
+   <div class="third-width flex wrap center">
+       <div class="full-width flex wrap center logo-contact">
+            <img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
+        </div>
+   </div>
+   <div class="third-width flex wrap center">
+    
+   </div>
 </footer>
 
 <div class="windowtop"></div>

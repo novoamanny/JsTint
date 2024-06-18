@@ -21,6 +21,23 @@ if($service_name == 'PPF') : {
     $service_name = 'Paint Protection Film';
 }
 endif;
+
+
+
+
+$hero = get_field('hero');
+$hero_title = $hero['title'];
+$hero_subtitle = $hero['subtitle'];
+$hero_image = $hero['image'];
+
+$service = get_field('single_service');
+$service_tab = $service['service_tab'];
+$copy_top = $service['copy_top'];
+$copy_bottom = $service['copy_bottom'];
+
+$service_tab_title = $service_tab['title'];
+$service_tab_copy = $service_tab['copy'];
+$service_tab_image = $service_tab['image'];
 ?>
 
 
