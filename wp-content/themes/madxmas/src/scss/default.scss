@@ -980,7 +980,7 @@ CONTENT STYLES
 
   .hero-subtitle{
       font-size: .9rem;
-      margin: 15px 10px;
+      margin: 15px 0px;
       letter-spacing: 4px;
   }
   .hero-title{
@@ -995,7 +995,7 @@ CONTENT STYLES
 
   .hero-subtitle{
       font-size: .8rem;
-      margin: 15px 10px;
+      margin: 15px 0px;
       letter-spacing: 4px;
       line-height: 1.3rem;
   }
@@ -1010,7 +1010,7 @@ CONTENT STYLES
 
   .hero-subtitle{
       font-size: .8rem;
-      margin: 15px 10px;
+      margin: 15px 0px;
       letter-spacing: 4px;
       line-height: 1.3rem;
   }
@@ -2219,10 +2219,17 @@ Image Effect Styles
   @media (max-width: 800px) {
     min-height: 50vh;
   }
+  @media (max-width: 600px) {
+    min-height: 35vh;
+    .title-position-hero{
+      width: 100%;
+      left: 0;
+    }
+  }
   @media (max-width: 500px) {
     .title-position-hero{
       top: 45%;
-      width: 80%;
+      // width: 80%;
       text-align: center;
     }
   }
@@ -2623,8 +2630,34 @@ FORM STYLES
   .logo-contact{
     img{
       width: 350px;
+      @media (max-width: 2200px) {
+        width: 300px;
+      }
+      @media (max-width: 2000px) {
+        width: 270px;
+      }
+      @media (max-width: 1800px) {
+        width: 240px;
+      }
+      @media (max-width: 750px) {
+        width: 200px;
+      }
     }
     margin-bottom: 60px;
+    @media (max-width: 1300px) {
+      display: none;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 500px) {
+      display: none;
+      margin: 0px 0;
+    }
+  }
+  .logo-contact-mobile{
+    display: none;
+    @media (max-width: 1300px) {
+      display: flex;
+    }
   }
 
   form{
@@ -2694,6 +2727,89 @@ form{
     padding: 14px 10px;
     border-radius: 7px;
     margin: 15px 20px;
+  }
+}
+
+
+.forminator-ui#forminator-module-186.forminator-design--default, .forminator-button-submit {
+  .quote-button{
+    text-decoration: none;
+    color: $white;
+    background-color: rgb(229, 27, 27);
+    padding: 15px 35px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 2rem;
+    @media (max-width: 2200px) {
+      font-size: 1.7rem;
+    }
+    @media (max-width: 2000px) {
+      font-size: 1.4rem;
+      padding: 12px 30px;
+    }
+    @media (max-width: 1800px) {
+      font-size: 1.2rem;
+      padding: 12px 30px;
+    }
+    @media (max-width: 1600px) {
+      font-size: 1rem;
+      padding: 10px 30px;
+    }
+    @media (max-width: 1500px) {
+      font-size: .9rem;
+      padding: 10px 30px;
+    }
+  }
+  span{
+    color: $white;
+  }
+  background-color: #2c2c2c;
+  padding: 70px 20px;
+  margin: 0 120px;
+  input{
+    padding: 14px 10px;
+    border-radius: 7px;
+    
+  }
+  textarea{
+    padding: 14px 10px;
+    border-radius: 7px;
+    
+  }
+}
+
+.forminator-ui#forminator-module-186.forminator-design--default{
+  @media (max-width: 2000px) {
+    margin: 0;
+  }
+}
+.contact-section{
+  .third-width{
+    @media (max-width: 2000px) {
+      width: 40%;
+    }
+  }
+  @media (max-width: 1300px) {
+    .third-width {
+      width: 100%;
+      padding: 0px 0 100px 0;
+      .title{
+        text-align: center;
+        width: 100%;
+        margin: 50px 0;
+      }
+    }
+    .half-width{
+      width: 90%;
+    }
+  }
+  @media (max-width: 500px) {
+    .half-width{
+      width: 100%;
+    }
+    .third-width{
+      padding-bottom: 50px;
+    }
   }
 }
 
@@ -3423,6 +3539,19 @@ MOBILE QUERIES
 @media (max-width: 1000px) {
   .info-tab-long.image-height-service{
     min-height: 600px;
+    padding: 20px 0;
+  }
+}
+@media (max-width: 750px) {
+  .info-tab-long.image-height-service{
+    min-height: 600px;
+    padding: 40px 0;
+  }
+}
+@media (max-width: 500px) {
+  .info-tab-long.image-height-service{
+    min-height: 600px;
+    padding: 60px 0;
   }
 }
 

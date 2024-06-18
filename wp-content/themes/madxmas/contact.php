@@ -50,6 +50,9 @@ $hero_subtitle = $hero_options['subtitle'];
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items contact-section">
     <!-- Left -->
     <div class="third-width flex wrap center align-items mobile-full">
+        <div class="full-width flex wrap center logo-contact logo-contact-mobile">
+            <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
+        </div>
         <div class="full-width flex wrap justify-left">
             <h2 class="title veneer text-left">
                 Contact
@@ -68,7 +71,14 @@ $hero_subtitle = $hero_options['subtitle'];
         <div class="full-width flex wrap center logo-contact">
             <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
-       <form class="full-width flex wrap center form-contact">
+
+        <?php
+            // Inject the PHP statement with the dynamic ID into the do_shortcode function
+            echo do_shortcode('[forminator_form id="186"]');
+        ?>
+
+
+       <!-- <form class="full-width flex wrap center form-contact">
             <div class="full-width flex wrap center">
                 <input placeholder="First Name" name="first_name" type="text" class=""/>
                 <input placeholder="Last Name" name="last_name" type="text" class=""/>
@@ -80,20 +90,20 @@ $hero_subtitle = $hero_options['subtitle'];
                 <input class="fourth-width"/>
                 <input class="fourth-width"/>
             </div>
-            <textarea id="Message" name="message" rows="10" cols="50" class="full-width field" placeholder="Let's talk coffee here..." required></textarea>
+            <textarea id="Message" name="message" rows="10" cols="50" class="full-width field" placeholder="Let's talk coffee here..." required></textarea> -->
                     <!-- Free Quote CTA -->
-        <div class="full-width hero-cta-margin text-center">
+        <!-- <div class="full-width hero-cta-margin text-center">
             <a href="/" class="nav-phone americane uppercase text-left quote-button">
                 Submit
             </a>
         </div>
-       </form>
+       </form> -->
     </div>
 </div>
 
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Tesla-shop.jpg);">
+<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Tesla-shop.jpg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity">
         <div class="full-width">
             <h2 class="title veneer full-width text-center ">Revolutionizing Your Ride, </br> One Detail at a Time!</h2>
