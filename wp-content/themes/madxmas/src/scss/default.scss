@@ -4312,6 +4312,9 @@ MEDIA QUERIES
     top: 1em;
     width: 4em;
   }
+  #menu .brand{
+    margin-bottom: 30px;
+  }
   #menu ul {
     list-style: none;
     padding: 0;
@@ -4320,7 +4323,7 @@ MEDIA QUERIES
     padding: 0;
 
     @media screen and (max-width: 1000px) {
-      margin: 0 5%;
+      margin: 15px 5%;
       padding: 0 0;
 
       &:last-child {

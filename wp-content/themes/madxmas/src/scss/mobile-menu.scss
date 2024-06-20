@@ -49,6 +49,7 @@ $blueLight: #3397B4;
     visibility: hidden;
     width: 100%;
     z-index: 1000;
+    background: linear-gradient( rgb(229, 27, 27), $cherry);
 }
 #menu .inner {
     -moz-transform: translateY(0.5em);
@@ -80,7 +81,7 @@ $blueLight: #3397B4;
 #menu li a {
     font-size: 16px;
     font-weight:700;
-    color: $cherry;
+    color: #fff;
     padding: 0;
     text-transform: uppercase;
     text-decoration: none;

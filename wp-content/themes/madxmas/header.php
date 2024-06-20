@@ -79,6 +79,9 @@
                         <div class="white-bar"></div>
                         <nav id="menu" class="mobilemenu">
                             <div class="inner">
+                            <div class="brand">
+                                <a href="<?php echo esc_url(home_url('/')); ?>"><img style="max-width: 200px;" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="Madisonville Christmas logo" /></a>
+                            </div>
                                 <?php wp_nav_menu(array('theme_location' => 'mobile', 'menu_class' => 'mobile', 'depth' => 1)); ?>
                                 <a href="#" class="close">Close</a>
                             </div>
