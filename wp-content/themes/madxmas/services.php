@@ -120,7 +120,7 @@ $weekend = $hours['weekend'];
         Upgrade to our Ceramic window tint for unparalleled heat rejection, ensuring a cooler and more comfortable interior.
         </p>
         <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/window-tint">Learn More</a>
         </div>
     </div>
     <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-cleo.jpg);">
@@ -145,7 +145,7 @@ $weekend = $hours['weekend'];
             Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
         </p>
         <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/">Learn More</a>
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/car-audio">Learn More</a>
         </div>
     </div>
     <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-4.jpg);">
