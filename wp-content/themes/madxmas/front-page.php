@@ -28,6 +28,13 @@ $hero_options = get_field("hero_options");
 // H e r o   O p t i o n s
 $hero_title = $hero_options['title'];
 $hero_subtitle = $hero_options['subtitle'];
+$hero_images = $hero_options['hero_images'];
+// Hero Images
+$hero_image1 = $hero_images['hero_1'];
+$hero_image2 = $hero_images['hero_2'];
+$hero_image3 = $hero_images['hero_3'];
+$hero_image4 = $hero_images['hero_4'];
+$hero_image5 = $hero_images['hero_5'];
 
 ?>
 
@@ -53,11 +60,11 @@ $hero_subtitle = $hero_options['subtitle'];
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
     <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-2.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
+            <img src="<?php echo $hero_image1;?>" />
+            <img src="<?php echo $hero_image2;?>" />
+            <img src="<?php echo $hero_image3;?>" />
+            <img src="<?php echo $hero_image4;?>" />
+            <img src="<?php echo $hero_image5;?>" />
     </div>
 </div>
 
