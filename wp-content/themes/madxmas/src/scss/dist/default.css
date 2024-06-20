@@ -4387,7 +4387,7 @@ MEDIA QUERIES
   }
 }
 @media (max-width: 1100px) {
-  .home .top .brand img {
+  .top .brand img {
     display: none;
   }
 }

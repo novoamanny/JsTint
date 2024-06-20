@@ -25,10 +25,11 @@ endif;
 
 
 
-$hero = get_field('hero');
+$hero = get_field('hero_options');
+$hero_images = get_field('hero_image');
 $hero_title = $hero['title'];
 $hero_subtitle = $hero['subtitle'];
-$hero_image = $hero['image'];
+$hero_image = $hero_images['image'];
 
 $service = get_field('single_service');
 $service_tab = $service['service_tab'];
@@ -42,17 +43,17 @@ $service_tab_image = $service_tab['image'];
 
 
 <!-- H e r o   S e c t i o n -->
-<div class="hero-container full-width flex wrap center relative image-effect image-height-hero-big" style="background-image: url('<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg');">      
+<div class="hero-container full-width flex wrap center relative image-effect image-height-hero-big" style="background-image: url('<?php echo $hero_image;?>');">      
     <div class="opacity-screen relative">
         <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position-hero">
             <!-- Hero Title -->
             <h2 class="hero-title veneer">
-                <?php echo $service_name ?>
+                <?php echo $hero_title ?>
             </h2>
             <!-- Hero Subtitle -->
-            <h2 class="hero-subtitle americane white-copy">
+            <!-- <h2 class="hero-subtitle americane white-copy">
                 Ceramic Tint
-            </h2>
+            </h2> -->
         </div>
     </div>
     <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" />
@@ -80,7 +81,7 @@ $service_tab_image = $service_tab['image'];
 
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
+<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url('<?php echo $hero_image;?>');">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
             <h2 class="title veneer full-width text-center uppercase">Service Description</h2>

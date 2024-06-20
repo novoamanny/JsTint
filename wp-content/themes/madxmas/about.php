@@ -61,7 +61,7 @@ $hero_subtitle = $hero_options['subtitle'];
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
     <!-- Left -->
     <div class="half-width flex wrap center mobile-full">
-        <div class="full-width flex wrap center">
+        <div class="full-width flex wrap center align-items">
             <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
         <div class="copy">
