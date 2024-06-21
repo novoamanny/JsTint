@@ -30,20 +30,42 @@ $weekend_2 = $hours['weekend_2'];
 $arch_carousel = array();
 ?>
 <footer class="flex wrap center full-width">
-   <div class="third-width flex wrap justify-right">
-        <!-- <ul class="copy white-copy full-width flex wrap center">
-            <li class="full-width"><a href="/services">Services</a></li>
-            <li class="full-width"><a href="/contact">Contact</a></li>
-            <li class="full-width"><a href="/about">About</a></li>
-        </ul> -->
+   <div class="third-width flex wrap center align">
+        <div class="location">
+            
+            <h3>Location</h3>
+            <p>1111 Eastside</p>
+            <p>Dallas, Texas</p>
+            <p>75111</p>
+            
+        </div>
+        <div class="hours">
+            <h3>Hours</h3>
+            <p>Mon - Sat: 9am - 6:30pm</p>
+            <p>Sun: CLOSED!</p>
+        </div>
    </div>
-   <div class="third-width flex wrap center">
-       <div class="full-width flex wrap center logo-contact">
+   <div class="third-width flex wrap center align">
+       <div class="full-width logo-contact brand margin-auto">
             <img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
    </div>
-   <div class="third-width flex wrap center">
-    
+   <div class="third-width flex wrap center align">
+    <div class="links flex wrap center full-width">
+        <h3 class="full-width text-left">Services</h3>
+        <div class="full-width">
+        <li><a href="/services/ppf">PPF</a></li>
+        <li><a href="/services/window-tint">Window Tint</a></li>
+        <li><a href="/services/car-audio">Car Audio</a></li>
+        <li><a href="/services/car-alarms">Car Alarms</a></li>
+        <li><a href="/services/ppf">Ceramic Coating</a></li>
+        <li><a href="/services/window-tint">Car Wrap</a></li>
+        <li><a href="/services/car-audio">Device Integration</a></li>
+        <li><a href="/services/car-alarms">Lighting</a></li>
+        </div>
+
+    </div>
+        
    </div>
 </footer>
 
