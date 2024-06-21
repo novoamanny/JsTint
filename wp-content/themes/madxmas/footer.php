@@ -50,9 +50,9 @@ $arch_carousel = array();
        <div class="full-width brand">
             <img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
-        <div class="full-width flex wrap center">
+        <div class="full-width flex wrap center align-items">
             <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/insta.png" /></a>
-            <img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" />
+            <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" /></a>
         </div>
         <div class="full-width flex wrap center">
             <img class="logo" src="<?php echo get_template_directory_uri();?>/src/images/Yelp_Logo.png" />

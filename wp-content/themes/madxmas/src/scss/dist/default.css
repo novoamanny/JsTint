@@ -3167,10 +3167,6 @@ footer .logo {
     margin: 20px 0;
   }
 }
-footer .icon-logo {
-  max-width: 30px;
-  margin: 0 20px;
-}
 footer .location, footer .hours {
   padding: 20px;
   border: solid 1px #fff;
@@ -3199,6 +3195,11 @@ footer .location h3, footer .hours h3 {
   footer .location h3, footer .hours h3 {
     font-size: 1.5rem;
   }
+}
+
+.icon-logo {
+  max-width: 30px;
+  margin: 0 20px;
 }
 
 .windowtop {

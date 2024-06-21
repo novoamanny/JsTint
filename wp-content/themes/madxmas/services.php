@@ -302,15 +302,17 @@ $weekend = $hours['weekend'];
 <!-- SECTION ONE -->
     <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt flex wrap center align-items mobile-full mobile-section-copy">
         <div class="full-width flex wrap justify-left mobile-section-title">
-            <h2 class="title veneer text-left">Gallery/Thank You</h2>
+            <h2 class="title veneer text-left">Social</h2>
         </div>
         <div class="copy">
             <div class="full-width flex wrap center text-left">
             <p class="americane copy white-copy square-copy mobile-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
             </div>
-            <div class="flex quote-button-margin wrap justify-right mobile-section-cta">
-                <a href="/services/window-tint" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a>
-            </div>
+   
+                <div class="full-width flex wrap center align-items">
+                    <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/insta.png" /></a>
+                    <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" /></a>
+                </div>
         </div>
     </div>
 </div>

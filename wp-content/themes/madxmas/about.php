@@ -85,7 +85,7 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 <!-- About Section -->
-<div class="about-section full-width flex wrap center white-copy bg-linear-dark-fade4">
+<!-- <div class="about-section full-width flex wrap center white-copy bg-linear-dark-fade4">
         <div class="main-title full-width flex wrap center">
             <h2 class="title veneer text-center uppercase">
                 Meet The Team
@@ -314,7 +314,7 @@ $hero_subtitle = $hero_options['subtitle'];
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 
