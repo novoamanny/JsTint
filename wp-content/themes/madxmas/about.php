@@ -58,19 +58,16 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-white black-copy padding-top-bottom">
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video mobile-section-video">
     <!-- Left -->
-    <div class="half-width flex wrap center mobile-full">
+    <div class="half-width flex wrap center mobile-full mobile-section-copy">
         <div class="full-width flex wrap center align-items">
             <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
         <div class="copy">
-            <h2><?php echo $section1['title']; ?></h2>
-            <h5><?php echo $section1['subtitle']; ?></h5>
-            <?php echo $section1['editor']; ?>
-            <div class="full-width flex wrap center text-left">
-                <p class="americane copy black-copy square-copy">
-                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
+            <div class="full-width flex wrap center text-left align-items">
+                <p class="americane copy black-copy square-copy square-copy-width mobile-copy">
+                    At J's Tint, we're more than just a car shop – we're your partners in automotive perfection. 
                     Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
                     From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
                     Trust the experts at [Shop Name] to turn your car into a masterpiece.
@@ -79,7 +76,7 @@ $hero_subtitle = $hero_options['subtitle'];
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container mobile-full">
+    <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
         <iframe class="video-wrap" width="100%" height="600px" src="https://www.youtube.com/embed/h3uo4z0znmg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=h3uo4z0znmg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>

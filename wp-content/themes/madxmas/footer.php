@@ -30,7 +30,7 @@ $weekend_2 = $hours['weekend_2'];
 $arch_carousel = array();
 ?>
 <footer class="flex wrap center full-width">
-   <div class="third-width flex wrap center align">
+   <div class="third-width flex wrap center align-items">
         <div class="location">
             
             <h3>Location</h3>
@@ -45,13 +45,13 @@ $arch_carousel = array();
             <p>Sun: CLOSED!</p>
         </div>
    </div>
-   <div class="third-width flex wrap center align">
-       <div class="full-width logo-contact brand margin-auto">
+   <div class="third-width flex wrap center align-items">
+       <div class="full-width brand">
             <img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
    </div>
-   <div class="third-width flex wrap center align">
-    <div class="links flex wrap center full-width">
+   <div class="third-width flex wrap center align-items">
+    <div class="links flex wrap center full-width align-items">
         <h3 class="full-width text-left">Services</h3>
         <div class="full-width">
         <li><a href="/services/ppf">PPF</a></li>
