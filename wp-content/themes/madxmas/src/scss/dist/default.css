@@ -3058,14 +3058,9 @@ footer {
   padding: 70px 0;
   width: 100%;
 }
-@media screen and (max-width: 1000px) {
+@media (max-width: 1800px) {
   footer {
-    padding: 0px 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  footer .row {
-    padding: 5% 0;
+    padding: 50px 0;
   }
 }
 
@@ -3077,6 +3072,12 @@ footer a {
 footer .brand {
   width: 50%;
   position: relative;
+}
+@media (max-width: 1000px) {
+  footer .brand {
+    width: 30%;
+    margin: 20px 0;
+  }
 }
 footer .brand .stars {
   position: absolute;
@@ -3099,9 +3100,6 @@ footer .brand .copyright {
     display: none;
   }
 }
-footer .brand .logo {
-  max-width: 200px;
-}
 footer .brand p {
   font-size: 14px;
   margin-top: 20px;
@@ -3116,6 +3114,17 @@ footer .brand p:last-child {
   }
 }
 
+@media (max-width: 1000px) {
+  footer .logo-section {
+    order: -1;
+  }
+}
+@media (max-width: 1000px) {
+  footer .footer-mobile {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
 footer .links li {
   font-size: 1.2rem;
   list-style: none;
@@ -3126,6 +3135,41 @@ footer .links li {
     font-size: 1rem;
     margin: 25px 0;
   }
+}
+@media (max-width: 1000px) {
+  footer .links {
+    text-align: center;
+  }
+  footer .links h3 {
+    text-align: center;
+  }
+}
+footer .copyright {
+  align-self: flex-end;
+}
+@media screen and (max-width: 1000px) {
+  footer .copyright {
+    display: none;
+  }
+}
+footer .social {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+footer .social:first-child {
+  margin-left: 0;
+}
+footer .logo {
+  max-width: 150px;
+}
+@media (max-width: 1000px) {
+  footer .logo {
+    margin: 20px 0;
+  }
+}
+footer .icon-logo {
+  max-width: 30px;
+  margin: 0 20px;
 }
 footer .location, footer .hours {
   padding: 20px;
@@ -3143,129 +3187,18 @@ footer .location p, footer .hours p {
   font-weight: 600;
   font-size: 17px;
 }
-footer .location .box, footer .hours .box {
-  width: 60%;
-  text-align: center;
-}
 footer .location h3, footer .hours h3 {
   color: #fff;
   text-align: center;
   width: 100%;
 }
-
-footer .links {
-  justify-content: space-evenly;
-  width: 30%;
-}
-footer .links .social {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 50px;
-}
-footer .links .social a {
-  margin: 0 20px;
-}
-footer .links ul {
-  list-style-type: none;
-  padding: 0;
-}
-footer .links ul li {
-  margin: 0;
-}
-footer .links ul li a {
-  color: #fff;
-  display: block;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 10px 0;
-}
-footer .links .social {
-  margin-left: 20px;
-  margin-top: 20px;
-}
-footer .links .social:first-child {
-  margin-left: 0;
-}
-footer .links img {
-  max-width: 40px;
-  display: block;
-}
-@media screen and (max-width: 1000px) {
-  footer .links {
-    display: block;
-    padding: 5% 0;
+@media (max-width: 2000px) {
+  footer .location p, footer .hours p {
+    font-size: 0.8rem;
   }
-}
-
-footer .contact {
-  text-align: center;
-}
-footer .contact .text {
-  margin-top: 10px;
-}
-footer .contact .text span {
-  display: block;
-}
-footer .contact .text .telephone {
-  font-size: 1.4em;
-}
-footer .contact .button {
-  background: #fff;
-  color: #92c83e;
-  text-transform: uppercase;
-}
-footer .contact .button:hover {
-  background: #92c83e;
-  color: #fff;
-}
-
-footer .bottom {
-  color: #fff;
-  text-align: center;
-}
-footer .bottom .flex {
-  justify-content: space-between;
-  align-items: center;
-}
-@media screen and (max-width: 1000px) {
-  footer .bottom .flex {
-    justify-content: center;
+  footer .location h3, footer .hours h3 {
+    font-size: 1.5rem;
   }
-}
-footer .bottom .copyright {
-  display: none;
-}
-@media screen and (max-width: 1000px) {
-  footer .bottom .copyright {
-    display: block;
-  }
-}
-footer .bottom .container {
-  padding: 1% 0;
-}
-footer .bottom .container .right {
-  display: flex;
-  justify-content: flex-end;
-}
-footer .bottom .container .right img {
-  height: 50px;
-}
-@media screen and (max-width: 1000px) {
-  footer .bottom .container div {
-    padding: 2% 0;
-  }
-}
-@media screen and (max-width: 1000px) {
-  footer .bottom .container {
-    padding: 5% 0;
-    display: block;
-  }
-}
-
-footer .tiny {
-  top: -5px;
-  font-size: 0.8em;
 }
 
 .windowtop {

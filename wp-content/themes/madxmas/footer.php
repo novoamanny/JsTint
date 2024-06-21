@@ -30,13 +30,14 @@ $weekend_2 = $hours['weekend_2'];
 $arch_carousel = array();
 ?>
 <footer class="flex wrap center full-width">
-   <div class="third-width flex wrap center align-items">
+   <div class="third-width flex wrap center align-items footer-mobile">
         <div class="location">
             
             <h3>Location</h3>
-            <p>1111 Eastside</p>
+            <p>4418 E Side Ave</p>
             <p>Dallas, Texas</p>
-            <p>75111</p>
+            <p>75226</p>
+            <p>(469)841-0200</p>
             
         </div>
         <div class="hours">
@@ -45,12 +46,22 @@ $arch_carousel = array();
             <p>Sun: CLOSED!</p>
         </div>
    </div>
-   <div class="third-width flex wrap center align-items">
+   <div class="third-width flex wrap center align-items logo-section footer-mobile">
        <div class="full-width brand">
             <img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
+        <div class="full-width flex wrap center">
+            <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/insta.png" /></a>
+            <img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" />
+        </div>
+        <div class="full-width flex wrap center">
+            <img class="logo" src="<?php echo get_template_directory_uri();?>/src/images/Yelp_Logo.png" />
+        </div>
+         <div class="full-width flex wrap center copyright">
+            <p class="copy"> © <?php echo date("Y"); ?> J's Tint x <a target="_blank" href="https://novatek.app/">NOVATEK</a></p>
+        </div>
    </div>
-   <div class="third-width flex wrap center align-items">
+   <div class="third-width flex wrap center align-items footer-mobile">
     <div class="links flex wrap center full-width align-items">
         <h3 class="full-width text-left">Services</h3>
         <div class="full-width">
