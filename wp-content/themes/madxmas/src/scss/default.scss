@@ -3476,37 +3476,34 @@ footer .tiny {
 
 @media screen and (max-width: 1250px) {
   footer{
-    .brand{
-      width: 70%;
-    }
-    .center, .links{
-      width: 35%;
-    }
+    // .center, .links{
+    //   width: 35%;
+    // }
   }
 }
 @media screen and (max-width: 1000px) {
-  footer{
-    .brand{
-      width: 80%;
-    }
-    .center, .links{
-      width: 42%;
-    }
-  }
+  // footer{
+  //   .brand{
+  //     width: 80%;
+  //   }
+  //   .center, .links{
+  //     width: 42%;
+  //   }
+  //}
 }
 @media screen and (max-width: 850px) {
-  footer{
-    .brand{
-      width: 80%;
-    }
-    .center, .links{
-      width: 80%;
-    }
-    .center{
-      order: 4;
-    }
+  // footer{
+  //   .brand{
+  //     width: 80%;
+  //   }
+  //   .center, .links{
+  //     width: 80%;
+  //   }
+  //   .center{
+  //     order: 4;
+  //   }
    
-  }
+  // }
 }
 @media screen and (max-width: 700px) {
   footer{
