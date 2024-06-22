@@ -55,7 +55,7 @@ $arch_carousel = array();
             <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" /></a>
         </div>
         <div class="full-width flex wrap center">
-            <img class="logo" src="<?php echo get_template_directory_uri();?>/src/images/Yelp_Logo.png" />
+            <a></a><img class="logo" src="<?php echo get_template_directory_uri();?>/src/images/Yelp_Logo.png" />
         </div>
          <div class="full-width flex wrap center copyright">
             <p class="copy"> © <?php echo date("Y"); ?> J's Tint x <a target="_blank" href="https://novatek.app/">NOVATEK</a></p>
