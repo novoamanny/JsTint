@@ -3183,6 +3183,7 @@ footer .logo {
 footer .location, footer .hours {
   padding: 20px;
   border: solid 1px #fff;
+  border-radius: 5px;
   width: 50%;
   margin: 20px 0;
 }

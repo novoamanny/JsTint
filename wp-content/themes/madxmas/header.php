@@ -70,7 +70,7 @@
                                     <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
                                 </div>
                                 <div class="flex">
-                                    <a href="/" class="quote-button americane uppercase">Free Quote!</a>
+                                    <a href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw" class="quote-button americane uppercase">Free Quote!</a>
                                 </div>
                             </div>
 <!--MOBILE MENU-->
