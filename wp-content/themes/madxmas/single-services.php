@@ -96,27 +96,27 @@ $service_tab_image = $service_tab['image'];
 
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-linear-dark-fade white-copy padding-top-bottom align-items intro-video mobile-section-video">
+<!-- <div class="full-width flex wrap center bg-linear-dark-fade white-copy padding-top-bottom align-items intro-video mobile-section-video"> -->
     <!-- Left -->
-    <div class="half-width flex wrap center mobile-full mobile-section-copy">
+    <!-- <div class="half-width flex wrap center mobile-full mobile-section-copy">
         <div class="full-width flex wrap justify-left mobile-section-title">
             <h2 class="title veneer text-left">
             <?php echo $service_tab_title; ?>
             </h2>
         </div>
- 
-        <div class="full-width flex wrap justify-left text-left align-items">
+  -->
+        <!-- <div class="full-width flex wrap justify-left text-left align-items">
             <div class="copy mark text-center">
                 <?php echo $service_tab_copy; ?>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container mobile-video">
+    <!-- <div class="half-width flex wrap center align youtube-container mobile-video"> -->
         <!-- Video -->
-        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/GFplWZMHd08?controls=0&autoplay=1&mute=1&loop=1&playlist=GFplWZMHd08&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/GFplWZMHd08?controls=0&autoplay=1&mute=1&loop=1&playlist=GFplWZMHd08&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-</div>
+</div> -->
 
 
 
