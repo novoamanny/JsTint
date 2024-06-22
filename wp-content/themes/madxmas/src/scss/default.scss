@@ -2406,11 +2406,13 @@ FAQ STYLES
 Services STYLES
 ========================*/
 .page-template-single-services{
-
   .single-copy{
     .copy{
       li{
         list-style: none;
+        @media (max-width: 600px) {
+          text-align: center;
+        }
       }
       font-size: 2.5rem;
       line-height: 4.5rem;
@@ -2437,6 +2439,9 @@ Services STYLES
       @media (max-width: 700px) {
         font-size: 1rem;
         line-height: 2.3rem;
+      }
+      @media (max-width: 600px) {
+        text-align: center;
       }
     }
   }

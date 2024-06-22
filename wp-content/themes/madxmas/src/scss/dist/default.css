@@ -2483,6 +2483,11 @@ Services STYLES
 .page-template-single-services .single-copy .copy li {
   list-style: none;
 }
+@media (max-width: 600px) {
+  .page-template-single-services .single-copy .copy li {
+    text-align: center;
+  }
+}
 @media (max-width: 2200px) {
   .page-template-single-services .single-copy .copy {
     font-size: 2.2rem;
@@ -2517,6 +2522,11 @@ Services STYLES
   .page-template-single-services .single-copy .copy {
     font-size: 1rem;
     line-height: 2.3rem;
+  }
+}
+@media (max-width: 600px) {
+  .page-template-single-services .single-copy .copy {
+    text-align: center;
   }
 }
 
