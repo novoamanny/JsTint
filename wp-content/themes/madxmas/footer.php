@@ -37,7 +37,7 @@ $arch_carousel = array();
             <p>4418 E Side Ave</p>
             <p>Dallas, Texas</p>
             <p>75226</p>
-            <p>(469)841-0200</p>
+            <p><a href="tel:+14698410200">(469)841-0200</a></p>
             
         </div>
         <div class="hours">

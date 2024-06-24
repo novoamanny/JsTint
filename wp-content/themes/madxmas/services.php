@@ -148,7 +148,7 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/car-audio">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/chevy-parallex.jpeg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/tint-orange-car.jpg);">
 
     </div>
         <div class="owl-carousel">
@@ -169,7 +169,7 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin white-copy bg-nova-purple americane" href="/services/car-wrap">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/tint-orange-car.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/chevy-parallex.jpeg);">
 
     </div>
         <div class="owl-carousel">
@@ -302,11 +302,11 @@ $weekend = $hours['weekend'];
 <!-- SECTION ONE -->
     <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt flex wrap center align-items mobile-full mobile-section-copy">
         <div class="full-width flex wrap justify-left mobile-section-title">
-            <h2 class="title veneer text-left">Social</h2>
+            <h2 class="title veneer text-left">Stay Connected!</h2>
         </div>
         <div class="copy">
             <div class="full-width flex wrap center text-left">
-            <p class="americane copy white-copy square-copy mobile-copy">Paint Protection Film offers a multitude of benefits. It acts as a barrier against road debris, preventing chips and scratches that can diminish the appearance of your vehicle. By investing in PPF, you'll not only maintain its showroom shine but also protect its resale value, saving you money in the long run.</p>
+            <p class="americane copy white-copy square-copy mobile-copy">Follow us on social media to stay connected with our latest projects, special offers, and tips to keep your vehicle looking its best. Join our community and discover how we can enhance your ride with top-notch window tinting, ceramic coating, car wraps, and more!</p>
             </div>
    
                 <div class="full-width flex wrap center align-items">
