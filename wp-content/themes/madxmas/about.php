@@ -337,6 +337,13 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-2ac4892a-75d2-49b5-b752-73ffc35efb91" data-elfsight-app-lazy></div>
+
+
+
+
+
 <script>
 // Script for expanding the answer to each question
 var questions = document.querySelectorAll('.faq_question');

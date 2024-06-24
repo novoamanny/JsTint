@@ -148,7 +148,7 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/car-audio">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-4.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/chevy-parallex.jpeg);">
 
     </div>
         <div class="owl-carousel">
@@ -160,16 +160,16 @@ $weekend = $hours['weekend'];
 <div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row parralex parralex-no-reverse" >
     <div class="third-width padding-top-bottom-alt parallex-copy">
         <div class="full-width">
-            <h2 class="title veneer text-left">Another Service</h2>
+            <h2 class="title veneer text-left">Full Body Wrap</h2>
         </div>
         <p class="copy mark text-left auto-margin copy-width-intro">
             Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-purple americane" href="/">Learn More</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-purple americane" href="/services/car-wrap">Learn More</a>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg);">
+    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/tint-orange-car.jpg);">
 
     </div>
         <div class="owl-carousel">
@@ -237,13 +237,13 @@ $weekend = $hours['weekend'];
 <div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-5.jpg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
-            <h2 class="title veneer full-width text-center uppercase">Window Tint</h2>
+            <h2 class="title veneer full-width text-center uppercase">Car Alarms</h2>
         </div>
         <p class="copy mark text-center">
         In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/window-tint">Learn More</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/car-alarms">Learn More</a>
         </div>
     </div>
 </div>
@@ -258,22 +258,22 @@ $weekend = $hours['weekend'];
         In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Learn More</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/ceramic-coating">Learn More</a>
         </div>
     </div>
 </div>
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero.jpg);">
+<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
-            <h2 class="title veneer full-width text-center uppercase">Car Wrap</h2>
+            <h2 class="title veneer full-width text-center uppercase">Lighting & Accesories</h2>
         </div>
         <p class="copy mark text-center">
         In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/">Learn More</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/lighting">Learn More</a>
         </div>
     </div>
 </div>
