@@ -64,6 +64,12 @@ $hero_subtitle = $hero_options['subtitle'];
                 We're here to make your experience as seamless as possible. If you have any questions or need assistance, please don't hesitate to reach out to us using the form below. Our dedicated team is ready to assist you with any inquiries or concerns you may have. Your satisfaction is our top priority, and we look forward to helping you with your automotive needs.
                 </p>
             </div>
+
+            <div class="full-width flex wrap text-left">
+                <p class="americane copy black-copy square-copy">
+                Having trouble with our contact form? Try this <a target="_blank" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw" style="text-decoration: underline">link</a>
+                </p>
+            </div>
         </div>
     </div>
     <!-- Right -->

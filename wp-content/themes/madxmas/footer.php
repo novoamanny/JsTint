@@ -48,14 +48,14 @@ $arch_carousel = array();
    </div>
    <div class="third-width flex wrap center align-items logo-section footer-mobile">
        <div class="full-width brand">
-            <img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
+            <a href="/"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" /></a>
         </div>
         <div class="full-width flex wrap center align-items">
             <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/insta.png" /></a>
             <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" /></a>
         </div>
         <div class="full-width flex wrap center">
-            <a></a><img class="logo" src="<?php echo get_template_directory_uri();?>/src/images/Yelp_Logo.png" />
+            <a href="https://www.yelp.com/biz/js-tint-and-car-audio-dallas"><img class="logo" src="<?php echo get_template_directory_uri();?>/src/images/Yelp_Logo.png" /></a>
         </div>
          <div class="full-width flex wrap center copyright">
             <p class="copy"> © <?php echo date("Y"); ?> J's Tint x <a target="_blank" href="https://novatek.app/">NOVATEK</a></p>
@@ -69,10 +69,11 @@ $arch_carousel = array();
         <li><a href="/services/window-tint">Window Tint</a></li>
         <li><a href="/services/car-audio">Car Audio</a></li>
         <li><a href="/services/car-alarms">Car Alarms</a></li>
-        <li><a href="/services/ppf">Ceramic Coating</a></li>
-        <li><a href="/services/window-tint">Car Wrap</a></li>
-        <li><a href="/services/car-audio">Device Integration</a></li>
-        <li><a href="/services/car-alarms">Lighting</a></li>
+        <li><a href="/services/ceramic-coating">Ceramic Coating</a></li>
+        <li><a href="/services/car-wrap">Full Body Wrap</a></li>
+        <li><a href="/services/car-audio">Chrome Delete</a></li>
+        <li><a href="/services/device-integration">Device Integration</a></li>
+        <li><a href="/services/lighting">Lighting</a></li>
         </div>
 
     </div>
