@@ -91,7 +91,7 @@
             </div>
         </header>
 
-<!-- <script>
+<script>
     const nav = document.getElementById('desktopmenu');
     window.onscroll = function () { 
         if (document.body.scrollTop >= 20 || document.documentElement.scrollTop >= 20 ) {
@@ -101,4 +101,4 @@
         nav.classList.remove("nav-colored");
     }
 };
-</script> -->
+</script>

@@ -5,7 +5,7 @@ $cherry: #B62025;
 $gun: #12262f;
 $GunOpacityBG: rgba(18, 38, 47, 1);
 $dark: rgb(26, 26, 26);
-$DarkOpacity: rgba(26, 26, 26, 0.7);
+$DarkOpacity: rgba(26, 26, 26, 0.85);
 $maroon: #710F11;
 $blue: #033E4C;
 $blueDark: #2c2c2c;
@@ -302,11 +302,15 @@ HEADER STYLES
 
 header {
   background-color: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
 }
 
-header {
-  position: relative;
-}
+
 header .mobile-menu-toggle {
   display: none;
 }
@@ -343,6 +347,7 @@ NAVIGATION STYLES
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     // width: 100%;
     padding: 20px 85px;
     transition: .3s all ease;
@@ -681,7 +686,7 @@ CONTENT STYLES
 .title-position-hero{
   top: 34%;
   left: 5%;
-  z-index: 100;
+  z-index: 10;
   width: 45%;
   @media (max-width: 2200px) {
     top: 35%;
@@ -703,7 +708,7 @@ CONTENT STYLES
 .title-position{
   top: 12%;
   left: 6%;
-  z-index: 100;
+  z-index: 10;
   width: 45%;
   @media (max-width: 2300px) {
     top: 10%;
@@ -1823,7 +1828,7 @@ ol{
   top: -1px; // -1 instead of 0 to get rid of the extranous 1px space 
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 10;
   filter: drop-shadow(0px 21px 6px RGB(0 0 0 / 0.4)); 
 }
 // S N O W   O V E R L A Y
@@ -1840,7 +1845,7 @@ ol{
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 10;
 }
 .white-break{
   width: 100%;
