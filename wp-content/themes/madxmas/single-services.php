@@ -136,6 +136,8 @@ $service_tab_image = $service_tab['image'];
 
 </div>
 
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-2ac4892a-75d2-49b5-b752-73ffc35efb91" data-elfsight-app-lazy></div>
 
 
 

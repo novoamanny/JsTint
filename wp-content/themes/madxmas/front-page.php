@@ -59,12 +59,11 @@ $hero_image5 = $hero_images['hero_5'];
     </div>
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
-    <div class="owl-carousel">
-            <img src="<?php echo $hero_image1;?>" />
-            <img src="<?php echo $hero_image2;?>" />
-            <img src="<?php echo $hero_image3;?>" />
-            <img src="<?php echo $hero_image4;?>" />
-            <img src="<?php echo $hero_image5;?>" />
+    <div class="video-wrapper full-width">
+        <video id="video-hero" width="100%" playsinline autoplay loop muted>
+            <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/videos/main-marquee.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 </div>
 
