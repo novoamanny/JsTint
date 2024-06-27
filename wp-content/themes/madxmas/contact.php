@@ -67,8 +67,12 @@ $hero_subtitle = $hero_options['subtitle'];
 
             <div class="full-width flex wrap text-left">
                 <p class="americane copy black-copy square-copy">
-                Having trouble with our contact form? Try this <a target="_blank" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw" style="text-decoration: underline">link</a>
+                    Having trouble with our contact form?
                 </p>
+            </div>
+
+            <div class="full-width flex wrap center">
+                <a class="quote-button white-copy bg-nova-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Click Here</a>
             </div>
         </div>
     </div>
@@ -82,10 +86,10 @@ $hero_subtitle = $hero_options['subtitle'];
             // Inject the PHP statement with the dynamic ID into the do_shortcode function
             echo do_shortcode('[forminator_form id="186"]');
         ?> -->
-         <?php
+         <!-- <?php
             // Inject the PHP statement with the dynamic ID into the do_shortcode function
             echo do_shortcode('[forminator_form id="25"]');
-        ?>
+        ?> -->
 
 
        <!-- <form class="full-width flex wrap center form-contact">

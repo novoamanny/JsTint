@@ -47,7 +47,7 @@ $weekend = $hours['weekend'];
 <div class="hero-container full-width flex wrap center relative image-effect image-height-hero-big" style="background-image: url('<?php echo get_template_directory_uri();?>/src/images/about-hero-parallex2.jpeg');">      
 <div class="opacity-screen"></div>
     <div class="absolute title-position-hero">
-        <h2 class="hero-title veneer">Customize Your Ride, Unleash Your Style!</h2>
+        <h2 class="hero-title veneer">Customize Your Ride,</br>Unleash Your Style!</h2>
         <!-- <h2 class="hero-subtitle americane white-copy">Crafting Your Dream Ride,</br>One Upgrade at a Time!</h2> -->
     </div>
     <!-- <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" /> -->
