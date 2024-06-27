@@ -2240,7 +2240,8 @@ Image Effect Styles
     min-height: 35vh;
     .title-position-hero{
       width: 100%;
-      left: 2%;
+      left: 0%;
+      text-align: center;
     }
   }
   @media (max-width: 500px) {
