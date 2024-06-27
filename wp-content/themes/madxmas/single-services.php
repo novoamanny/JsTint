@@ -56,7 +56,7 @@ $service_tab_image = $service_tab['image'];
             </h2> -->
         </div>
     </div>
-    <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" />
+    <!-- <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" /> -->
 </div>
 
 

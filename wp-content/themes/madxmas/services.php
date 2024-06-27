@@ -50,7 +50,7 @@ $weekend = $hours['weekend'];
         <h2 class="hero-title veneer">Customize Your Ride, Unleash Your Style!</h2>
         <h2 class="hero-subtitle americane white-copy">Crafting Your Dream Ride,</br>One Upgrade at a Time!</h2>
     </div>
-    <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" />
+    <!-- <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" /> -->
 </div>
 
 

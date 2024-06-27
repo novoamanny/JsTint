@@ -42,7 +42,7 @@ $hero_subtitle = $hero_options['subtitle'];
             </div> -->
         </div>
     </div>
-    <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" />
+    <!-- <img class="christmas-break" src="<?php echo get_template_directory_uri();?>/src/images/curve-bg-white.png" /> -->
 </div>
 
 
