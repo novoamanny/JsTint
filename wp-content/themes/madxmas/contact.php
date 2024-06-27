@@ -65,8 +65,8 @@ $hero_subtitle = $hero_options['subtitle'];
                 </p>
             </div>
 
-            <div class="full-width flex wrap text-left">
-                <p class="americane copy black-copy square-copy">
+            <div class="full-width flex wrap text-center">
+                <p class="americane copy black-copy square-copy text-center">
                     Having trouble with our contact form?
                 </p>
             </div>
