@@ -264,7 +264,7 @@ $weekend = $hours['weekend'];
 </div>
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
+<!-- <div class="info-tab info-tab-long white-copy flex wrap center relative image-effect image-height-service align-items info-tab-margin" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
             <h2 class="title veneer full-width text-center uppercase">Lighting & Accesories</h2>
@@ -276,7 +276,7 @@ $weekend = $hours['weekend'];
             <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/lighting">Learn More</a>
         </div>
     </div>
-</div>
+</div> -->
 
 
 
