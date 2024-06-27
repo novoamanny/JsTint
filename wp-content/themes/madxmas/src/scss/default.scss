@@ -259,6 +259,9 @@ HEADER STYLES
     @media (max-width: 1500px) {
       max-width: 100px;
     }
+    @media (max-width: 550px) {
+      max-width: 60px;
+    }
   }
   .brand img.mobile{
     display: none;
@@ -351,6 +354,9 @@ NAVIGATION STYLES
     // width: 100%;
     padding: 20px 85px;
     transition: .3s all ease;
+    @media (max-width: 600px) {
+    padding: 7px 10px;
+    }
     .menu{
       margin: 0 70px;
       ul{
@@ -2234,7 +2240,7 @@ Image Effect Styles
     min-height: 35vh;
     .title-position-hero{
       width: 100%;
-      left: 0;
+      left: 2%;
     }
   }
   @media (max-width: 500px) {
@@ -3034,14 +3040,7 @@ footer .brand {
     width: 30%;
     margin: 20px 0;
   }
-.stars{
-  position: absolute;
-  top: -12%;
-  left: 0%;
-  @media screen and (max-width: 600px) {
-    top: -5%;
-  }
-}
+
 
   a {
     align-self: center;
@@ -4080,9 +4079,9 @@ MEDIA QUERIES
   footer .form .email{
     width: 80%;
   }
-  .top .brand img{
-    display: none;
-  }
+  // .top .brand img{
+  //   display: none;
+  // }
   .home .top .brand img.mobile{
     display: block;
   }

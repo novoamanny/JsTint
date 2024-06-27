@@ -237,6 +237,11 @@ HEADER STYLES
     max-width: 100px;
   }
 }
+@media (max-width: 550px) {
+  .top .brand img {
+    max-width: 60px;
+  }
+}
 .top .brand img.mobile {
   display: none;
 }
@@ -318,6 +323,11 @@ NAVIGATION STYLES
   align-items: center;
   padding: 20px 85px;
   transition: 0.3s all ease;
+}
+@media (max-width: 600px) {
+  .navwrap .desktopmenu {
+    padding: 7px 10px;
+  }
 }
 .navwrap .desktopmenu .menu {
   margin: 0 70px;
@@ -2327,7 +2337,7 @@ Image Effect Styles
   }
   .image-height-hero-big .title-position-hero {
     width: 100%;
-    left: 0;
+    left: 2%;
   }
 }
 @media (max-width: 500px) {
@@ -3098,16 +3108,6 @@ footer .brand {
   footer .brand {
     width: 30%;
     margin: 20px 0;
-  }
-}
-footer .brand .stars {
-  position: absolute;
-  top: -12%;
-  left: 0%;
-}
-@media screen and (max-width: 600px) {
-  footer .brand .stars {
-    top: -5%;
   }
 }
 footer .brand a {
@@ -4005,11 +4005,6 @@ MEDIA QUERIES
 @media (max-width: 1100px) {
   footer .form .email {
     width: 80%;
-  }
-}
-@media (max-width: 1100px) {
-  .top .brand img {
-    display: none;
   }
 }
 @media (max-width: 1100px) {
