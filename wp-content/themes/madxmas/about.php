@@ -329,7 +329,7 @@ $hero_subtitle = $hero_options['subtitle'];
             Driven by a passion for automotive excellence, we are committed to enhancing your driving experience through precision craftsmanship, innovative solutions, and personalized service. Our mission is to inspire confidence and satisfaction in every customer, ensuring that your journey with us is nothing short of exceptional.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/">More Services</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/services">More Services</a>
         </div>
     </div>
 </div>

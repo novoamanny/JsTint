@@ -661,6 +661,11 @@ CONTENT STYLES
   line-height: 0;
 }
 
+.hero-video {
+  border-radius: 0;
+  width: 100%;
+}
+
 .title-position-hero {
   top: 34%;
   left: 5%;

@@ -41,6 +41,7 @@ $hero_image5 = $hero_images['hero_5'];
 
 <!-- H e r o   S e c t i o n -->
 <div class="hero-container full-width flex wrap center relative">
+
     <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position-hero">
         <!-- Hero Title -->
         <h2 class="hero-title veneer uppercase">
@@ -59,12 +60,12 @@ $hero_image5 = $hero_images['hero_5'];
     </div>
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
-    <div class="video-wrapper full-width">
-        <video id="video-hero" width="100%" playsinline autoplay loop muted>
-            <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/videos/main-marquee.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    
+    <div class="full-width flex wrap center align youtube-container hero-video">
+        <!-- Video -->
+        <iframe class="full-width hero-video" width="100%" src="https://www.youtube.com/embed/5WSCK_fzGW0?controls=0&autoplay=1&mute=1&loop=1&playlist=5WSCK_fzGW0&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+
 </div>
 
 
