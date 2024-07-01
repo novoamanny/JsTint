@@ -49,12 +49,12 @@ $hero_subtitle = $hero_options['subtitle'];
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items contact-section">
     <!-- Left -->
-    <div class="third-width flex wrap center align-items mobile-full">
+    <div class="full-width flex wrap center align-items mobile-full">
         <div class="full-width flex wrap center logo-contact logo-contact-mobile">
             <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
-        <div class="full-width flex wrap justify-left">
-            <h2 class="title veneer text-left">
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
                 Contact
             </h2>
         </div>
@@ -77,10 +77,10 @@ $hero_subtitle = $hero_options['subtitle'];
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align-items contact-form mobile-full">
+    <!-- <div class="half-width flex wrap center align-items contact-form mobile-full">
         <div class="full-width flex wrap center logo-contact">
             <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
-        </div>
+        </div> -->
 
         <!-- <?php
             // Inject the PHP statement with the dynamic ID into the do_shortcode function
@@ -112,7 +112,7 @@ $hero_subtitle = $hero_options['subtitle'];
             </a>
         </div>
        </form> -->
-    </div>
+    <!-- </div> -->
 </div>
 
 

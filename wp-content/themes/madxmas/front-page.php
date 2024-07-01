@@ -260,7 +260,7 @@ $hero_image5 = $hero_images['hero_5'];
     <!-- Right -->
     <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
-        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/GFplWZMHd08?controls=0&autoplay=1&mute=1&loop=1&playlist=GFplWZMHd08&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/F6yT6VvXjvg?controls=0&autoplay=1&mute=1&loop=1&playlist=F6yT6VvXjvg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 

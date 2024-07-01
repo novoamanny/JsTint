@@ -473,7 +473,7 @@ ul.navigation li.current-menu-item a {
     content: '';
     width: 27px;
     display: block;
-    background: url('../../img/yellow-stars.png') no-repeat center;
+    // background: url('../../img/yellow-stars.png') no-repeat center;
     height: 60px;
     background-size: contain;
     position: absolute;
@@ -529,7 +529,7 @@ ul.navigation li:hover li {
 
 ul.navigation li:hover li a {
   text-transform: none;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(229, 27, 27, 0.25);
   display: block;
   margin: 0;
   height: auto;
@@ -547,7 +547,7 @@ ul.navigation li:hover li a {
   }
 }
 ul.navigation li:hover li a:hover {
-  background: rgba(255, 255, 255, 0.40);
+  background: rgba(229, 27, 27, 0.70);
   color: $white;
 
   &:before {

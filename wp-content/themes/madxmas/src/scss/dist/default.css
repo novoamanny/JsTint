@@ -438,7 +438,6 @@ ul.navigation li.current-menu-item a::before {
   content: "";
   width: 27px;
   display: block;
-  background: url("../../img/yellow-stars.png") no-repeat center;
   height: 60px;
   background-size: contain;
   position: absolute;
@@ -494,7 +493,7 @@ ul.navigation li:hover li {
 
 ul.navigation li:hover li a {
   text-transform: none;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(229, 27, 27, 0.25);
   display: block;
   margin: 0;
   height: auto;
@@ -512,7 +511,7 @@ ul.navigation li:hover li a:after {
 }
 
 ul.navigation li:hover li a:hover {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(229, 27, 27, 0.7);
   color: #fff;
 }
 ul.navigation li:hover li a:hover:before {
