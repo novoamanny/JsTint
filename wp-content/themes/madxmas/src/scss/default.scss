@@ -2287,31 +2287,74 @@ Image Effect Styles
 /*======================
 HOME STYLES
 ========================*/
-
+.space-even{
+  justify-content: space-around;
+}
 
 /*======================
 ABOUT STYLES
 ========================*/
 .page-template-about{
-  .about-section{
-    padding: 120px 0;
-    .main-title{
-      margin-bottom: 120px;
-      .title{
-        font-size: 7rem;
-      }
+  
+  
+}
+.about-section{
+  .third-width{
+    width: 33%;
+    @media (max-width: 1700px) {
+      width: 28%;
     }
-    .staff{
-      margin: 50px 30px;
-      img{
-        border-radius: 50%;
+    @media (max-width: 1400px) {
+      width: 45%;
+    }
+    @media (max-width: 1200px) {
+      width: 70%;
+    }
+    @media (max-width: 700px) {
+      width: 90%;
+    }
+  }
+  padding: 120px 0;
+  @media (max-width: 1400px) {
+    padding: 70px 0;
+  }
+  .main-title{
+    margin-bottom: 120px;
+    .title{
+      font-size: 7rem;
+      line-height: 5.5rem;
+      @media (max-width: 1800px) {
+        font-size: 6rem;
       }
-      .image{
-        margin-bottom: 30px;
+      @media (max-width: 1700px) {
+        font-size: 5.5rem;
+      }
+      @media (max-width: 1200px) {
+        font-size: 5rem;
+      }
+      @media (max-width: 700px) {
+        font-size: 4.5rem;
       }
     }
   }
-  
+  .staff{
+    @media (max-width: 1800px) {
+      // margin: 0 30px;
+    }
+    .title{
+      margin: 20px 0;
+      @media (max-width: 2200px) {
+        margin: 40px 0;
+      }
+    }
+    margin: 50px 0px;
+    img{
+      border-radius: 50%;
+    }
+    .image{
+      margin-bottom: 30px;
+    }
+  }
 }
 
 /*======================

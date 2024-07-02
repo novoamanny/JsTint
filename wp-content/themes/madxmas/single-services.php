@@ -330,75 +330,126 @@ $service_tab_image = $service_tab['image'];
 
 <?php if($service_name == 'Custom Car Audio') : ?>
 
-
-<!-- TAB -->
-<div class="service-tab service-tab-long bg-linear-red-fade white-copy flex wrap align-items parralex parralex-reverse" >
-    <div class="third-width padding-top-bottom-alt parallex-copy">
-        <div class="full-width">
-            <h2 class="title veneer text-left">Option 1</h2>
+<div class="about-section full-width flex wrap space-even white-copy bg-linear-dark-fade4">
+        <div class="main-title full-width flex wrap center">
+            <h2 class="title veneer text-center uppercase">
+               Custom Car Audio
+            </h2>
         </div>
-        <p class="copy mark text-left auto-margin copy-width-intro">
-        Protect your vehicle's pristine finish with our advanced Paint Protection Film (PPF), shielding against scratches, road debris, and environmental elements while maintaining its showroom shine.
-        </p>
-        <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/ppf">Learn More</a>
+    <div class="staff third-width flex wrap center align-items">
+        <div class="image full-width flex wrap center">
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio1.jpeg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Level 1
+            </h2>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-center">
+                <p class="americane copy square-copy">
+                    Upgrade your current audio system and enhance your listening experience by taking it one level over factory.
+                </p>
+            </div>
         </div>
     </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
 
-    </div>
-        <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
+
+
+    <div class="staff third-width flex wrap center align-items">
+        <div class="image full-width flex wrap center">
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio2.jpeg" />
         </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Level 2
+            </h2>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-center">
+                <p class="americane copy square-copy">
+                Imaging adds character. Character creates a new listening experience for those who crave more than just an upgrade.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="staff third-width flex wrap center align-items">
+        <div class="image full-width flex wrap center">
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio3.jpg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Level 3
+            </h2>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-center">
+                <p class="americane copy square-copy">
+                Are you searching for certain nuances in music? Identity rewards critical listeners. Discover what your favorite songs really sound like.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 
 
-<!-- TAB -->
-<div class="service-tab service-tab-long bg-linear-dark-fade white-copy flex wrap align-items reverse-row parralex parralex-no-reverse" >
-    <div class="third-width padding-top-bottom-alt parallex-copy">
-        <div class="full-width">
-            <h2 class="title veneer text-left">Option 2</h2>
-        </div>
-        <p class="copy mark text-left auto-margin copy-width-intro">
-        Upgrade to our Ceramic window tint for unparalleled heat rejection, ensuring a cooler and more comfortable interior.
-        </p>
-        <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/window-tint">Learn More</a>
-        </div>
-    </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-cleo.jpg);">
 
-    </div>
-        <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-cleo.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
+
+<div class="about-section full-width flex wrap space-even white-copy bg-linear-dark-fade4">
+        <!-- <div class="main-title full-width flex wrap center">
+            <h2 class="title veneer text-center uppercase">
+                Meet The Team
+            </h2>
+        </div> -->
+    <div class="staff third-width flex wrap center align-items">
+        <div class="image full-width flex wrap center">
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio1.jpeg" />
         </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Level 4
+            </h2>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-center">
+                <p class="americane copy square-copy">
+                World Class Audio fidelity with tailored aesthetics to compliment your car's DNA.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="staff third-width flex wrap center align-items">
+        <div class="image full-width flex wrap center">
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio2.jpeg" />
+        </div>
+        <div class="full-width flex wrap center">
+            <h2 class="title veneer text-center">
+                Level 5
+            </h2>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-center">
+                <p class="americane copy square-copy">
+                Unrivaled. Unmatched. Your Masterpiece.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 
 
-<!-- TAB -->
-<div class="service-tab service-tab-long bg-linear-red-fade white-copy flex wrap align-items parralex parralex-reverse" >
-    <div class="third-width padding-top-bottom-alt parallex-copy">
-        <div class="full-width">
-            <h2 class="title veneer text-left">Option 3</h2>
-        </div>
-        <p class="copy mark text-left auto-margin copy-width-intro">
-        Transform your driving experience with personalized custom car audio solutions that deliver superior sound quality and seamless integration, tailored to reflect your unique style and preferences.
-        </p>
-        <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/car-audio">Learn More</a>
-        </div>
-    </div>
-    <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/tint-orange-car.jpg);">
 
-    </div>
-        <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
-        </div>
-</div>
 
 <?php endif; ?>
 
@@ -407,7 +458,7 @@ $service_tab_image = $service_tab['image'];
 
 <!-- Social -->
 
-<div class="flex wrap center info-tab-margin mobile-section">
+<div class="flex wrap center mobile-section">
     <div class="left half-width carousel-opacity mobile-full">
     
             

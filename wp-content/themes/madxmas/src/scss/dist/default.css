@@ -2384,25 +2384,86 @@ Image Effect Styles
 /*======================
 HOME STYLES
 ========================*/
+.space-even {
+  justify-content: space-around;
+}
+
 /*======================
 ABOUT STYLES
 ========================*/
-.page-template-about .about-section {
+.about-section {
   padding: 120px 0;
 }
-.page-template-about .about-section .main-title {
+.about-section .third-width {
+  width: 33%;
+}
+@media (max-width: 1700px) {
+  .about-section .third-width {
+    width: 28%;
+  }
+}
+@media (max-width: 1400px) {
+  .about-section .third-width {
+    width: 45%;
+  }
+}
+@media (max-width: 1200px) {
+  .about-section .third-width {
+    width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .about-section .third-width {
+    width: 90%;
+  }
+}
+@media (max-width: 1400px) {
+  .about-section {
+    padding: 70px 0;
+  }
+}
+.about-section .main-title {
   margin-bottom: 120px;
 }
-.page-template-about .about-section .main-title .title {
+.about-section .main-title .title {
   font-size: 7rem;
+  line-height: 5.5rem;
 }
-.page-template-about .about-section .staff {
-  margin: 50px 30px;
+@media (max-width: 1800px) {
+  .about-section .main-title .title {
+    font-size: 6rem;
+  }
 }
-.page-template-about .about-section .staff img {
+@media (max-width: 1700px) {
+  .about-section .main-title .title {
+    font-size: 5.5rem;
+  }
+}
+@media (max-width: 1200px) {
+  .about-section .main-title .title {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 700px) {
+  .about-section .main-title .title {
+    font-size: 4.5rem;
+  }
+}
+.about-section .staff {
+  margin: 50px 0px;
+}
+.about-section .staff .title {
+  margin: 20px 0;
+}
+@media (max-width: 2200px) {
+  .about-section .staff .title {
+    margin: 40px 0;
+  }
+}
+.about-section .staff img {
   border-radius: 50%;
 }
-.page-template-about .about-section .staff .image {
+.about-section .staff .image {
   margin-bottom: 30px;
 }
 
