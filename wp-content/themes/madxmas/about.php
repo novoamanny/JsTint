@@ -329,7 +329,54 @@ $hero_subtitle = $hero_options['subtitle'];
             Driven by a passion for automotive excellence, we are committed to enhancing your driving experience through precision craftsmanship, innovative solutions, and personalized service. Our mission is to inspire confidence and satisfaction in every customer, ensuring that your journey with us is nothing short of exceptional.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/services">More Services</a>
+            <!-- <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/services">Services</a>
+            </div> -->
+            <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
+            </div>
+            <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="tel:+14698410200">Call Now!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Social -->
+
+<div class="flex wrap center info-tab-margin mobile-section">
+    <div class="left half-width carousel-opacity mobile-full">
+    
+            
+            <div class="owl-carousel">
+                
+
+                <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
+
+                <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
+
+                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
+
+                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
+            </div>
+    
+    </div>
+   
+<!-- SECTION ONE -->
+    <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt flex wrap center align-items mobile-full mobile-section-copy">
+        <div class="full-width flex wrap justify-left mobile-section-title">
+            <h2 class="title veneer text-left">Stay Connected!</h2>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+            <p class="americane copy white-copy square-copy mobile-copy">Follow us on social media to stay connected with our latest projects, special offers, and tips to keep your vehicle looking its best. Join our community and discover how we can enhance your ride with top-notch window tinting, ceramic coating, car wraps, and more!</p>
+            </div>
+   
+                <div class="full-width flex wrap center align-items">
+                    <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/insta.png" /></a>
+                    <a target="_blank" href="https://www.facebook.com/jstint2012/"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" /></a>
+                </div>
         </div>
     </div>
 </div>

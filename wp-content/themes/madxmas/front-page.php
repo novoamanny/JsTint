@@ -148,9 +148,7 @@ $hero_image5 = $hero_images['hero_5'];
         </div>
         <div class="full-width list">
             <ul>
-                <li class="americane"><strong class="veneer uppercase">Ultimate Paint Protection:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-                <li class="americane"><strong class="veneer uppercase">Preserves Resale Value:</strong></br> Protecting your car's paint with PPF can significantly increase its resale value by maintaining a flawless exterior. Potential buyers will appreciate the care taken to protect the vehicle.</li>
-                <li class="americane"><strong class="veneer uppercase">Maintains Aesthetics:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+                <li class="americane"><strong class="veneer uppercase">Shield Your Vehicle from the Elements:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
             </ul>
         </div>
         <div class="flex wrap center padding-top-bottom">
@@ -164,12 +162,11 @@ $hero_image5 = $hero_images['hero_5'];
         </div>
         <div class="full-width list">
             <ul class="flex wrap align-items">
-                <li class="americane"><strong class="veneer uppercase">Self-Healing Technology:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-                <li class="americane"><strong class="veneer uppercase">Easy Maintenance:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-                <li class="americane"><strong class="veneer uppercase">Longevity: </strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-                <li class="americane"><strong class="veneer uppercase">Custom Fit:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-                <li class="americane"><strong class="veneer uppercase">Enhanced Driving Experience:</strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
-                <li class="americane"><strong class="veneer uppercase">Professional Installation: </strong></br> Our PPF provides a durable, high-gloss barrier against rocks, road debris, bug splatter, and other environmental hazards, ensuring your paint stays pristine.</li>
+                <li class="americane"><strong class="veneer uppercase">Preserves Resale Value:</strong></br> Protecting your car's paint with PPF can significantly increase its resale value by maintaining a flawless exterior. Potential buyers will appreciate the care taken to protect the vehicle.</li>
+                <li class="americane"><strong class="veneer uppercase">Unobtrusive Protection:</strong></br> Our high-quality PPF is virtually invisible once applied, maintaining the original aesthetics of your vehicle. Enjoy peace of mind knowing your car is protected without altering its appearance.</li>
+                <li class="americane"><strong class="veneer uppercase">Durable and Reliable:</strong></br> Engineered with cutting-edge technology, our PPF is designed to withstand daily driving and harsh conditions. It provides long-lasting protection, ensuring your vehicle stays looking newer for longer.</li>
+                <li class="americane"><strong class="veneer uppercase">Easy Maintenance:</strong></br> PPF makes cleaning easier by repelling dirt, water, and contaminants. Say goodbye to frequent waxing and polishing—maintaining your car's shine is effortless with our protective film.</li>
+                <li class="americane"><strong class="veneer uppercase">Tailored Solutions: </strong></br> We offer custom-fit PPF solutions for a wide range of vehicles, ensuring precise coverage and optimal protection. Whether you drive a sedan, SUV, or sports car, we have the right solution for you.</li>
             </ul>
         </div>
         <div class="padding-top-bottom">

@@ -2066,6 +2066,7 @@ ol{
   }
   .title{
     margin: 0;
+    line-height: 1.2em;
   }
 }
 .info-tab-long{
@@ -2073,6 +2074,9 @@ ol{
   border-radius: 0;
   width: 100%;
   margin: 0px 0;
+  .quote-button{
+    margin: 20px 0;
+  }
   @media (max-width: 1500px) {
     .padding-top-bottom{
       padding: 60px 0;

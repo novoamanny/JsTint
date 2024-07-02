@@ -142,7 +142,7 @@ $weekend = $hours['weekend'];
             <h2 class="title veneer text-left">Custom Car Audio</h2>
         </div>
         <p class="copy mark text-left auto-margin copy-width-intro">
-            Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
+        Transform your driving experience with personalized custom car audio solutions that deliver superior sound quality and seamless integration, tailored to reflect your unique style and preferences.
         </p>
         <div class="full-width flex wrap justify-left">
             <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/car-audio">Learn More</a>
@@ -163,7 +163,7 @@ $weekend = $hours['weekend'];
             <h2 class="title veneer text-left">Full Body Wrap</h2>
         </div>
         <p class="copy mark text-left auto-margin copy-width-intro">
-            Transform your online presence with our bespoke web development solutions. From intuitive interfaces to seamless functionality, we create websites that captivate your audience and drive results.
+        Elevate your vehicle’s appearance with precision-crafted car wraps that blend innovative design with durable materials, ensuring head-turning aesthetics and long-lasting protection.
         </p>
         <div class="full-width flex wrap center">
             <a class="quote-button quote-button-margin white-copy bg-nova-purple americane" href="/services/car-wrap">Learn More</a>
@@ -240,7 +240,7 @@ $weekend = $hours['weekend'];
             <h2 class="title veneer full-width text-center uppercase">Car Alarms</h2>
         </div>
         <p class="copy mark text-center">
-        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential.
+        Secure your peace of mind with state-of-the-art car alarm systems that provide robust protection against theft and unauthorized access, tailored to safeguard your vehicle and belongings wherever you go.
         </p>
         <div class="full-width flex wrap center">
             <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/car-alarms">Learn More</a>
@@ -255,7 +255,7 @@ $weekend = $hours['weekend'];
             <h2 class="title veneer full-width text-center uppercase">Ceramic Coating</h2>
         </div>
         <p class="copy mark text-center">
-        In today's fast-paced world, technology is not just an advantage but a necessity for success. Our premier IT/Software Consulting services offer strategic partnerships tailored to unlock your business's digital potential.
+        Enhance and protect your vehicle with our advanced ceramic coating solutions, providing unmatched durability, a dazzling finish, and effortless maintenance for a showroom shine that lasts.
         </p>
         <div class="full-width flex wrap center">
             <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/ceramic-coating">Learn More</a>
@@ -343,6 +343,17 @@ $weekend = $hours['weekend'];
                     From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
                     Trust the experts at [Shop Name] to turn your car into a masterpiece.
                 </p>
+            </div>
+        </div>
+        <div class="full-width flex wrap center">
+            <!-- <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/services">Services</a>
+            </div> -->
+            <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
+            </div>
+            <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="tel:+14698410200">Call Now!</a>
             </div>
         </div>
     </div>

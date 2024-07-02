@@ -126,7 +126,15 @@ $hero_subtitle = $hero_options['subtitle'];
             Driven by a passion for automotive excellence, we are committed to enhancing your driving experience through precision craftsmanship, innovative solutions, and personalized service. Our mission is to inspire confidence and satisfaction in every customer, ensuring that your journey with us is nothing short of exceptional.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/">Learn More</a>
+            <!-- <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/services">Services</a>
+            </div> -->
+            <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
+            </div>
+            <div class="flex wrap center full-width">
+                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="tel:+14698410200">Call Now!</a>
+            </div>
         </div>
     </div>
 </div>
