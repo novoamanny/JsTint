@@ -2147,6 +2147,10 @@ ol {
   margin: 0;
   line-height: 1.2em;
 }
+.info-tab ul li {
+  list-style: none;
+  text-align: left;
+}
 
 .info-tab-long {
   box-shadow: none;

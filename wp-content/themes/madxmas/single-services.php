@@ -73,8 +73,19 @@ $service_tab_image = $service_tab['image'];
         
     </div>
 
-</div>
+    <div class="full-width flex wrap center">
+        <!-- <div class="flex wrap center full-width">
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/services">Services</a>
+        </div> -->
+        <div class="flex wrap center full-width">
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
+        </div>
+        <!-- <div class="flex wrap center full-width">
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="tel:+14698410200">Call Now!</a>
+        </div> -->
+    </div>
 
+</div>
 
 
 

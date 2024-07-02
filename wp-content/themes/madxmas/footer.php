@@ -65,15 +65,12 @@ $arch_carousel = array();
     <div class="links flex wrap center full-width align-items">
         <h3 class="full-width text-left">Services</h3>
         <div class="full-width">
-        <li><a href="/services/ppf">PPF</a></li>
-        <li><a href="/services/window-tint">Window Tint</a></li>
-        <li><a href="/services/car-audio">Car Audio</a></li>
         <li><a href="/services/car-alarms">Car Alarms</a></li>
+        <li><a href="/services/car-audio">Custom Car Audio</a></li>
         <li><a href="/services/ceramic-coating">Ceramic Coating</a></li>
         <li><a href="/services/car-wrap">Full Body Wrap</a></li>
-        <li><a href="/services/car-audio">Chrome Delete</a></li>
-        <li><a href="/services/device-integration">Device Integration</a></li>
-        <li><a href="/services/lighting">Lighting</a></li>
+        <li><a href="/services/ppf">Paint Protection Film</a></li>
+        <li><a href="/services/window-tint">Window Tint</a></li>
         </div>
 
     </div>

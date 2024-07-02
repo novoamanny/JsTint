@@ -331,17 +331,14 @@ $weekend = $hours['weekend'];
     </p> -->
     <div class="full-width flex wrap justify-left mobile-section-title">
             <h2 class="title veneer text-left">
-                Video
+            Protect, Enhance,</br>and Enjoy Every Mile
             </h2>
         </div>
         <div class="copy">
      
             <div class="full-width flex wrap center text-left">
                 <p class="americane copy black-copy square-copy square-copy-width mobile-copy">
-                    At [Shop Name], we're more than just a car shop – we're your partners in automotive perfection. 
-                    Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
-                    From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
-                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                Experience the ultimate in automotive care with our range of services, from precision window tinting to durable paint protection film. Trust us to safeguard your vehicle's beauty and performance—because every drive deserves perfection.
                 </p>
             </div>
         </div>
@@ -352,9 +349,9 @@ $weekend = $hours['weekend'];
             <div class="flex wrap center full-width">
                 <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
             </div>
-            <div class="flex wrap center full-width">
+            <!-- <div class="flex wrap center full-width">
                 <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="tel:+14698410200">Call Now!</a>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- Right -->
