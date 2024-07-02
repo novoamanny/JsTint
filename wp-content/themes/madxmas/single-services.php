@@ -90,7 +90,7 @@ $service_tab_image = $service_tab['image'];
 
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url('<?php echo $hero_image;?>');">
+<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-service align-items" style="background-image: url('<?php echo $hero_image;?>');">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
             <h2 class="title veneer full-width text-center uppercase"><?php echo $service_tab_title; ?></h2>

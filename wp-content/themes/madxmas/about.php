@@ -320,7 +320,7 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 <!-- Info TAB -->
-<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-big align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/chevy-parallex.jpeg);">
+<div class="info-tab info-tab-long white-copy flex wrap center reverse-row relative image-effect image-height-service align-items" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/chevy-parallex.jpeg);">
     <div class="seventy-width padding-top-bottom bg-dark-opacity info-white-border">
         <div class="full-width">
             <h2 class="title veneer full-width text-center ">Revolutionizing Your Ride, </br> One Detail at a Time!</h2>
