@@ -409,7 +409,7 @@ $service_tab_image = $service_tab['image'];
         </div> -->
     <div class="staff third-width flex wrap center align-items">
         <div class="image full-width flex wrap center">
-            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio1.jpeg" />
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio4-1.jpg" />
         </div>
         <div class="full-width flex wrap center">
             <h2 class="title veneer text-center">
@@ -429,7 +429,7 @@ $service_tab_image = $service_tab['image'];
 
     <div class="staff third-width flex wrap center align-items">
         <div class="image full-width flex wrap center">
-            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio2.jpeg" />
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio5-1.jpg" />
         </div>
         <div class="full-width flex wrap center">
             <h2 class="title veneer text-center">
