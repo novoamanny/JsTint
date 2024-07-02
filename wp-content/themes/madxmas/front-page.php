@@ -95,7 +95,7 @@ $hero_image5 = $hero_images['hero_5'];
 
 
 <!-- W i n d o w   T i n t -->
-<div class="flex wrap center square-section mobile-section">
+<div class="flex wrap center square-section mobile-section mobile-section-reverse">
 <!-- Left -->
     <div class="left half-width carousel-opacity mobile-full">  
     <!-- Owl Carousel -->

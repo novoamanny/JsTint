@@ -158,7 +158,7 @@ $service_tab_image = $service_tab['image'];
     <!-- Left -->
     <div class="half-width flex wrap center mobile-full mobile-section-copy">
         <div class="full-width flex wrap justify-left mobile-section-title">
-            <h2 class="title veneer text-left">
+            <h2 class="title veneer text-left uppercase">
             <?php echo $service_tab_title; ?>
             </h2>
         </div>
@@ -167,7 +167,7 @@ $service_tab_image = $service_tab['image'];
             <!-- <div class="copy mark text-center">
                 <?php echo $service_tab_copy; ?>
             </div> -->
-            <p class="copy">Paint Protection Film (PPF) shields your vehicle from chips, scratches, and environmental hazards without compromising its appearance. Our high-quality PPF offers transparent, durable protection that preserves your car's pristine finish, ensuring it looks newer for longer and maintains its resale value.</p>
+            <p class="americane copy white-copy square-copy square-copy-width mobile-copy">Paint Protection Film (PPF) shields your vehicle from chips, scratches, and environmental hazards without compromising its appearance. Our high-quality PPF offers transparent, durable protection that preserves your car's pristine finish, ensuring it looks newer for longer and maintains its resale value.</p>
         </div>
     </div>
     <!-- Right -->

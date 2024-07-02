@@ -324,9 +324,9 @@ NAVIGATION STYLES
   padding: 20px 85px;
   transition: 0.3s all ease;
 }
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .navwrap .desktopmenu {
-    padding: 7px 10px;
+    padding: 12px 20px;
   }
 }
 .navwrap .desktopmenu .menu {
@@ -2149,7 +2149,6 @@ ol {
 }
 .info-tab ul li {
   list-style: none;
-  text-align: left;
 }
 
 .info-tab-long {
@@ -3887,9 +3886,6 @@ MEDIA QUERIES
     position: inherit;
   }
 
-  .navwrap .desktopmenu {
-    justify-content: space-evenly;
-  }
   .navwrap .desktopmenu .menu {
     display: none;
   }

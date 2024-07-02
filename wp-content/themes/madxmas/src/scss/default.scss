@@ -354,8 +354,8 @@ NAVIGATION STYLES
     // width: 100%;
     padding: 20px 85px;
     transition: .3s all ease;
-    @media (max-width: 600px) {
-    padding: 7px 10px;
+    @media (max-width: 1300px) {
+    padding: 12px 20px;
     }
     .menu{
       margin: 0 70px;
@@ -2071,7 +2071,7 @@ ol{
   ul{
     li{
       list-style: none;
-      text-align: left;
+      
     }
   }
 }
@@ -3305,7 +3305,10 @@ MOBILE QUERIES
         margin: 0;
       }
     }
-  }   
+  }
+  // .mobile-section-reverse{
+  //   flex-flow: column-reverse;
+  // }   
 }
 
 
@@ -3979,7 +3982,7 @@ MEDIA QUERIES
   }
 
   .navwrap .desktopmenu{
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
     .menu{
       display: none;
     }
