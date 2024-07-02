@@ -179,6 +179,46 @@ $service_tab_image = $service_tab['image'];
 <?php endif; ?>
 
 
+
+
+
+<?php if($service_name == 'Ceramic Coating') : ?>
+
+
+<!-- PPF Slides -->
+
+<div class="services full-width flex wrap center padding-top-bottom overflow-x">
+    <!-- TAB -->
+    <div data-aos="fade-right" data-aos-duration="3000" class="services-tab bg-linear-dark-fade white-copy flex wrap center">
+        <div class="full-width">
+            <h2 class="title veneer text-left">Our Process:</h2>
+        </div>
+        <div class="full-width list">
+            <ul>
+                <li class="americane"><strong class="veneer uppercase">Step 1: Preparation:</strong></br> Thoroughly clean and decontaminate the vehicle's exterior to ensure a pristine surface for coating.</li>
+                <li class="americane"><strong class="veneer uppercase">Step 2: Application:</strong></br> Apply multiple layers of Ceramic Coating using advanced techniques to achieve uniform coverage and maximum protection.</li>
+            </ul>
+        </div>
+    </div>
+    <!-- TAB -->
+    <div data-aos="fade-left" data-aos-duration="3000" class="services-tab bg-linear-red-fade white-copy flex wrap center">
+        <div class="full-width">
+            <h2 class="title veneer text-left">Our Process:</h2>
+        </div>
+        <div class="full-width list">
+            <ul class="flex wrap align-items">
+                <li class="americane"><strong class="veneer uppercase">Step 3: Curing:</strong></br> Allow the coating to cure properly to bond with the paint, forming a resilient protective layer.</li>
+                <li class="americane"><strong class="veneer uppercase">Step 4: Inspection and Quality Assurance:</strong></br> Conduct meticulous inspections to ensure the coating meets our high standards of quality and durability.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<?php endif; ?>
+
+
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <!-- <div class="full-width flex wrap center bg-linear-dark-fade white-copy padding-top-bottom align-items intro-video mobile-section-video"> -->
     <!-- Left -->
@@ -221,6 +261,65 @@ $service_tab_image = $service_tab['image'];
 </div>
 
 
+<?php if($service_name == 'Paint Protection Film') : ?>
+<div class="full-width flex wrap center carousel-opacity relative full-carousel">
+    <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position">
+        <!-- Hero Title -->
+        <h2 class="hero-title veneer uppercase">
+        Defend Your Drive: </br>Paint Protection Film
+        </h2>
+        <!-- Hero Subtitle -->
+        <h2 class="hero-subtitle americane white-copy">
+            <?php echo $hero_subtitle; ?>
+        </h2>
+        <p class="copy americane white-copy">
+        Our Paint Protection Film (PPF) offers unmatched protection for your vehicle's paint. Engineered to withstand the rigors of daily driving, our nearly invisible film provides a durable barrier against rock chips, scratches, and stains, ensuring your car looks its best for years to come.  
+        </p>
+        <h2 class="hero-subtitle veneer white-copy uppercase bold-title">
+            Protect Against
+        </h2>
+        <div class="full-width flex">
+            <div class="hero-icon flex wrap center text-center">
+                <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/rock-icon.svg" />
+                <p class="copy americane full-width white-copy">Rocks</p>
+            </div>
+            <div class="hero-icon flex wrap center text-center">
+                <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/scratches.svg" />
+                <p class="copy americane full-width white-copy">Scratches</p>
+            </div>
+            <div class="hero-icon flex wrap center text-center">
+                <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/sun.svg" />
+                <p class="copy americane full-width white-copy">Sun</p>
+            </div>
+            <div class="hero-icon flex wrap center text-center">
+                <img style="filter: invert();" src="<?php echo get_template_directory_uri();?>/src/images/rain.svg" />
+                <p class="copy americane full-width white-copy">Rain</p>
+            </div>
+        </div>
+        <!-- Free Quote CTA -->
+        <!-- <div class="flex hero-cta-margin">
+            <a href="/" class="nav-phone americane uppercase text-left quote-button">
+                Free Quote!
+            </a>
+        </div> -->
+    </div>
+<!-- <iframe width="100%" height="1200px" src="https://www.youtube.com/embed/5WSCK_fzGW0?si=xmzR_iKKozQuuQnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    <div class="owl-carousel">
+        
+            <!-- <img src="<?php echo get_template_directory_uri();?>/src/images/tesla.jpeg" /> -->
+       
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
+
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-car.jpg" />
+
+            <img src="<?php echo get_template_directory_uri();?>/src/images/PPF.jpg" />
+
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
+          
+    </div>
+</div>
+
+<?php endif; ?>
 
 
 <!-- Custom Car Audio -->
