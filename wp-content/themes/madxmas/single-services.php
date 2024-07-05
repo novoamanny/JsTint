@@ -348,7 +348,7 @@ $service_tab_image = $service_tab['image'];
         <div class="copy">
             <div class="full-width flex wrap center text-center">
                 <p class="americane copy square-copy">
-                    Upgrade your current audio system and enhance your listening experience by taking it one level over factory.
+                Enhance your listening experience by upgrading your current audio system beyond factory standards.
                 </p>
             </div>
         </div>
@@ -368,7 +368,7 @@ $service_tab_image = $service_tab['image'];
         <div class="copy">
             <div class="full-width flex wrap center text-center">
                 <p class="americane copy square-copy">
-                Imaging adds character. Character creates a new listening experience for those who crave more than just an upgrade.
+                Imaging adds character, creating a unique listening experience for those who desire more than just an upgrade.
                 </p>
             </div>
         </div>
@@ -389,7 +389,7 @@ $service_tab_image = $service_tab['image'];
         <div class="copy">
             <div class="full-width flex wrap center text-center">
                 <p class="americane copy square-copy">
-                Are you searching for certain nuances in music? Identity rewards critical listeners. Discover what your favorite songs really sound like.
+                Are you looking for specific nuances in music? Identity rewards discerning listeners. Experience your favorite songs like never before.
                 </p>
             </div>
         </div>
@@ -409,7 +409,7 @@ $service_tab_image = $service_tab['image'];
         </div> -->
     <div class="staff third-width flex wrap center align-items">
         <div class="image full-width flex wrap center">
-            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio4-1.jpg" />
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio5-1.jpg" />
         </div>
         <div class="full-width flex wrap center">
             <h2 class="title veneer text-center">
@@ -419,7 +419,7 @@ $service_tab_image = $service_tab['image'];
         <div class="copy">
             <div class="full-width flex wrap center text-center">
                 <p class="americane copy square-copy">
-                World Class Audio fidelity with tailored aesthetics to compliment your car's DNA.
+                Experience world-class audio fidelity with customized aesthetics that perfectly complement your car’s unique style.
                 </p>
             </div>
         </div>
@@ -429,7 +429,7 @@ $service_tab_image = $service_tab['image'];
 
     <div class="staff third-width flex wrap center align-items">
         <div class="image full-width flex wrap center">
-            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio5-1.jpg" />
+            <img class="info-white-border" src="<?php echo get_template_directory_uri();?>/src/images/audio4-1.jpg" />
         </div>
         <div class="full-width flex wrap center">
             <h2 class="title veneer text-center">
@@ -439,7 +439,7 @@ $service_tab_image = $service_tab['image'];
         <div class="copy">
             <div class="full-width flex wrap center text-center">
                 <p class="americane copy square-copy">
-                Unrivaled. Unmatched. Your Masterpiece.
+                Incomparable. Unique. Your Automotive Masterpiece.
                 </p>
             </div>
         </div>
