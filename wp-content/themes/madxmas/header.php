@@ -84,7 +84,7 @@
                                 <a href="<?php echo esc_url(home_url('/')); ?>"><img style="max-width: 200px;" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="J's Tint logo" /></a>
                             </div>
                             <div class="flex wrap center full-width">
-                                <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
+                                <a class="info-white-border quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
                             </div>
                                 <?php wp_nav_menu(array('theme_location' => 'mobile', 'menu_class' => 'mobile', 'depth' => 1)); ?>
                                 <a href="#" class="close">Close</a>

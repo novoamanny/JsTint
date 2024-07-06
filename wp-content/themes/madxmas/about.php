@@ -70,7 +70,7 @@ $hero_subtitle = $hero_options['subtitle'];
                     At J's Tint, we're more than just a car shop – we're your partners in automotive perfection. 
                     Specializing in Paint Protection Film (PPF) and Car Tint, we offer a suite of services to customize and safeguard your vehicle. 
                     From flawless car wraps to cutting-edge lighting and accessories installation, we're here to elevate your driving experience. 
-                    Trust the experts at [Shop Name] to turn your car into a masterpiece.
+                    Trust the experts at J's Tint to turn your car into a masterpiece.
                 </p>
             </div>
         </div>
