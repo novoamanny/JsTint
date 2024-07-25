@@ -3280,7 +3280,7 @@ footer .location h3, footer .hours h3 {
 }
 @media (max-width: 2000px) {
   footer .location p, footer .hours p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   footer .location h3, footer .hours h3 {
     font-size: 1.5rem;
@@ -4060,16 +4060,6 @@ MEDIA QUERIES
 #form .onethird {
     width: 98%;
     margin: 0;
-  }
-}
-@media (max-width: 1100px) {
-  footer .center .copy .copyright {
-    margin-top: 0;
-  }
-}
-@media (max-width: 1100px) {
-  footer .form .email {
-    width: 80%;
   }
 }
 @media (max-width: 1100px) {

@@ -42,7 +42,7 @@ $arch_carousel = array();
         </div>
         <div class="hours">
             <h3>Hours</h3>
-            <p>Mon - Sat: 9am - 6:30pm</p>
+            <p>Mon - Sat: 9am - 6:00pm</p>
             <p>Sun: CLOSED!</p>
         </div>
    </div>
@@ -65,12 +65,12 @@ $arch_carousel = array();
     <div class="links flex wrap center full-width align-items">
         <h3 class="full-width text-left">Services</h3>
         <div class="full-width">
-        <li><a href="/services/car-alarms">Car Alarms</a></li>
-        <li><a href="/services/car-audio">Custom Car Audio</a></li>
-        <li><a href="/services/ceramic-coating">Ceramic Coating</a></li>
-        <li><a href="/services/car-wrap">Full Body Wrap</a></li>
-        <li><a href="/services/ppf">Paint Protection Film</a></li>
-        <li><a href="/services/window-tint">Window Tint</a></li>
+        <li><a href="<?php echo esc_url(home_url('/services/car-alarms')); ?>">Car Alarms</a></li>
+        <li><a href="<?php echo esc_url(home_url('/services/car-audio')); ?>">Custom Car Audio</a></li>
+        <li><a href="<?php echo esc_url(home_url('/services/ceramic-coating')); ?>">Ceramic Coating</a></li>
+        <li><a href="<?php echo esc_url(home_url('/services/car-wrap')); ?>">Full Body Wrap</a></li>
+        <li><a href="<?php echo esc_url(home_url('/services/ppf')); ?>">Paint Protection Film</a></li>
+        <li><a href="<?php echo esc_url(home_url('/services/window-tint')); ?>">Window Tint</a></li>
         </div>
 
     </div>
@@ -128,6 +128,14 @@ once: false, // whether animation should happen only once - while scrolling down
 mirror: false, // whether elements should animate out while scrolling past them
 anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
+
+
+
+// href redirects
+if (window.location.search.includes("?url=")) {
+  var url = window.location.search.replace("?url=", "");
+  window.location.replace(url);
+}
 
 
 

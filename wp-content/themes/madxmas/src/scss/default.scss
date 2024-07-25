@@ -3201,7 +3201,7 @@ footer{
     }
     @media (max-width: 2000px) {
       p{
-        font-size: .8rem;
+        font-size: 1rem;
       }
       h3{
         font-size: 1.5rem;
@@ -4129,12 +4129,6 @@ MEDIA QUERIES
   #form .onethird {
     width: 98%;
     margin: 0;
-  }
-  footer .center .copy .copyright{
-    margin-top: 0;
-  }
-  footer .form .email{
-    width: 80%;
   }
   // .top .brand img{
   //   display: none;

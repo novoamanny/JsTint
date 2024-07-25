@@ -97,7 +97,7 @@ $weekend = $hours['weekend'];
         Protect your vehicle's pristine finish with our advanced Paint Protection Film (PPF), shielding against scratches, road debris, and environmental elements while maintaining its showroom shine.
         </p>
         <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/ppf">Learn More</a>
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="<?php echo esc_url(home_url('/services/ppf')); ?>">Learn More</a>
         </div>
     </div>
     <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Car-Headlight-on.jpg);">
@@ -120,7 +120,7 @@ $weekend = $hours['weekend'];
         Upgrade to our Ceramic window tint for unparalleled heat rejection, ensuring a cooler and more comfortable interior.
         </p>
         <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/window-tint">Learn More</a>
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="<?php echo esc_url(home_url('/services/window-tint')); ?>">Learn More</a>
         </div>
     </div>
     <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/Cybertruck-cleo.jpg);">
@@ -145,7 +145,7 @@ $weekend = $hours['weekend'];
         Transform your driving experience with personalized custom car audio solutions that deliver superior sound quality and seamless integration, tailored to reflect your unique style and preferences.
         </p>
         <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/car-audio">Learn More</a>
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="<?php echo esc_url(home_url('/services/car-audio')); ?>">Learn More</a>
         </div>
     </div>
     <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/tint-orange-car.jpg);">
@@ -166,7 +166,7 @@ $weekend = $hours['weekend'];
         Elevate your vehicle’s appearance with precision-crafted car wraps that blend innovative design with durable materials, ensuring head-turning aesthetics and long-lasting protection.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-purple americane" href="/services/car-wrap">Learn More</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-purple americane" href="<?php echo esc_url(home_url('/services/car-wrap')); ?>">Learn More</a>
         </div>
     </div>
     <div class="relative seventy-width image-effect image-height-regular parallex-image" style="background-image: url(<?php echo get_template_directory_uri();?>/src/images/chevy-parallex.jpeg);">
@@ -243,7 +243,7 @@ $weekend = $hours['weekend'];
         Secure your peace of mind with state-of-the-art car alarm systems that provide robust protection against theft and unauthorized access, tailored to safeguard your vehicle and belongings wherever you go.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/car-alarms">Learn More</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="<?php echo esc_url(home_url('/services/car-alarms')); ?>">Learn More</a>
         </div>
     </div>
 </div>
@@ -258,7 +258,7 @@ $weekend = $hours['weekend'];
         Enhance and protect your vehicle with our advanced ceramic coating solutions, providing unmatched durability, a dazzling finish, and effortless maintenance for a showroom shine that lasts.
         </p>
         <div class="full-width flex wrap center">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="/services/ceramic-coating">Learn More</a>
+            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane uppercase" href="<?php echo esc_url(home_url('/services/ceramic-coating')); ?>">Learn More</a>
         </div>
     </div>
 </div>

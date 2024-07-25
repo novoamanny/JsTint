@@ -121,7 +121,7 @@ $hero_image5 = $hero_images['hero_5'];
                 </p>
             </div>
             <div class="flex full-width wrap justify-right mobile-section-cta">
-                <a href="/servies/window-tint" class="nav-phone americane uppercase text-right quote-button quote-button-margin-right">Learn More!</a>
+                <a href="<?php echo esc_url(home_url('/services/window-tint')); ?>" class="nav-phone americane uppercase text-right quote-button quote-button-margin-right">Learn More!</a>
                 <!-- <a href="/services/window-tint" class="nav-phone americane uppercase text-right learn-button link-margin">Learn More</a> -->
             </div>
         </div>
@@ -253,7 +253,7 @@ $hero_image5 = $hero_images['hero_5'];
             </p>
         </div>
         <div class="full-width flex wrap justify-left">
-            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="/services/ppf">Learn More</a>
+            <a class="quote-button quote-button-margin-left white-copy bg-nova-purple americane" href="<?php echo esc_url(home_url('/services/ppf')); ?>">Learn More</a>
         </div>
         
     </div>
