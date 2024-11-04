@@ -81,7 +81,7 @@ $weekend = $hours['weekend'];
     <!-- Right -->
     <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
-        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/h3uo4z0znmg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=h3uo4z0znmg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/Cat5ypvRMXg?controls=0&autoplay=1&mute=1&loop=1&playlist=Cat5ypvRMXg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 
@@ -357,7 +357,7 @@ $weekend = $hours['weekend'];
     <!-- Right -->
     <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
-        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/h3uo4z0znmg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=h3uo4z0znmg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/kIIUSrGHjDg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=kIIUSrGHjDg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 

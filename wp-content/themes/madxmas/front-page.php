@@ -89,7 +89,8 @@ $hero_image5 = $hero_images['hero_5'];
     <!-- Right -->
     <div class="half-width flex wrap center align youtube-container mobile-video">
         <!-- Video -->
-        <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/g-5B12wpx8o?controls=0&autoplay=1&mute=1&loop=1&playlist=g-5B12wpx8o&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/g-5B12wpx8o?controls=0&autoplay=1&mute=1&loop=1&playlist=g-5B12wpx8o&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+            <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/lQD37RBN4ps?controls=0&autoplay=1&mute=1&loop=1&playlist=lQD37RBN4ps&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 
