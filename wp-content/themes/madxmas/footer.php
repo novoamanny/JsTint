@@ -51,8 +51,8 @@ $arch_carousel = array();
             <a href="/"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" /></a>
         </div>
         <div class="full-width flex wrap center align-items">
-            <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/insta.png" /></a>
-            <a target="_blank" href="https://www.facebook.com/jstint2012/"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" /></a>
+            <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/red-instagram.png" /></a>
+            <a target="_blank" href="https://www.facebook.com/jstint2012/"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/red-facebook.png" /></a>
         </div>
         <div class="full-width flex wrap center">
             <a href="https://www.yelp.com/biz/js-tint-and-car-audio-dallas"><img class="logo" src="<?php echo get_template_directory_uri();?>/src/images/Yelp_Logo.png" /></a>

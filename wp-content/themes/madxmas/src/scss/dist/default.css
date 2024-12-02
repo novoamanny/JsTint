@@ -3258,7 +3258,7 @@ footer .logo {
 }
 footer .location, footer .hours {
   padding: 20px;
-  border: solid 1px #fff;
+  box-shadow: 0 4px 10px 0 rgba(182, 32, 37, 0.5);
   border-radius: 5px;
   width: 50%;
   margin: 20px 0;
@@ -3288,8 +3288,8 @@ footer .location h3, footer .hours h3 {
 }
 
 .icon-logo {
-  max-width: 30px;
-  margin: 0 20px;
+  max-width: 45px;
+  margin: 10px 20px;
 }
 
 .windowtop {
