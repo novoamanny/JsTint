@@ -887,6 +887,12 @@ CONTENT STYLES
   margin: 0px 50px;
   width: 70%;
 }
+@media (max-width: 500px) {
+  .title {
+    width: 90%;
+    margin: 0;
+  }
+}
 
 .bold-title {
   margin-bottom: 50px;
@@ -1095,6 +1101,10 @@ CONTENT STYLES
 
 .center {
   justify-content: center;
+}
+
+.start {
+  justify-content: start;
 }
 
 .justify-left {
@@ -2317,7 +2327,7 @@ Image Effect Styles
 }
 
 .image-height-hero-big {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 @media (max-width: 1300px) {
   .image-height-hero-big {

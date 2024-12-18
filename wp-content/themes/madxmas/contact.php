@@ -47,9 +47,12 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
-<div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items contact-section">
+<div class="full-width flex wrap center bg-white black-copy padding-top-bottom contact-section">
+
+
+
     <!-- Left -->
-    <div class="full-width flex wrap center align-items mobile-full">
+    <div class="half-width flex wrap center align-items mobile-full">
         <div class="full-width flex wrap center logo-contact logo-contact-mobile">
             <img class="fourth-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
@@ -64,16 +67,37 @@ $hero_subtitle = $hero_options['subtitle'];
                 We're here to make your experience as seamless as possible. If you have any questions or need assistance, please don't hesitate to reach out to us using the form below. Our dedicated team is ready to assist you with any inquiries or concerns you may have. Your satisfaction is our top priority, and we look forward to helping you with your automotive needs.
                 </p>
             </div>
-
+<!-- 
             <div class="full-width flex wrap text-center">
                 <p class="americane copy black-copy square-copy text-center">
                     Having trouble with our contact form?
                 </p>
-            </div>
+            </div> -->
 
             <div class="full-width flex wrap center">
-                <a class="quote-button white-copy bg-nova-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Click Here</a>
+                <a class="quote-button white-copy bg-nova-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Contact Us Here</a>
             </div>
+        </div>
+    </div>
+
+
+    <!-- Right -->
+    <div class="half-width">
+        <div class="copy full-width flex wrap center start align-items">
+            <h2 class="title veneer text-center">
+                Meet Us
+            </h2>
+            <!-- INFO -->
+                <p class="americane copy black-copy square-copy">
+                    Phone: (469) 841-0200
+                </p>
+                <p class="americane copy black-copy square-copy">
+                    Location: 4418 E Side Ave, Dallas, Texas, 75226
+                </p>
+                <p class="americane copy black-copy square-copy">
+                    Email: info@jstintcaraudiodallas.com
+                </p>
+            
         </div>
     </div>
     <!-- Right -->
@@ -114,6 +138,48 @@ $hero_subtitle = $hero_options['subtitle'];
        </form> -->
     <!-- </div> -->
 </div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.077756567665!2d-96.76927828821725!3d32.79019748320144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e98b947a1431f%3A0x36a30c0fbcba5f85!2sJ&#39;s%20Tint%20%26%20Car%20Audio!5e0!3m2!1sen!2sus!4v1733158836851!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="full-width"></iframe>
+
+<!-- Social -->
+
+<div class="flex wrap center info-tab-margin mobile-section">
+    <div class="left half-width carousel-opacity mobile-full">
+    
+            
+            <div class="owl-carousel">
+                
+
+                <img src="<?php echo get_template_directory_uri();?>/src/images/Tesla-Rear.jpg" />
+
+                <img src="<?php echo get_template_directory_uri();?>/src/images/Front-shot.jpg" />
+
+                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Cybertruck.jpg" />
+
+                <img src="<?php echo get_template_directory_uri();?>/src/images/Hero-Tesla.jpg" />
+            </div>
+    
+    </div>
+   
+<!-- SECTION ONE -->
+    <div class="right half-width bg-linear-red-fade white-copy padding-top-bottom-alt flex wrap center align-items mobile-full mobile-section-copy">
+        <div class="full-width flex wrap justify-left mobile-section-title">
+            <h2 class="title veneer text-left">Stay Connected!</h2>
+        </div>
+        <div class="copy">
+            <div class="full-width flex wrap center text-left">
+            <p class="americane copy white-copy square-copy mobile-copy">Follow us on social media to stay connected with our latest projects, special offers, and tips to keep your vehicle looking its best. Join our community and discover how we can enhance your ride with top-notch window tinting, ceramic coating, car wraps, and more!</p>
+            </div>
+   
+                <div class="full-width flex wrap center align-items">
+                    <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/insta.png" /></a>
+                    <a target="_blank" href="https://www.facebook.com/jstint2012/"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/facebook.png" /></a>
+                </div>
+        </div>
+    </div>
+</div>
+
+
 
 
 <!-- Info TAB -->

@@ -849,7 +849,10 @@ CONTENT STYLES
   font-size: 5.4rem;
   margin: 0px 50px;
   width: 70%;
-  
+  @media(max-width: 500px) {
+    width: 90%;
+    margin: 0;
+  }
 }
 // Homepage bottom carousel
 .bold-title{
@@ -1082,6 +1085,9 @@ CONTENT STYLES
 }
 .center{
   justify-content: center;
+}
+.start{
+  justify-content: start;
 }
 .justify-left{
   justify-content: left;
@@ -2233,7 +2239,7 @@ Image Effect Styles
   min-height: 70vh;
 }
 .image-height-hero-big{
-  min-height: 100vh;
+  min-height: 90vh;
   @media (max-width: 1300px) {
     min-height: 80vh;
     .title-position-hero{

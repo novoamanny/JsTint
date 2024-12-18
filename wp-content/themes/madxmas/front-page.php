@@ -84,7 +84,6 @@ $hero_image5 = $hero_images['hero_5'];
                 Driven by a passion for automotive excellence, we are committed to enhancing your driving experience through precision craftsmanship, innovative solutions, and personalized service. Our mission is to inspire confidence and satisfaction in every customer, ensuring that your journey with us is nothing short of exceptional.
             </p>
         </div>
-        
     </div>
     <!-- Right -->
     <div class="half-width flex wrap center align youtube-container mobile-video">
@@ -178,7 +177,6 @@ $hero_image5 = $hero_images['hero_5'];
 
 
 
-
 <div class="full-width flex wrap center carousel-opacity relative full-carousel">
     <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position">
         <!-- Hero Title -->
@@ -236,7 +234,9 @@ $hero_image5 = $hero_images['hero_5'];
     </div>
 </div>
 
-
+<div class="flex wrap center full align" style="margin-bottom: 20px; margin-top: 20px;">
+<iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25500489' frameborder='0' width='92%' height='700'></iframe>
+</div>
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video mobile-section-video">
