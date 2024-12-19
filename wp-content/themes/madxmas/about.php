@@ -384,9 +384,9 @@ $hero_subtitle = $hero_options['subtitle'];
 
 
 
-
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-2ac4892a-75d2-49b5-b752-73ffc35efb91" data-elfsight-app-lazy></div>
+<div class="flex wrap center full align" style="margin-bottom: 20px">
+<iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25500489' frameborder='0' width='90%' height='500'></iframe>
+</div>
 
 
 

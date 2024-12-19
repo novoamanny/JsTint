@@ -62,7 +62,7 @@
                             </div> -->
                             <!-- Logo -->
                             <div class="brand">
-                                <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="Madisonville Christmas logo" /></a>
+                                <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="J's Tint & Car Audio" /></a>
                             </div>
 
                             <!-- Right Menu -->
@@ -70,15 +70,40 @@
                                 <div class="menu flex">
                                     <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'navigation')); ?>
                                 </div>
+                                <div class="full-width flex wrap center align-items">
+                                    <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo-nav" src="<?php echo get_template_directory_uri();?>/src/images/red-instagram.png" /></a>
+                                    <a target="_blank" href="https://www.facebook.com/jstint2012/"><img class="icon-logo-nav" src="<?php echo get_template_directory_uri();?>/src/images/red-facebook.png" /></a>
+                                </div>
                                 <div class="flex">
-                                    <a href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw" class="quote-button americane uppercase">Free Quote!</a>
+                                    <a href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw" class="quote-button quote-button-nav americane uppercase">Free Quote!</a>
                                 </div>
                             </div>
 <!--MOBILE MENU-->
-                            <a id="menu-toggle" class="mobile-menu-toggle" href="#menu">Menu</a>
+                            
+                            <div id="menu-toggle" class="hamburger-menu" onclick="toggleMenu()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
                         </nav>
                         <div class="white-bar"></div>
-                        <nav id="menu" class="mobilemenu">
+
+                        <nav class="side-menu" id="sideMenu">
+                            <div class="flex wrap center" style="margin-top: 20px;">
+                                <a href="<?php echo esc_url(home_url('/')); ?>"><img style="max-width: 200px;" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="J's Tint logo" /></a>
+                            </div>
+                            <ul>
+                                <?php wp_nav_menu(array('theme_location' => 'mobile', 'menu_class' => 'mobile', 'depth' => 1)); ?>
+                            </ul>
+                            <div class="flex wrap center full-width">
+                                <a class="info-white-border quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
+                            </div>
+                            <div class="full-width flex wrap center align-items">
+                                <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo-nav" src="<?php echo get_template_directory_uri();?>/src/images/red-instagram.png" /></a>
+                                <a target="_blank" href="https://www.facebook.com/jstint2012/"><img class="icon-logo-nav" src="<?php echo get_template_directory_uri();?>/src/images/red-facebook.png" /></a>
+                            </div>
+                        </nav>
+                        <!-- <nav id="menu" class="mobilemenu">
                             <div class="inner">
                             <div class="brand">
                                 <a href="<?php echo esc_url(home_url('/')); ?>"><img style="max-width: 200px;" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="J's Tint logo" /></a>
@@ -89,7 +114,7 @@
                                 <?php wp_nav_menu(array('theme_location' => 'mobile', 'menu_class' => 'mobile', 'depth' => 1)); ?>
                                 <a href="#" class="close">Close</a>
                             </div>
-                        </nav>
+                        </nav> -->
                     </div>
                 </div>
             </div>
@@ -104,5 +129,13 @@
     else {
         nav.classList.remove("nav-colored");
     }
-};
+    };
+
+    function toggleMenu() {
+        const sideMenu = document.getElementById("sideMenu");
+        const hamburger = document.querySelector(".hamburger-menu");
+
+        sideMenu.classList.toggle("open");
+        hamburger.classList.toggle("active");
+    }
 </script>

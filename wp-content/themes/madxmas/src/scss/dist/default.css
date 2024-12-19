@@ -217,22 +217,17 @@ HEADER STYLES
   z-index: 9999;
 }
 .top .brand img {
-  max-width: 200px;
+  max-width: 150px;
   width: 100%;
   display: block;
   transition: 0.3s all ease;
 }
 @media (max-width: 2000px) {
   .top .brand img {
-    max-width: 170px;
+    max-width: 120px;
   }
 }
-@media (max-width: 1800px) {
-  .top .brand img {
-    max-width: 140px;
-  }
-}
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .top .brand img {
     max-width: 100px;
   }
@@ -332,14 +327,30 @@ NAVIGATION STYLES
 .navwrap .desktopmenu .menu {
   margin: 0 70px;
 }
+@media (max-width: 1400px) {
+  .navwrap .desktopmenu .menu {
+    margin: 0;
+  }
+}
 .navwrap .desktopmenu .menu ul {
   padding-bottom: 0;
 }
 .navwrap .desktopmenu .menu li {
   margin: 0 50px;
 }
+@media (max-width: 1400px) {
+  .navwrap .desktopmenu .menu li {
+    margin: 0 20px;
+  }
+}
 .navwrap .nav-colored {
-  background: rgba(26, 26, 26, 0.85);
+  background: #fff;
+}
+.navwrap .nav-colored li a {
+  color: #000 !important;
+}
+.navwrap .nav-colored .hamburger-menu span {
+  background-color: #303030;
 }
 .navwrap .left {
   margin-right: 90px;
@@ -553,38 +564,32 @@ CONTENT STYLES
   text-decoration: none;
   color: #fff;
   background-color: #e51b1b;
-  padding: 15px 35px;
+  padding: 10px 75px;
   text-align: center;
   border-radius: 7px;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 @media (max-width: 2200px) {
   .quote-button {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 2000px) {
   .quote-button {
     font-size: 1.4rem;
-    padding: 12px 30px;
+    padding: 10px 60px;
   }
 }
 @media (max-width: 1800px) {
   .quote-button {
     font-size: 1.2rem;
-    padding: 12px 30px;
+    padding: 10px 60px;
   }
 }
 @media (max-width: 1600px) {
   .quote-button {
     font-size: 1rem;
-    padding: 10px 30px;
-  }
-}
-@media (max-width: 1500px) {
-  .quote-button {
-    font-size: 0.9rem;
-    padding: 10px 30px;
+    padding: 10px 50px;
   }
 }
 
@@ -1371,6 +1376,12 @@ CONTENT STYLES
 
 .opacity-screen {
   background: rgba(0, 0, 0, 0.4);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.opacity-screen-alt {
+  background: rgba(0, 0, 0, 0.5);
   min-width: 100%;
   min-height: 100%;
 }
@@ -3302,6 +3313,16 @@ footer .location h3, footer .hours h3 {
   margin: 10px 20px;
 }
 
+.icon-logo-nav {
+  max-width: 30px;
+  margin: 0px 10px;
+}
+@media (max-width: 1100px) {
+  .icon-logo-nav {
+    display: none;
+  }
+}
+
 .windowtop {
   display: inline-block;
   height: 40px;
@@ -3964,8 +3985,87 @@ MEDIA QUERIES
     display: none;
   }
 
+  /* Slide-in menu */
+  .side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    /* Initially hidden off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #444;
+    color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    z-index: 999;
+  }
+
+  .side-menu ul {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .side-menu ul li {
+    margin: 15px 0;
+  }
+
+  .side-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .side-menu ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Open state for the menu */
+  .side-menu.open {
+    left: 0;
+  }
+
+  /* General styles for the hamburger menu */
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    /* Width of the hamburger icon */
+    height: 20px;
+    /* Height of the hamburger icon */
+    cursor: pointer;
+  }
+
+  .hamburger-menu span {
+    display: block;
+    height: 4px;
+    /* Thickness of the lines */
+    width: 100%;
+    /* Full width */
+    background-color: #fff;
+    /* Color of the lines */
+    border-radius: 2px;
+    /* Rounded edges */
+    transition: all 0.3s ease;
+    /* Smooth transition for animations */
+  }
+
+  /* Optional: Animation for when the menu is active */
+  .hamburger-menu.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger-menu.active span:nth-child(2) {
+    opacity: 0;
+    /* Hide the middle line */
+  }
+
+  .hamburger-menu.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
   .mobile-menu-toggle {
-    background: url(../../assets/images/mobile-menu-hamburger-icon.png) no-repeat center;
+    background: url("../../assets/images/Slaches.png") no-repeat center;
     display: block !important;
     cursor: pointer;
     text-align: center;

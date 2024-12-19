@@ -41,7 +41,7 @@ $hero_image5 = $hero_images['hero_5'];
 
 <!-- H e r o   S e c t i o n -->
 <div class="hero-container full-width flex wrap center relative">
-
+<div class="opacity-screen-alt absolute"></div>
     <div data-aos="fade-right" data-aos-duration="3000" class="absolute title-position-hero">
         <!-- Hero Title -->
         <h2 class="hero-title veneer uppercase">
