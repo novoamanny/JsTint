@@ -62,7 +62,7 @@ $service_tab_image = $service_tab['image'];
 
 <div class="single-copy full-width">
     <div class="full-width flex wrap center align-items padding-top-bottom-alt">
-        <div class="full-width flex wrap center">
+        <div class="full-width <?php if($service_name == 'Window Film' || 'Window Tint') : echo 'half-width'; endif; ?> flex wrap center">
             <div class="full-width padding-top-bottom-alt">
                 <h2 class="text-center uppercase veneer title full-width"><?php echo $service_name ?></h2>
             </div>
@@ -70,19 +70,12 @@ $service_tab_image = $service_tab['image'];
                 <?php echo $copy_top; ?>
             </div>
         </div>
-        
-    </div>
-
-    <div class="full-width flex wrap center">
-        <!-- <div class="flex wrap center full-width">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="/services">Services</a>
-        </div> -->
-        <div class="flex wrap center full-width">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
+        <?php if($service_name == 'Window Film') : ?>
+        <div class="half-width flex wrap center">
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Commercial-film.jpg"/>
         </div>
-        <!-- <div class="flex wrap center full-width">
-            <a class="quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="tel:+14698410200">Call Now!</a>
-        </div> -->
+        <?php endif; ?>
+        
     </div>
 
 </div>

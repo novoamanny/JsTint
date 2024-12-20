@@ -540,12 +540,13 @@ ul.navigation li:hover li {
 
 ul.navigation li:hover li a {
   text-transform: none;
-  background: rgba(229, 27, 27, 0.25);
+  // background: rgba(229, 27, 27, 0.25);
+  background: rgba(0,0,0,.8);
   display: block;
   margin: 0;
   height: auto;
   text-align: left;
-  color: #fff;
+  color: #fff !important;
   // line-height: 2.7em;
   padding: 12px 20px 12px 20px;
   border: 0;
@@ -553,13 +554,14 @@ ul.navigation li:hover li a {
   font-weight: normal;
   letter-spacing: initial;
   text-transform: uppercase;
+  text-align: center;
   &:after {
     display: none;
   }
 }
 ul.navigation li:hover li a:hover {
-  background: rgba(229, 27, 27, 0.70);
-  color: $white;
+  background: rgba(229, 27, 27, 0.80);
+  color: $white !important;
 
   &:before {
     display: none;
@@ -4071,11 +4073,16 @@ MEDIA QUERIES
   left: -250px; /* Initially hidden off-screen */
   width: 250px;
   height: 100%;
-  background-color: #444;
+  background-color: #202020;
   color: #fff;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
   z-index: 999;
+  .logo-section{
+    background-color: #303030;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
 }
 
 .side-menu ul {
@@ -4101,7 +4108,6 @@ MEDIA QUERIES
 .side-menu.open {
   left: 0;
 }
-
 
   /* General styles for the hamburger menu */
 .hamburger-menu {
@@ -4288,3 +4294,78 @@ MEDIA QUERIES
 
 
 
+
+
+
+.side-menu .side-menu-logo{
+  display: none !important;
+  opacity: 0;
+  transition: 1s ease opacity;
+  .logo{
+    max-width: 150px;
+    margin-top: 30px;
+  }
+}
+.side-menu.open .side-menu-logo{
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 1;
+
+}
+
+
+
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sticky-cta {
+  position: fixed;
+  bottom: 100px; /* Adjust the vertical position */
+  right: 20px; /* Adjust the horizontal position */
+  z-index: 1000;
+  color: #fff
+}
+
+.call-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: $cherry; /* Green color */
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.call-button:hover {
+  background-color: #218838;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.phone-icon {
+  display: inline-block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  mask: url('https://upload.wikimedia.org/wikipedia/commons/e/e4/Font_Awesome_5_solid_phone.svg') no-repeat center;
+  -webkit-mask: url('https://upload.wikimedia.org/wikipedia/commons/e/e4/Font_Awesome_5_solid_phone.svg') no-repeat center;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+
+
+@media (max-width: 765px) {
+  .remove-video-mobile{
+    display: none;
+  }
+}

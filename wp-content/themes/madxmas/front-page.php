@@ -65,7 +65,6 @@ $hero_image5 = $hero_images['hero_5'];
         <!-- Video -->
         <iframe class="full-width hero-video" width="100%" src="https://www.youtube.com/embed/5WSCK_fzGW0?controls=0&autoplay=1&mute=1&loop=1&playlist=5WSCK_fzGW0&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-
 </div>
 
 
@@ -86,7 +85,7 @@ $hero_image5 = $hero_images['hero_5'];
         </div>
     </div>
     <!-- Right -->
-    <div class="half-width flex wrap center align youtube-container mobile-video">
+    <div class="half-width flex wrap center align youtube-container mobile-video remove-video-mobile">
         <!-- Video -->
         <!-- <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/g-5B12wpx8o?controls=0&autoplay=1&mute=1&loop=1&playlist=g-5B12wpx8o&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
             <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/lQD37RBN4ps?controls=0&autoplay=1&mute=1&loop=1&playlist=lQD37RBN4ps&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -101,10 +100,10 @@ $hero_image5 = $hero_images['hero_5'];
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
         <div class="owl-carousel">
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Roman-1920x1080.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-3.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
+            <!-- <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" /> -->
+            <img src="<?php echo get_template_directory_uri();?>/src/images/commercial.jpg" />
+            <!-- <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-3.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" /> -->
         </div>
     </div>
 <!-- Right -->
@@ -112,12 +111,12 @@ $hero_image5 = $hero_images['hero_5'];
         <div class="flex wrap center align-items">
             <div class="full-width flex wrap justify-left mobile-section-title">
                 <h2 class="title veneer text-left uppercase">
-                    Ceramic Window Tint
+                    Maximize Comfort and Efficiency with Window Film
                 </h2>
             </div>
             <div class="full-width flex wrap center text-left">
                 <p class="americane copy white-copy square-copy mobile-copy">
-                    Ceramic Window Tint offers superior heat rejection, glare reduction, and UV protection, ensuring a cooler and more comfortable driving experience. Discover the ultimate combination of style and functionality for your vehicle today.
+                    Reduce energy costs with improved insulation, protect interiors from harmful UV rays, and create a more comfortable environment by minimizing glare. Enhance privacy without sacrificing natural light, all while giving your space a polished, professional look. Experience the long-term benefits that drive savings and improve productivity!
                 </p>
             </div>
             <div class="flex full-width wrap justify-right mobile-section-cta">
@@ -264,8 +263,6 @@ $hero_image5 = $hero_images['hero_5'];
         <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/F6yT6VvXjvg?controls=0&autoplay=1&mute=1&loop=1&playlist=F6yT6VvXjvg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
-
-
 
 
 

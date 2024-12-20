@@ -89,18 +89,20 @@
                         <div class="white-bar"></div>
 
                         <nav class="side-menu" id="sideMenu">
-                            <div class="flex wrap center" style="margin-top: 20px;">
-                                <a href="<?php echo esc_url(home_url('/')); ?>"><img style="max-width: 200px;" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="J's Tint logo" /></a>
+                            <div class="logo-section">
+                            <div class="full-width side-menu-logo">
+                                <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri();?>/img/main-logo.png" class="logo" alt="J's Tint logo" /></a>
+                            </div>
+                            <div class="full-width align-items side-menu-logo" >
+                                <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/red-instagram.png" /></a>
+                                <a target="_blank" href="https://www.facebook.com/jstint2012/"><img class="icon-logo" src="<?php echo get_template_directory_uri();?>/src/images/red-facebook.png" /></a>
+                            </div>
                             </div>
                             <ul>
                                 <?php wp_nav_menu(array('theme_location' => 'mobile', 'menu_class' => 'mobile', 'depth' => 1)); ?>
                             </ul>
-                            <div class="flex wrap center full-width">
+                            <div class="full-width side-menu-logo" >
                                 <a class="info-white-border quote-button quote-button-margin white-copy bg-nova-dark-purple americane" href="https://app.tintwiz.com/web/cs/hl0x1sjdljqoodkrbrfgsubsq05l26vw">Get A Quote!</a>
-                            </div>
-                            <div class="full-width flex wrap center align-items">
-                                <a target="_blank" href="https://www.instagram.com/js_tint/?hl=en"><img class="icon-logo-nav" src="<?php echo get_template_directory_uri();?>/src/images/red-instagram.png" /></a>
-                                <a target="_blank" href="https://www.facebook.com/jstint2012/"><img class="icon-logo-nav" src="<?php echo get_template_directory_uri();?>/src/images/red-facebook.png" /></a>
                             </div>
                         </nav>
                         <!-- <nav id="menu" class="mobilemenu">
@@ -119,7 +121,11 @@
                 </div>
             </div>
         </header>
-
+<div class="sticky-cta">
+  <a href="tel:+14698410200" class="call-button">
+  <i class="fas fa-phone"></i>
+  </a>
+</div>
 <script>
     const nav = document.getElementById('desktopmenu');
     window.onscroll = function () { 
