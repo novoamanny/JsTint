@@ -60,9 +60,9 @@ $service_tab_image = $service_tab['image'];
 </div>
 
 
-<div class="single-copy full-width">
+<div class="single-copy full-width <?php if($service_name == 'Window Film') : echo 'mobile-section'; endif; ?>">
     <div class="full-width flex wrap center align-items padding-top-bottom-alt">
-        <div class="full-width <?php if($service_name == 'Window Film' || 'Window Tint') : echo 'half-width'; endif; ?> flex wrap center">
+        <div class="full-width <?php if($service_name == 'Window Film' || 'Window Tint') : echo 'half-width mobile-full'; endif; ?> flex wrap center">
             <div class="full-width padding-top-bottom-alt">
                 <h2 class="text-center uppercase veneer title full-width"><?php echo $service_name ?></h2>
             </div>
@@ -71,7 +71,7 @@ $service_tab_image = $service_tab['image'];
             </div>
         </div>
         <?php if($service_name == 'Window Film') : ?>
-        <div class="half-width flex wrap center">
+        <div class="half-width flex wrap center <?php if($service_name == 'Window Film') : echo 'mobile-full mobile-section-copy'; endif; ?>">
             <img src="<?php echo get_template_directory_uri();?>/src/images/Commercial-film.jpg"/>
         </div>
         <?php endif; ?>

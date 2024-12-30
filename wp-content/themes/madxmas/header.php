@@ -8,6 +8,15 @@
  *
  */
 ?>
+
+<?php
+$service_name = get_the_title();
+
+if($service_name == 'PPF') : {
+    $service_name = 'Paint Protection Film';
+}
+endif;
+?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
     <head>
@@ -126,6 +135,28 @@
   <i class="fas fa-phone"></i>
   </a>
 </div>
+<div class="splash-screen <?php if(is_front_page()) : echo 'video'; endif; ?>">
+<?php if(is_front_page()) : ?>
+<!-- Video Background -->
+    <video class="video-bg" autoplay muted loop playsinline>
+        <?php if(is_front_page()) : ?>
+            <source src="<?php echo get_template_directory_uri();?>/assets/images/splash-video.mp4" type="video/mp4">
+        <?php elseif($service_name == 'Paint Protection Film' || $service_name == 'Services') : ?>
+            <source src="<?php echo get_template_directory_uri();?>/assets/images/ppf-splash-video.mp4" type="video/mp4">
+        <?php endif; ?>
+        Your browser does not support the video tag.
+    </video>
+<?php endif; ?>
+
+    <div class="logo">
+        <div class="full-width flex wrap center align-items">
+            <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
+        </div>
+        <div class="full-width flex wrap center align-items">
+            <img style="width: 85%" src="<?php echo get_template_directory_uri();?>/src/images/holiday2.png" />
+        </div>
+    </div>
+  </div>
 <script>
     const nav = document.getElementById('desktopmenu');
     window.onscroll = function () { 
@@ -144,4 +175,115 @@
         sideMenu.classList.toggle("open");
         hamburger.classList.toggle("active");
     }
+
+
+    
+    // Wait for the DOM to load completely
+    window.addEventListener('load', () => {
+      // Remove the splash screen after the animation
+      document.body.classList.add('loaded');
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+    const video = document.querySelector('.video-bg');
+    if (video) {
+        video.play().catch(error => {
+            console.error('Autoplay failed:', error);
+        });
+    }
+});
 </script>
+
+
+<style>
+    /* Splash Screen Styles */
+   /* Splash Screen Styles */
+
+    /* Video Background Styles */
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1; /* Send video to the background */
+      filter: brightness(45%);
+    }
+   .splash-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient( rgb(229, 27, 27), #B62025);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      animation: fadeOut 1.5s ease forwards 2.5s; /* Slide up after 3s */
+    }
+    .splash-screen.video{
+        animation: fadeOut 2.5s ease forwards 3.5s; /* Slide up after 3s */
+        background: #000;
+    }
+
+    .splash-screen .logo {
+      color: white;
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-align: center;
+      animation: zoomIn 1.5s ease;
+    }
+
+    /* Zoom-In Effect for Logo */
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Slide-Up Animation */
+    @keyframes slideUp {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+
+
+    /* Fade-out Animation */
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Show main content after splash screen */
+    body.loaded  {
+      display: block;
+    }
+  </style>
