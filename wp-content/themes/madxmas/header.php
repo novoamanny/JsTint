@@ -152,9 +152,9 @@ endif;
         <div class="full-width flex wrap center align-items">
             <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
-        <div class="full-width flex wrap center align-items">
+        <!-- <div class="full-width flex wrap center align-items">
             <img style="width: 85%" src="<?php echo get_template_directory_uri();?>/src/images/holiday2.png" />
-        </div>
+        </div> -->
     </div>
   </div>
 <script>
