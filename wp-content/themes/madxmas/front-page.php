@@ -65,9 +65,28 @@ $hero_image5 = $hero_images['hero_5'];
         <!-- Video -->
         <iframe class="full-width hero-video" width="100%" src="https://www.youtube.com/embed/5WSCK_fzGW0?controls=0&autoplay=1&mute=1&loop=1&playlist=5WSCK_fzGW0&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+    <?php if(is_front_page()) : ?>
+        <div class="padding-top-bottom-alt bg-linear-nova-reverse absolute full-width flex wrap center align-items counter-responsive" style="bottom: 0; z-index: 10; backdrop-filter: blur(10px); background: rgba(0,0,0,0.3)">
+            <div id="counterContainer" class="counterContainer third-width flex wrap center align-items">
+                <div class="counter white-copy veneer" id="counter">0</div>
+                <div class="counter white-copy veneer">Years</div>
+                <p class="copy full-width text-center white-copy veneer">Proven Experience</p>
+            </div>
+            <div id="counterContainer2" class="counterContainer third-width flex wrap center align-items">
+                <div class="counter white-copy veneer" id="counter2">0</div>
+                <div class="counter white-copy veneer">+</div>
+                <p class="copy full-width text-center white-copy veneer">Projects Completed</p>
+            </div>
+            <div id="counterContainer3" class="counterContainer third-width flex wrap center align-items">
+                <div class="counter white-copy veneer" id="counter3">0</div>
+                <div class="counter white-copy veneer">+</div>
+                <p class="copy full-width text-center white-copy veneer">Positive Reviews</p>
+            </div>
+        </div>
+    <?php endif; ?>
 </div>
 
-
+<!-- <?php get_template_part('partials/counter'); ?> -->
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video mobile-section-video">
     <!-- Left -->
@@ -91,7 +110,6 @@ $hero_image5 = $hero_images['hero_5'];
             <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/lQD37RBN4ps?controls=0&autoplay=1&mute=1&loop=1&playlist=lQD37RBN4ps&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
-
 
 <!-- W i n d o w   T i n t -->
 <div class="flex wrap center square-section mobile-section mobile-section-reverse">
@@ -265,21 +283,112 @@ $hero_image5 = $hero_images['hero_5'];
 </div>
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script>
-var boxes = document.querySelectorAll('.box');
-var slides = document.querySelectorAll('.slide');
-var boxesArray = [...boxes];
-var slidesArray = [...slides];
-    slidesArray.forEach((q,index) => {
-        q.addEventListener("mouseover", () => {
-            if (!slidesArray[index].classList.contains('expand')) {
-                slidesArray[index].classList.add('expand')
-            }
-        });
-    })
-</script>
+    var boxes = document.querySelectorAll('.box');
+    var slides = document.querySelectorAll('.slide');
+    var boxesArray = [...boxes];
+    var slidesArray = [...slides];
+        slidesArray.forEach((q,index) => {
+            q.addEventListener("mouseover", () => {
+                if (!slidesArray[index].classList.contains('expand')) {
+                    slidesArray[index].classList.add('expand')
+                }
+            });
+        })
 
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const counter = document.getElementById("counter");
+        const counter2 = document.getElementById("counter2");
+        const counter3 = document.getElementById("counter3");
+        const counterContainer = document.getElementById("counterContainer");
+        const counterContainer2 = document.getElementById("counterContainer2");
+        const counterContainer3 = document.getElementById("counterContainer3");
+        const targetValue = 20; // End value of the counter
+        const targetValue2 = 100; // End value of the counter
+        const targetValue3 = 400; // End value of the counter
+        const duration = 2000; // Total duration in milliseconds
+        const duration2 = 5000; // Total duration in milliseconds
+        const duration3 = 5000; // Total duration in milliseconds
+        const interval = 50; // Interval time in milliseconds
+        const increment = targetValue / (duration / interval);
+        const increment2 = targetValue2 / (duration2 / interval);
+        const increment3 = targetValue3 / (duration3 / interval);
+
+        let currentValue = 0;
+
+        const animation = setInterval(() => {
+            currentValue += increment;
+            if (currentValue >= targetValue) {
+                currentValue = targetValue; // Ensure it ends exactly at the target
+                clearInterval(animation); // Stop the animation
+            }
+            counter.textContent = Math.floor(currentValue); // Update the counter
+        }, interval);
+        const animation2 = setInterval(() => {
+            currentValue += increment2;
+            if (currentValue >= targetValue2) {
+                currentValue = targetValue2; // Ensure it ends exactly at the target
+                clearInterval(animation2); // Stop the animation
+            }
+            counter2.textContent = Math.floor(currentValue); // Update the counter
+        }, interval);
+        const animation3 = setInterval(() => {
+            currentValue += increment3;
+            if (currentValue >= targetValue3) {
+                currentValue = targetValue3; // Ensure it ends exactly at the target
+                clearInterval(animation3); // Stop the animation
+            }
+            counter3.textContent = Math.floor(currentValue); // Update the counter
+        }, interval);
+
+
+        // GSAP animation to slide the counter
+        gsap.fromTo(
+            counterContainer,
+            {
+                y: 300, // Start 300px to the left
+                opacity: 0, // Start fully transparent
+            },
+            {
+                y: 0, // Slide into the original position
+                opacity: 1, // Fade in to full opacity
+                duration: 2, // Animation duration
+                ease: "power1.out", // Smooth easing
+            }
+        );
+           // GSAP animation to slide the counter
+        gsap.fromTo(
+            counterContainer2,
+            {
+                y: 300, // Start 300px to the left
+                opacity: 0, // Start fully transparent
+            },
+            {
+                y: 0, // Slide into the original position
+                opacity: 1, // Fade in to full opacity
+                duration: 2, // Animation duration
+                ease: "power1.out", // Smooth easing
+            }
+        );
+        gsap.fromTo(
+            counterContainer3,
+            {
+                y: 300, // Start 300px to the left
+                opacity: 0, // Start fully transparent
+            },
+            {
+                y: 0, // Slide into the original position
+                opacity: 1, // Fade in to full opacity
+                duration: 2, // Animation duration
+                ease: "power1.out", // Smooth easing
+            }
+        );
+    });
+</script>
 
 <?php
 get_footer();
