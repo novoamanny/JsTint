@@ -205,10 +205,8 @@ $hero_subtitle = $hero_options['subtitle'];
     </div>
 </div>
 
-<div class="flex wrap center full align" style="margin-bottom: 20px">
-<iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25500489' frameborder='0' width='90%' height='500'></iframe>
-</div>
-
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-cd258ec7-0edb-4567-943b-1c81fd2ebe94" data-elfsight-app-lazy style="margin-bottom: 20px; margin-top: 50px;"></div>
  
 
 

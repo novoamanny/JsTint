@@ -360,12 +360,8 @@ $weekend = $hours['weekend'];
         <iframe class="video-wrap" width="90%" height="600px" src="https://www.youtube.com/embed/kIIUSrGHjDg?si=WftDFHLTeEHiX9tq?controls=0&autoplay=1&mute=1&loop=1&playlist=kIIUSrGHjDg&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
-<div class="flex wrap center full align" style="margin-bottom: 20px">
-<iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25500489' frameborder='0' width='90%' height='500'></iframe>
-</div>
-
-<!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-2ac4892a-75d2-49b5-b752-73ffc35efb91" data-elfsight-app-lazy></div> -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-cd258ec7-0edb-4567-943b-1c81fd2ebe94" data-elfsight-app-lazy style="margin-bottom: 0px; margin-top: 50px;"></div>
 
 
 <?php

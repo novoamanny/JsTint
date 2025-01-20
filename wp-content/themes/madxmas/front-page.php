@@ -251,9 +251,8 @@ $hero_image5 = $hero_images['hero_5'];
     </div>
 </div>
 
-<div class="flex wrap center full align" style="margin-bottom: 20px; margin-top: 20px;">
-<iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25500489' frameborder='0' width='92%' height='700'></iframe>
-</div>
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-cd258ec7-0edb-4567-943b-1c81fd2ebe94" data-elfsight-app-lazy style="margin-bottom: 20px; margin-top: 50px;"></div>
 
 <!-- I n t r o   S e c t i o n   w i t h   V i d e o -->
 <div class="full-width flex wrap center bg-white black-copy padding-top-bottom align-items intro-video mobile-section-video">
