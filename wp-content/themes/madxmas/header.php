@@ -156,7 +156,7 @@ endif;
             <img style="width: 85%" src="<?php echo get_template_directory_uri();?>/src/images/holiday2.png" />
         </div> -->
     </div>
-  </div>
+</div>
 <script>
     const nav = document.getElementById('desktopmenu');
     window.onscroll = function () { 
