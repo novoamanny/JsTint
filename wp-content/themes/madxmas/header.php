@@ -137,7 +137,6 @@ endif;
 </div>
 <div class="splash-screen <?php if(is_front_page()) : echo 'video'; endif; ?>">
 <?php if(is_front_page()) : ?>
-<!-- Video Background -->
     <video class="video-bg" autoplay muted loop playsinline>
         <?php if(is_front_page()) : ?>
             <source src="<?php echo get_template_directory_uri();?>/assets/images/splash-video.mp4" type="video/mp4">
@@ -152,11 +151,21 @@ endif;
         <div class="full-width flex wrap center align-items">
             <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
-        <!-- <div class="full-width flex wrap center align-items">
-            <img style="width: 85%" src="<?php echo get_template_directory_uri();?>/src/images/holiday2.png" />
-        </div> -->
     </div>
 </div>
+<!-- <div class="splash-screen splash-screen-admin">
+    <div class="logo">
+        <div class="full-width flex wrap center align-items">
+            <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/novatek-logo.svg" />
+        </div>
+        <div class="full-width flex wrap center align-items back">
+            <p class="subtitle" style="margin-top: 10px">Please Contact your Administrator for further assistance.<p/>
+        </div>
+        <div class="full-width flex wrap center align-items">
+        <div class="loader"></div>
+        </div>
+    </div>
+</div> -->
 <script>
     const nav = document.getElementById('desktopmenu');
     window.onscroll = function () { 
@@ -223,6 +232,12 @@ endif;
       z-index: 1000;
       animation: fadeOut 1.5s ease forwards 2.5s; /* Slide up after 3s */
     }
+    .splash-screen-admin{
+        animation: none;
+        backdrop-filter: blur(25px);
+        background: linear-gradient(rgba(141, 141, 255, 0.3),rgba(0,0,0,0));
+        pointer-events: none;
+    }
     .splash-screen.video{
         animation: fadeOut 2.5s ease forwards 3.5s; /* Slide up after 3s */
         background: #000;
@@ -281,6 +296,39 @@ endif;
         opacity: 1;
       }
     }
+
+
+    /* HTML: <div class="loader"></div> */
+.loader {
+  width: 40px;
+  aspect-ratio: 1;
+  color: rgba(141, 141, 255, .8);
+  position: relative;
+  background: radial-gradient(10px,currentColor 94%,#0000);
+  margin-top: 10px;
+}
+.loader:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(9px at bottom right,#0000 94%,currentColor) top    left,
+    radial-gradient(9px at bottom left ,#0000 94%,currentColor) top    right,
+    radial-gradient(9px at top    right,#0000 94%,currentColor) bottom left,
+    radial-gradient(9px at top    left ,#0000 94%,currentColor) bottom right;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  animation: l18 1.5s infinite cubic-bezier(0.3,1,0,1);
+}
+@keyframes l18 {
+   33%  {inset:-10px;transform: rotate(0deg)}
+   66%  {inset:-10px;transform: rotate(90deg)}
+   100% {inset:0    ;transform: rotate(90deg)}
+}
+
+
+
 
     /* Show main content after splash screen */
     body.loaded  {
