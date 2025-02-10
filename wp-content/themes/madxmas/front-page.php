@@ -118,10 +118,10 @@ $hero_image5 = $hero_images['hero_5'];
     <!-- Owl Carousel -->
     <!-- Need to update this to a Repeater Group -->
         <div class="owl-carousel">
-            <!-- <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" /> -->
-            <img src="<?php echo get_template_directory_uri();?>/src/images/commercial.jpg" />
-            <!-- <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-3.jpg" />
-            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" /> -->
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Windshield-window-tint.jpg" />
+            <!-- <img src="<?php echo get_template_directory_uri();?>/src/images/commercial.jpg" /> -->
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Cybertruck-hero-3.jpg" />
+            <img src="<?php echo get_template_directory_uri();?>/src/images/Kris-Roman3.jpg" />
         </div>
     </div>
 <!-- Right -->
@@ -134,7 +134,8 @@ $hero_image5 = $hero_images['hero_5'];
             </div>
             <div class="full-width flex wrap center text-left">
                 <p class="americane copy white-copy square-copy mobile-copy">
-                    Reduce energy costs with improved insulation, protect interiors from harmful UV rays, and create a more comfortable environment by minimizing glare. Enhance privacy without sacrificing natural light, all while giving your space a polished, professional look. Experience the long-term benefits that drive savings and improve productivity!
+                    Reduce energy costs with improved insulation, protect interiors from harmful UV rays, and create a more comfortable environment by minimizing glare. 
+                    <!-- Enhance privacy without sacrificing natural light, all while giving your space a polished, professional look. Experience the long-term benefits that drive savings and improve productivity! -->
                 </p>
             </div>
             <div class="flex full-width wrap justify-right mobile-section-cta">

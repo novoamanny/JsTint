@@ -135,7 +135,7 @@ endif;
   <i class="fas fa-phone"></i>
   </a>
 </div>
-<div class="splash-screen <?php if(is_front_page()) : echo 'video'; endif; ?>">
+<!-- <div class="splash-screen <?php if(is_front_page()) : echo 'video'; endif; ?>">
 <?php if(is_front_page()) : ?>
     <video class="video-bg" autoplay muted loop playsinline>
         <?php if(is_front_page()) : ?>
@@ -152,7 +152,7 @@ endif;
             <img class="third-width" src="<?php echo get_template_directory_uri();?>/img/main-logo.png" />
         </div>
     </div>
-</div>
+</div> -->
 <!-- <div class="splash-screen splash-screen-admin">
     <div class="logo">
         <div class="full-width flex wrap center align-items">
